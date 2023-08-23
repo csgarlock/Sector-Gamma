@@ -1,0 +1,62 @@
+Start Position / eZoneBuildFromType
+Towards which direction should the source gate to this zone be
+From_Random - 0
+From_Start - 1
+From_AverageCenter - 2
+From_Furthest - 3
+From_BetweenStartAndFurthest - 4
+From_IndexWeight - 5
+
+Start Expansion / eZoneBuildFromExpansionType
+Where in the source zone to try to make the entrance to this zone
+Towards_Random - 0
+Towards_Forward - 1
+Towards_Backward - 2
+Towards_Right - 3
+Towards_Left - 4
+
+Zone Expansion / eZoneExpansionType
+How should the zone expand
+Random - 0
+Collapsed - 1
+Expansional - 2
+Directional_Forward - 3
+Directional_Backward - 4
+Directional_Right - 5
+Directional_Left - 6
+Directional_Random - 7
+
+Puzzle Type / eProgressionPuzzleType
+The type of the puzzle
+None - 0
+Keycard_SecurityBox - 1
+PowerGenerator_And_PowerCell - 2
+Locked_No_Key - 3
+
+Warden Event / eWardenObjectiveEventType
+The type of Warden Event
+None - 0
+OpenSecurityDoor - 1
+UnlockSecurityDoor - 2
+AllLightsOff - 3
+AllLightsOn - 4
+PlaySound - 5
+SetFogSetting - 6
+DimensionFlashTeam - 7
+DimensionWarpTeam - 8
+SpawnEnemyWave - 9
+StopEnemyWaves - 10
+UpdateCustomSubObjective - 11
+ForceCompleteObjective - 12
+LightsInZone - 13
+LightsInZoneToggle - 14
+AnimationTrigger - 15
+SpawnEnemyOnPoint - 16
+SetNavMarker - 17
+StepProgressionObjective - 18
+SetWorldEventCondition - 19
+LockSecurityDoor - 20
+SetTerminalCommand - 21
+ActivateChainedPuzzle - 22
+LightOnWorldEventObject - 23
+EventBreak - 999
