@@ -1,3 +1,18 @@
+SubComplex
+DigSite - 0
+Refinery - 1
+Storage - 2
+DataCenter - 3
+Lab - 4
+All - 5
+Floodways - 6
+Mining_Reactor - 7
+Plug_SubComplex_Transition - 8
+Tech_Reactor - 9
+Tech_Portal - 10
+Gardens - 11
+Mining_Portal - 12
+
 Start Position / eZoneBuildFromType
 Towards which direction should the source gate to this zone be
 From_Random - 0
@@ -25,6 +40,19 @@ Directional_Backward - 4
 Directional_Right - 5
 Directional_Left - 6
 Directional_Random - 7
+
+AllowedZoneAltitude / eWantedZoneHeighs
+Altitude data defines the desired height of the zone. Only 3 height values exist by default in the game
+LowMidHigh - 0
+OnlyLow - 1
+OnlyHigh - 2
+OnlyMid - 3
+LowMid - 4
+MidHigh - 5
+LowHigh - 6
+Ascending - 7
+Descending - 8
+Unchanged - 9
 
 Puzzle Type / eProgressionPuzzleType
 The type of the puzzle
