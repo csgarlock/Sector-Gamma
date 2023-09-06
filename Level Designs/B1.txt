@@ -1,0 +1,22 @@
+Storage Sub Complex
+Zone 0:
+Drop Zone
+Medium sized exploration zone
+moderate amount of resources
+Moderate amount of normal enemies and giants
+1 normal scout
+Zone 1:
+Team Scan
+Branch from north of Zone 0 heading North
+Hub Zone from R4A2 Secondary after the second secondary bulkhead door
+No resources
+Moderate amount of normal enemies and giants (maybe respawning)
+Zone 2:
+Team Scan
+Branch from west of Zone 1 heading west
+Some sort of long tunnel room
+1 mother
+2 scouts
+Maybe a few small enemies
+
+
