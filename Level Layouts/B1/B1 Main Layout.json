@@ -13,8 +13,8 @@
       "CustomGeomorph": "",
       "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
-        "x": 50.0,
-        "y": 50.0,
+        "x": 40.0,
+        "y": 40.0,
         "normalized": {
           "x": 0.6401844,
           "y": 0.7682213,
@@ -71,7 +71,7 @@
       "EnemySpawningInZone": [
         {
           "GroupType": 0,
-          "Difficulty": 0,
+          "Difficulty": 1,
           "Distribution": 2,
           "DistributionValue": 1.0
         }
@@ -154,7 +154,7 @@
     },
     {
       "LocalIndex": 1,
-      "AliasOverride": 45,
+      "AliasOverride": -1,
       "OverrideAliasPrefix": false,
       "SubSeed": 24,
       "MarkerSubSeed": 0,
@@ -218,12 +218,28 @@
         "EnemyGroupInArea": 0,
         "EnemyGroupsInArea": 0
       },
-      "EnemySpawningInZone": [],
-      "EnemyRespawning": false,
+      "EnemySpawningInZone": [
+        {
+          "GroupType": 0,
+          "Difficulty": 0,
+          "Distribution": 2,
+          "DistributionValue": 0.6
+        },
+        {
+              "GroupType": 3,
+              "Difficulty": 0,
+              "Distribution": 1,
+              "DistributionValue": 1.0
+        }
+      ],
+      "EnemyRespawning": true,
       "EnemyRespawnRequireOtherZone": true,
       "EnemyRespawnRoomDistance": 2,
       "EnemyRespawnTimeInterval": 10.0,
-      "EnemyRespawnCountMultiplier": 1.0,
+      "EnemyRespawnCountMultiplier": 0.5,
+      "EnemyRespawnExcludeList": [
+        20
+      ],
       "HSUClustersInZone": 0,
       "CorpseClustersInZone": 0,
       "ResourceContainerClustersInZone": 0,
@@ -297,13 +313,14 @@
     },
     {
       "LocalIndex": 2,
-      "AliasOverride": 46,
+      "AliasOverride": -1,
       "OverrideAliasPrefix": false,
       "SubSeed": 3,
       "MarkerSubSeed": 0,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
-      "SubComplex": 3,
+      "SubComplex": 2,
+      "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Storage/geo_64x64_mining_storage_I_HA_01.prefab",
       "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
         "x": 30.0,
@@ -318,11 +335,11 @@
         "sqrMagnitude": 2925.0
       },
       "BuildFromLocalIndex": 1,
-      "StartPosition": 1,
+      "StartPosition": 2,
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 4,
       "ZoneExpansion": 6,
-      "LightSettings": 71,
+      "LightSettings": 68,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -340,7 +357,7 @@
         "PlacementCount": 1,
         "ZonePlacementData": []
       },
-      "ChainedPuzzleToEnter": 126,
+      "ChainedPuzzleToEnter": 4,
       "IsCheckpointDoor": false,
       "PlayScannerVoiceAudio": true,
       "SkipAutomaticProgressionObjective": false,
@@ -362,10 +379,22 @@
       },
       "EnemySpawningInZone": [
         {
-          "GroupType": 0,
+          "GroupType": 3,
           "Difficulty": 0,
-          "Distribution": 2,
-          "DistributionValue": 0.65
+          "Distribution": 1,
+          "DistributionValue": 1.0
+        },
+        {
+          "GroupType": 3,
+          "Difficulty": 0,
+          "Distribution": 1,
+          "DistributionValue": 1.0
+        },
+        {
+          "GroupType": 0,
+          "Difficulty": 3,
+          "Distribution": 1,
+          "DistributionValue": 1.0
         }
       ],
       "EnemyRespawning": false,
@@ -472,16 +501,16 @@
     },
     {
       "LocalIndex": 3,
-      "AliasOverride": 47,
+      "AliasOverride": -1,
       "OverrideAliasPrefix": false,
       "SubSeed": 42,
       "MarkerSubSeed": 0,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
-      "SubComplex": 3,
+      "SubComplex": 2,
       "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
-        "x": 30.0,
+        "x": 40.0,
         "y": 45.0,
         "normalized": {
           "x": 0.5547002,
@@ -492,12 +521,12 @@
         "magnitude": 54.08327,
         "sqrMagnitude": 2925.0
       },
-      "BuildFromLocalIndex": 1,
+      "BuildFromLocalIndex": 2,
       "StartPosition": 3,
       "StartPosition_IndexWeight": 0.0,
-      "StartExpansion": 3,
-      "ZoneExpansion": 5,
-      "LightSettings": 34,
+      "StartExpansion": 4,
+      "ZoneExpansion": 1,
+      "LightSettings": 68,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -515,7 +544,7 @@
         "PlacementCount": 0,
         "ZonePlacementData": []
       },
-      "ChainedPuzzleToEnter": 126,
+      "ChainedPuzzleToEnter": 4,
       "IsCheckpointDoor": false,
       "PlayScannerVoiceAudio": true,
       "SkipAutomaticProgressionObjective": false,
@@ -538,9 +567,9 @@
       "EnemySpawningInZone": [
         {
           "GroupType": 0,
-          "Difficulty": 0,
+          "Difficulty": 1,
           "Distribution": 2,
-          "DistributionValue": 0.65
+          "DistributionValue": 1.0
         }
       ],
       "EnemyRespawning": false,
@@ -570,41 +599,6 @@
           },
           "AreaSeedOffset": 0,
           "MarkerSeedOffset": 1,
-          "LocalLogFiles": [
-            {
-              "FileName": "209-K3R-5TV",
-              "FileContent": 400053355,
-              "FileContentOriginalLanguage": 1,
-              "AttachedAudioFile": 4153260540,
-              "AttachedAudioByteSize": 4560,
-              "PlayerDialogToTriggerAfterAudio": 0
-            }
-          ],
-          "UniqueCommands": [],
-          "StartingStateData": {
-            "StartingState": 0,
-            "UseCustomInfoText": false,
-            "CustomInfoText": 0,
-            "KeepShowingLocalLogCount": false,
-            "AudioEventEnter": 0,
-            "AudioEventExit": 0,
-            "PasswordProtected": false,
-            "PasswordHintText": "Password Required.",
-            "GeneratePassword": false,
-            "PasswordPartCount": 1,
-            "ShowPasswordLength": true,
-            "ShowPasswordPartPositions": false,
-            "TerminalZoneSelectionDatas": []
-          }
-        },
-        {
-          "PlacementWeights": {
-            "Start": 0.0,
-            "Middle": 0.0,
-            "End": 0.0
-          },
-          "AreaSeedOffset": 0,
-          "MarkerSeedOffset": 0,
           "LocalLogFiles": [],
           "UniqueCommands": [],
           "StartingStateData": {
@@ -656,13 +650,13 @@
     },
     {
       "LocalIndex": 4,
-      "AliasOverride": 48,
+      "AliasOverride": -1,
       "OverrideAliasPrefix": false,
       "SubSeed": 5,
       "MarkerSubSeed": 0,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
-      "SubComplex": 4,
+      "SubComplex": 2,
       "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
         "x": 40.0,
@@ -677,11 +671,11 @@
         "sqrMagnitude": 3200.0
       },
       "BuildFromLocalIndex": 1,
-      "StartPosition": 2,
+      "StartPosition": 3,
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 1,
       "ZoneExpansion": 3,
-      "LightSettings": 76,
+      "LightSettings": 68,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -694,32 +688,13 @@
       "EventsOnDoorScanStart": [],
       "EventsOnDoorScanDone": [],
       "ProgressionPuzzleToEnter": {
-        "PuzzleType": 1,
+        "PuzzleType": 0,
         "CustomText": 972,
-        "PlacementCount": 2,
-        "ZonePlacementData": [
-          {
-            "DimensionIndex": 0,
-            "LocalIndex": 2,
-            "Weights": {
-              "Start": 0.0,
-              "Middle": 9999.0,
-              "End": 0.0
-            }
-          },
-          {
-            "DimensionIndex": 0,
-            "LocalIndex": 3,
-            "Weights": {
-              "Start": 0.0,
-              "Middle": 9999.0,
-              "End": 0.0
-            }
-          }
-        ]
+        "PlacementCount": 1,
+        "ZonePlacementData": []
       },
-      "ChainedPuzzleToEnter": 0,
-      "IsCheckpointDoor": true,
+      "ChainedPuzzleToEnter": 4,
+      "IsCheckpointDoor": false,
       "PlayScannerVoiceAudio": true,
       "SkipAutomaticProgressionObjective": false,
       "SecurityGateToEnter": 0,
