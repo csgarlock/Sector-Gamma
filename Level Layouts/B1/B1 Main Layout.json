@@ -5,7 +5,7 @@
       "LocalIndex": 0,
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
-      "SubSeed": 10,
+      "SubSeed": 1,
       "MarkerSubSeed": 0,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
@@ -14,7 +14,7 @@
       "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
         "x": 60.0,
-        "y": 65.0,
+        "y": 70.0,
         "normalized": {
           "x": 0.6401844,
           "y": 0.7682213,
@@ -71,9 +71,15 @@
       "EnemySpawningInZone": [
         {
           "GroupType": 0,
+          "Difficulty": 0,
+          "Distribution": 2,
+          "DistributionValue": 2.0
+        },
+        {
+          "GroupType": 1,
           "Difficulty": 1,
           "Distribution": 2,
-          "DistributionValue": 1.0
+          "DistributionValue": 0.6
         }
       ],
       "EnemyRespawning": false,
@@ -156,7 +162,7 @@
       "LocalIndex": 1,
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
-      "SubSeed": 12,
+      "SubSeed": 15,
       "MarkerSubSeed": 0,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
@@ -226,17 +232,17 @@
           "DistributionValue": 0.6
         },
         {
-              "GroupType": 3,
-              "Difficulty": 0,
-              "Distribution": 1,
-              "DistributionValue": 1.0
+          "GroupType": 3,
+          "Difficulty": 0,
+          "Distribution": 1,
+          "DistributionValue": 1.0
         }
       ],
       "EnemyRespawning": true,
       "EnemyRespawnRequireOtherZone": true,
       "EnemyRespawnRoomDistance": 2,
       "EnemyRespawnTimeInterval": 10.0,
-      "EnemyRespawnCountMultiplier": 0.5,
+      "EnemyRespawnCountMultiplier": 1.0,
       "EnemyRespawnExcludeList": [
         20
       ],
@@ -626,15 +632,15 @@
       "LocalIndex": 4,
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
-      "SubSeed": 6,
+      "SubSeed": 7,
       "MarkerSubSeed": 0,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
       "SubComplex": 2,
       "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
-        "x": 50.0,
-        "y": 60.0,
+        "x": 40.0,
+        "y": 50.0,
         "normalized": {
           "x": 0.707106769,
           "y": 0.707106769,
@@ -775,15 +781,15 @@
       "LocalIndex": 5,
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
-      "SubSeed": 8,
+      "SubSeed": 39,
       "MarkerSubSeed": 0,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
       "SubComplex": 2,
       "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
-        "x": 50.0,
-        "y": 55.0,
+        "x": 80.0,
+        "y": 90.0,
         "normalized": {
           "x": 0.707106769,
           "y": 0.707106769,
@@ -937,15 +943,15 @@
       "LocalIndex": 6,
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
-      "SubSeed": 10,
+      "SubSeed": 44,
       "MarkerSubSeed": 0,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
       "SubComplex": 2,
       "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
-        "x": 50.0,
-        "y": 55.0,
+        "x": 80.0,
+        "y": 90.0,
         "normalized": {
           "x": 0.6401844,
           "y": 0.7682213,
@@ -1393,6 +1399,238 @@
         "End": 0.0
       },
       "ToolAmmoMulti": 0.6,
+      "ToolAmmoPlacement": {
+        "Start": 0.0,
+        "Middle": 0.0,
+        "End": 0.0
+      },
+      "DisinfectionMulti": 0.0,
+      "DisinfectionPlacement": {
+        "Start": 0.0,
+        "Middle": 0.0,
+        "End": 0.0
+      },
+      "StaticSpawnDataContainers": []
+    },
+    {
+      "LocalIndex": 9,
+      "AliasOverride": -1,
+      "OverrideAliasPrefix": false,
+      "SubSeed": 9,
+      "MarkerSubSeed": 0,
+      "LightsSubSeed": 0,
+      "BulkheadDCScanSeed": 0,
+      "SubComplex": 2,
+      "CustomGeomorph": "",
+      "IgnoreRandomGeomorphRotation": true,
+      "CoverageMinMax": {
+        "x": 5.0,
+        "y": 5.0,
+        "normalized": {
+          "x": 0.6401844,
+          "y": 0.7682213,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 39.0512466,
+        "sqrMagnitude": 1525.0
+      },
+      "BuildFromLocalIndex": 1,
+      "StartPosition": 3,
+      "StartPosition_IndexWeight": 0.0,
+      "StartExpansion": 3,
+      "ZoneExpansion": 5,
+      "LightSettings": 68,
+      "AltitudeData": {
+        "AllowedZoneAltitude": 3,
+        "ChanceToChange": 0.5
+      },
+      "EventsOnEnter": [],
+      "EventsOnPortalWarp": [],
+      "EventsOnApproachDoor": [],
+      "EventsOnUnlockDoor": [],
+      "EventsOnOpenDoor": [],
+      "EventsOnDoorScanStart": [],
+      "EventsOnDoorScanDone": [],
+      "ProgressionPuzzleToEnter": {
+        "PuzzleType": 3,
+        "CustomText": 972,
+        "PlacementCount": 1,
+        "ZonePlacementData": []
+      },
+      "ChainedPuzzleToEnter": 4,
+      "IsCheckpointDoor": false,
+      "PlayScannerVoiceAudio": true,
+      "SkipAutomaticProgressionObjective": false,
+      "SecurityGateToEnter": 0,
+      "UseStaticBioscanPointsInZone": false,
+      "TurnOffAlarmOnTerminal": false,
+      "TerminalPuzzleZone": {
+        "LocalIndex": 0,
+        "SeedType": 1,
+        "TerminalIndex": 0,
+        "StaticSeed": 0
+      },
+      "EventsOnTerminalDeactivateAlarm": [],
+      "ActiveEnemyWave": {
+        "HasActiveEnemyWave": false,
+        "EnemyGroupInfrontOfDoor": 0,
+        "EnemyGroupInArea": 0,
+        "EnemyGroupsInArea": 0
+      },
+      "EnemySpawningInZone": [],
+      "EnemyRespawning": false,
+      "EnemyRespawnRequireOtherZone": true,
+      "EnemyRespawnRoomDistance": 2,
+      "EnemyRespawnTimeInterval": 10.0,
+      "EnemyRespawnCountMultiplier": 1.0,
+      "HSUClustersInZone": 0,
+      "CorpseClustersInZone": 0,
+      "ResourceContainerClustersInZone": 0,
+      "GeneratorClustersInZone": 0,
+      "CorpsesInZone": 0,
+      "GroundSpawnersInZone": 3,
+      "HSUsInZone": 0,
+      "DeconUnitsInZone": 0,
+      "AllowSmallPickupsAllocation": true,
+      "AllowResourceContainerAllocation": true,
+      "ForceBigPickupsAllocation": false,
+      "ConsumableDistributionInZone": 4,
+      "BigPickupDistributionInZone": 0,
+      "TerminalPlacements": [],
+      "ForbidTerminalsInZone": false,
+      "PowerGeneratorPlacements": [],
+      "DisinfectionStationPlacements": [],
+      "DumbwaiterPlacements": [],
+      "HealthMulti": 0.0,
+      "HealthPlacement": {
+        "Start": 0.0,
+        "Middle": 0.0,
+        "End": 0.0
+      },
+      "WeaponAmmoMulti": 0.0,
+      "WeaponAmmoPlacement": {
+        "Start": 0.0,
+        "Middle": 0.0,
+        "End": 0.0
+      },
+      "ToolAmmoMulti": 0.0,
+      "ToolAmmoPlacement": {
+        "Start": 0.0,
+        "Middle": 0.0,
+        "End": 0.0
+      },
+      "DisinfectionMulti": 0.0,
+      "DisinfectionPlacement": {
+        "Start": 0.0,
+        "Middle": 0.0,
+        "End": 0.0
+      },
+      "StaticSpawnDataContainers": []
+    },
+    {
+      "LocalIndex": 10,
+      "AliasOverride": -1,
+      "OverrideAliasPrefix": false,
+      "SubSeed": 9,
+      "MarkerSubSeed": 0,
+      "LightsSubSeed": 0,
+      "BulkheadDCScanSeed": 0,
+      "SubComplex": 2,
+      "CustomGeomorph": "",
+      "IgnoreRandomGeomorphRotation": true,
+      "CoverageMinMax": {
+        "x": 5.0,
+        "y": 5.0,
+        "normalized": {
+          "x": 0.6401844,
+          "y": 0.7682213,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 39.0512466,
+        "sqrMagnitude": 1525.0
+      },
+      "BuildFromLocalIndex": 9,
+      "StartPosition": 2,
+      "StartPosition_IndexWeight": 0.0,
+      "StartExpansion": 3,
+      "ZoneExpansion": 5,
+      "LightSettings": 68,
+      "AltitudeData": {
+        "AllowedZoneAltitude": 3,
+        "ChanceToChange": 0.5
+      },
+      "EventsOnEnter": [],
+      "EventsOnPortalWarp": [],
+      "EventsOnApproachDoor": [],
+      "EventsOnUnlockDoor": [],
+      "EventsOnOpenDoor": [],
+      "EventsOnDoorScanStart": [],
+      "EventsOnDoorScanDone": [],
+      "ProgressionPuzzleToEnter": {
+        "PuzzleType": 3,
+        "CustomText": 972,
+        "PlacementCount": 1,
+        "ZonePlacementData": []
+      },
+      "ChainedPuzzleToEnter": 4,
+      "IsCheckpointDoor": false,
+      "PlayScannerVoiceAudio": true,
+      "SkipAutomaticProgressionObjective": false,
+      "SecurityGateToEnter": 0,
+      "UseStaticBioscanPointsInZone": false,
+      "TurnOffAlarmOnTerminal": false,
+      "TerminalPuzzleZone": {
+        "LocalIndex": 0,
+        "SeedType": 1,
+        "TerminalIndex": 0,
+        "StaticSeed": 0
+      },
+      "EventsOnTerminalDeactivateAlarm": [],
+      "ActiveEnemyWave": {
+        "HasActiveEnemyWave": false,
+        "EnemyGroupInfrontOfDoor": 0,
+        "EnemyGroupInArea": 0,
+        "EnemyGroupsInArea": 0
+      },
+      "EnemySpawningInZone": [],
+      "EnemyRespawning": false,
+      "EnemyRespawnRequireOtherZone": true,
+      "EnemyRespawnRoomDistance": 2,
+      "EnemyRespawnTimeInterval": 10.0,
+      "EnemyRespawnCountMultiplier": 1.0,
+      "HSUClustersInZone": 0,
+      "CorpseClustersInZone": 0,
+      "ResourceContainerClustersInZone": 0,
+      "GeneratorClustersInZone": 0,
+      "CorpsesInZone": 0,
+      "GroundSpawnersInZone": 3,
+      "HSUsInZone": 0,
+      "DeconUnitsInZone": 0,
+      "AllowSmallPickupsAllocation": true,
+      "AllowResourceContainerAllocation": true,
+      "ForceBigPickupsAllocation": false,
+      "ConsumableDistributionInZone": 4,
+      "BigPickupDistributionInZone": 0,
+      "TerminalPlacements": [],
+      "ForbidTerminalsInZone": false,
+      "PowerGeneratorPlacements": [],
+      "DisinfectionStationPlacements": [],
+      "DumbwaiterPlacements": [],
+      "HealthMulti": 0.0,
+      "HealthPlacement": {
+        "Start": 0.0,
+        "Middle": 0.0,
+        "End": 0.0
+      },
+      "WeaponAmmoMulti": 0.0,
+      "WeaponAmmoPlacement": {
+        "Start": 0.0,
+        "Middle": 0.0,
+        "End": 0.0
+      },
+      "ToolAmmoMulti": 0.0,
       "ToolAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
