@@ -73,7 +73,7 @@
           "GroupType": 0,
           "Difficulty": 0,
           "Distribution": 2,
-          "DistributionValue": 2.0
+          "DistributionValue": 1.6
         },
         {
           "GroupType": 1,
@@ -453,7 +453,7 @@
       "PowerGeneratorPlacements": [],
       "DisinfectionStationPlacements": [],
       "DumbwaiterPlacements": [],
-      "HealthMulti": 0.2,
+      "HealthMulti": 0.4,
       "HealthPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
@@ -549,7 +549,7 @@
           "GroupType": 1,
           "Difficulty": 1,
           "Distribution": 2,
-          "DistributionValue": 2.0
+          "DistributionValue": 2.6
         }
       ],
       "EnemyRespawning": false,
@@ -824,10 +824,20 @@
       "EventsOnDoorScanDone": [],
       "EventsOnTrigger": [],
       "ProgressionPuzzleToEnter": {
-        "PuzzleType": 0,
+        "PuzzleType": 1,
         "CustomText": 972,
         "PlacementCount": 1,
-        "ZonePlacementData": []
+        "ZonePlacementData": [
+          {
+            "DimensionIndex": 0,
+            "LocalIndex": 3,
+            "Weights": {
+              "Start": 0.0,
+              "Middle": 1.0,
+              "End": 1.0
+            }
+          }
+        ]
       },
       "ChainedPuzzleToEnter": 162,
       "IsCheckpointDoor": false,
@@ -852,9 +862,9 @@
       "EnemySpawningInZone": [
         {
           "GroupType": 0,
-          "Difficulty": 1,
+          "Difficulty": 0,
           "Distribution": 2,
-          "DistributionValue": 1.0
+          "DistributionValue": 1.4
         },
         {
           "GroupType": 3,
@@ -985,10 +995,20 @@
       "EventsOnDoorScanStart": [],
       "EventsOnDoorScanDone": [],
       "ProgressionPuzzleToEnter": {
-        "PuzzleType": 0,
+        "PuzzleType": 1,
         "CustomText": 972,
         "PlacementCount": 1,
-        "ZonePlacementData": []
+        "ZonePlacementData": [
+          {
+            "DimensionIndex": 0,
+            "LocalIndex": 3,
+            "Weights": {
+              "Start": 0.0,
+              "Middle": 1.0,
+              "End": 1.0
+            }
+          }
+        ]
       },
       "ChainedPuzzleToEnter": 162,
       "IsCheckpointDoor": false,
@@ -1013,9 +1033,9 @@
       "EnemySpawningInZone": [
         {
           "GroupType": 0,
-          "Difficulty": 1,
+          "Difficulty": 0,
           "Distribution": 2,
-          "DistributionValue": 1.0
+          "DistributionValue": 1.4
         },
         {
           "GroupType": 3,
@@ -1111,7 +1131,7 @@
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
       "SubSeed": 8,
-      "MarkerSubSeed": 0,
+      "MarkerSubSeed": 3,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
       "SubComplex": 2,
@@ -1147,10 +1167,29 @@
       "EventsOnDoorScanStart": [],
       "EventsOnDoorScanDone": [],
       "ProgressionPuzzleToEnter": {
-        "PuzzleType": 0,
+        "PuzzleType": 1,
         "CustomText": 972,
-        "PlacementCount": 1,
-        "ZonePlacementData": []
+        "PlacementCount": 2,
+        "ZonePlacementData": [
+          {
+            "DimensionIndex": 0,
+            "LocalIndex": 5,
+            "Weights": {
+              "Start": 0.0,
+              "Middle": 50.0,
+              "End": 50.0
+            }
+          },
+          {
+            "DimensionIndex": 0,
+            "LocalIndex": 6,
+            "Weights": {
+              "Start": 0.0,
+              "Middle": 50.0,
+              "End": 50.0
+            }
+          }
+        ]
       },
       "ChainedPuzzleToEnter": 4,
       "IsCheckpointDoor": false,
@@ -1175,7 +1214,7 @@
       "EnemySpawningInZone": [
         {
           "GroupType": 0,
-          "Difficulty": 1,
+          "Difficulty": 0,
           "Distribution": 2,
           "DistributionValue": 0.8
         },
