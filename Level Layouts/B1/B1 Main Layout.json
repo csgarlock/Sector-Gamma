@@ -29,7 +29,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 1,
       "ZoneExpansion": 3,
-      "LightSettings": 68,
+      "LightSettings": 93,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -186,7 +186,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 1,
       "ZoneExpansion": 3,
-      "LightSettings": 68,
+      "LightSettings": 93,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -250,7 +250,7 @@
       "CorpseClustersInZone": 0,
       "ResourceContainerClustersInZone": 0,
       "GeneratorClustersInZone": 0,
-      "CorpsesInZone": 0,
+      "CorpsesInZone": 2,
       "GroundSpawnersInZone": 3,
       "HSUsInZone": 0,
       "DeconUnitsInZone": 0,
@@ -345,7 +345,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 4,
       "ZoneExpansion": 6,
-      "LightSettings": 68,
+      "LightSettings": 9,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -412,7 +412,7 @@
       "CorpseClustersInZone": 0,
       "ResourceContainerClustersInZone": 0,
       "GeneratorClustersInZone": 0,
-      "CorpsesInZone": 0,
+      "CorpsesInZone": 2,
       "GroundSpawnersInZone": 3,
       "HSUsInZone": 0,
       "DeconUnitsInZone": 0,
@@ -506,7 +506,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 4,
       "ZoneExpansion": 1,
-      "LightSettings": 68,
+      "LightSettings": 9,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -602,19 +602,19 @@
       "PowerGeneratorPlacements": [],
       "DisinfectionStationPlacements": [],
       "DumbwaiterPlacements": [],
-      "HealthMulti": 0.4,
+      "HealthMulti": 0.0,
       "HealthPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "WeaponAmmoMulti": 0.8,
+      "WeaponAmmoMulti": 0.0,
       "WeaponAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "ToolAmmoMulti": 0.6,
+      "ToolAmmoMulti": 0.0,
       "ToolAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
@@ -655,7 +655,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 1,
       "ZoneExpansion": 3,
-      "LightSettings": 68,
+      "LightSettings": 93,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -698,13 +698,7 @@
           "GroupType": 0,
           "Difficulty": 0,
           "Distribution": 2,
-          "DistributionValue": 1.0
-        },
-        {
-          "GroupType": 1,
-          "Difficulty": 1,
-          "Distribution": 2,
-          "DistributionValue": 0.6
+          "DistributionValue": 1.4
         }
       ],
       "EnemyRespawning": false,
@@ -757,19 +751,19 @@
       "PowerGeneratorPlacements": [],
       "DisinfectionStationPlacements": [],
       "DumbwaiterPlacements": [],
-      "HealthMulti": 0.0,
+      "HealthMulti": 0.4,
       "HealthPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "WeaponAmmoMulti": 0.0,
+      "WeaponAmmoMulti": 0.8,
       "WeaponAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "ToolAmmoMulti": 0.0,
+      "ToolAmmoMulti": 0.2,
       "ToolAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
@@ -810,7 +804,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 4,
       "ZoneExpansion": 6,
-      "LightSettings": 68,
+      "LightSettings": 93,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -895,7 +889,7 @@
       "AllowSmallPickupsAllocation": true,
       "AllowResourceContainerAllocation": true,
       "ForceBigPickupsAllocation": false,
-      "ConsumableDistributionInZone": 4,
+      "ConsumableDistributionInZone": 1,
       "BigPickupDistributionInZone": 0,
       "TerminalPlacements": [
         {
@@ -982,7 +976,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 3,
       "ZoneExpansion": 5,
-      "LightSettings": 68,
+      "LightSettings": 93,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -1066,7 +1060,7 @@
       "AllowSmallPickupsAllocation": true,
       "AllowResourceContainerAllocation": true,
       "ForceBigPickupsAllocation": false,
-      "ConsumableDistributionInZone": 4,
+      "ConsumableDistributionInZone": 1,
       "BigPickupDistributionInZone": 0,
       "TerminalPlacements": [
         {
@@ -1131,7 +1125,7 @@
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
       "SubSeed": 8,
-      "MarkerSubSeed": 3,
+      "MarkerSubSeed": 6,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
       "SubComplex": 2,
@@ -1241,7 +1235,7 @@
       "AllowSmallPickupsAllocation": true,
       "AllowResourceContainerAllocation": true,
       "ForceBigPickupsAllocation": false,
-      "ConsumableDistributionInZone": 4,
+      "ConsumableDistributionInZone": 1,
       "BigPickupDistributionInZone": 0,
       "TerminalPlacements": [
         {
@@ -1253,7 +1247,76 @@
           "AreaSeedOffset": 0,
           "MarkerSeedOffset": 0,
           "LocalLogFiles": [],
-          "UniqueCommands": [],
+          "UniqueCommands": [
+            {
+              "Command": "Release_Storage_Lockdown",
+              "CommandDesc": "Release Lockdown on Storage Zone allowing personnel access",
+              "PostCommandOutputs": [],
+              "CommandEvents": [
+                {
+                  "Type": 9,
+                  "Condition": {
+                    "ConditionIndex": -1,
+                    "IsTrue": false
+                  },
+                  "Trigger": 0,
+                  "ChainPuzzle": 0,
+                  "UseStaticBioscanPoints": false,
+                  "Layer": 0,
+                  "DimensionIndex": 0,
+                  "LocalIndex": 1,
+                  "Delay": 0.0,
+                  "Duration": 0.0,
+                  "ClearDimension": false,
+                  "WardenIntel": "Storage Zone Lockdown Release Protocol Started",
+                  "CustomSubObjectiveHeader": 0,
+                  "CustomSubObjective": 0,
+                  "SoundID": 0,
+                  "SoundSubtitle": 0,
+                  "DialogueID": 0,
+                  "FogSetting": 0,
+                  "FogTransitionDuration": 0.0,
+                  "EnemyWaveData": {
+                    "WaveSettings": 1,
+                    "WavePopulation": 1,
+                    "AreaDistance": 2,
+                    "SpawnDelay": 0.0,
+                    "TriggerAlarm": true,
+                    "IntelMessage": 0
+                  },
+                  "EnemyID": 0,
+                  "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "magnitude": 0.0,
+                    "sqrMagnitude": 0.0
+                  },
+                  "Count": 0,
+                  "Enabled": false,
+                  "TerminalCommand": 0,
+                  "TerminalCommandRule": 0
+                },
+                {
+                  "Type": "TriggerSecurityDoorAlarm",
+                  "Layer": 0,
+                  "DimensionIndex": 0,
+                  "LocalIndex": 9,
+                  "Delay": 45.0,
+                  "WardenIntel": "Phase 1 Complete. Complete Bioscan to Continue"
+                },
+                {
+                  "Type": "Countdown",
+                  "Countdown": {
+                    "Duration": 45.0,
+                    "TimerText": "Time until Phase 1 Complete:",
+                    "TimerColor": "orange"
+                  }
+                }
+              ],
+              "SpecialCommandRule": 2
+            }
+          ],
           "StartingStateData": {
             "StartingState": 0,
             "UseCustomInfoText": false,
@@ -1275,19 +1338,19 @@
       "PowerGeneratorPlacements": [],
       "DisinfectionStationPlacements": [],
       "DumbwaiterPlacements": [],
-      "HealthMulti": 0.4,
+      "HealthMulti": 0.8,
       "HealthPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "WeaponAmmoMulti": 0.6,
+      "WeaponAmmoMulti": 1.8,
       "WeaponAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "ToolAmmoMulti": 0.6,
+      "ToolAmmoMulti": 1.0,
       "ToolAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
@@ -1340,7 +1403,52 @@
       "EventsOnUnlockDoor": [],
       "EventsOnOpenDoor": [],
       "EventsOnDoorScanStart": [],
-      "EventsOnDoorScanDone": [],
+      "EventsOnDoorScanDone": [
+        {
+          "Type": 10,
+          "Condition": {
+            "ConditionIndex": -1,
+            "IsTrue": false
+          },
+          "Trigger": 1,
+          "ChainPuzzle": 0,
+          "UseStaticBioscanPoints": false,
+          "Layer": 0,
+          "DimensionIndex": 0,
+          "LocalIndex": 0,
+          "Delay": 0.0,
+          "Duration": 0.0,
+          "ClearDimension": true,
+          "WardenIntel": "Storage Zone Lockdown lifted. Personnel may Proceed.",
+          "CustomSubObjectiveHeader": 0,
+          "CustomSubObjective": 0,
+          "SoundID": 0,
+          "SoundSubtitle": 0,
+          "DialogueID": 0,
+          "FogSetting": 0,
+          "FogTransitionDuration": 0.0,
+          "EnemyWaveData": {
+            "WaveSettings": 0,
+            "WavePopulation": 0,
+            "AreaDistance": 2,
+            "SpawnDelay": 0.0,
+            "TriggerAlarm": false,
+            "IntelMessage": 0
+          },
+          "EnemyID": 0,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          },
+          "Count": 0,
+          "Enabled": false,
+          "TerminalCommand": 0,
+          "TerminalCommandRule": 0
+        }
+      ],
       "ProgressionPuzzleToEnter": {
         "PuzzleType": 3,
         "CustomText": 972,
@@ -1383,8 +1491,8 @@
       "DeconUnitsInZone": 0,
       "AllowSmallPickupsAllocation": true,
       "AllowResourceContainerAllocation": true,
-      "ForceBigPickupsAllocation": false,
-      "ConsumableDistributionInZone": 4,
+      "ForceBigPickupsAllocation": true,
+      "ConsumableDistributionInZone": 48,
       "BigPickupDistributionInZone": 0,
       "TerminalPlacements": [
         {
@@ -1483,7 +1591,24 @@
       "EventsOnUnlockDoor": [],
       "EventsOnOpenDoor": [],
       "EventsOnDoorScanStart": [],
-      "EventsOnDoorScanDone": [],
+      "EventsOnDoorScanDone": [
+        {
+          "Type": "TriggerSecurityDoorAlarm",
+          "Layer": 0,
+          "DimensionIndex": 0,
+          "LocalIndex": 10,
+          "Delay": 45.0,
+          "WardenIntel": "Phase 2 Complete. Complete Bioscan to Continue"
+        },
+        {
+          "Type": "Countdown",
+          "Countdown": {
+            "Duration": 45.0,
+            "TimerText": "Time until Phase 2 Complete:",
+            "TimerColor": "orange"
+          }
+        }
+      ],
       "ProgressionPuzzleToEnter": {
         "PuzzleType": 3,
         "CustomText": 972,
@@ -1599,7 +1724,24 @@
       "EventsOnUnlockDoor": [],
       "EventsOnOpenDoor": [],
       "EventsOnDoorScanStart": [],
-      "EventsOnDoorScanDone": [],
+      "EventsOnDoorScanDone": [
+        {
+          "Type": "TriggerSecurityDoorAlarm",
+          "Layer": 0,
+          "DimensionIndex": 0,
+          "LocalIndex": 8,
+          "Delay": 60.0,
+          "WardenIntel": "Phase 3 Complete. Complete Bioscan to Continue"
+        },
+        {
+          "Type": "Countdown",
+          "Countdown": {
+            "Duration": 60.0,
+            "TimerText": "Time until Phase 3 Complete:",
+            "TimerColor": "orange"
+          }
+        }
+      ],
       "ProgressionPuzzleToEnter": {
         "PuzzleType": 3,
         "CustomText": 972,

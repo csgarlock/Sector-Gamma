@@ -1,0 +1,57 @@
+{
+  "MainLevelLayout": 69211,
+  "ConcurrentCluster": false,
+  "Puzzles": [
+    {
+      "Index": 127,
+      "ConcurrentCluster": false,
+      "HideSpline": true,
+      "Position": {
+        "x": 0.4589,
+        "y": 5.0158,
+        "z": 275.8185
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "EventsOnPuzzleSolved": [],
+      "RequiredItemsIndices": []
+    },
+    {
+      "Index": 22,
+      "ConcurrentCluster": false,
+      "HideSpline": true,
+      "Position": {
+        "x": -24.9012,
+        "y": -0.0106,
+        "z": 251.6094
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "EventsOnPuzzleSolved": [],
+      "RequiredItemsIndices": []
+    },
+    {
+      "Index": 1,
+      "ConcurrentCluster": false,
+      "HideSpline": false,
+      "Position": {
+        "x": 27.1763,
+        "y": -0.0106,
+        "z": 261.2953
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "EventsOnPuzzleSolved": [],
+      "RequiredItemsIndices": []
+    }
+  ]
+}
