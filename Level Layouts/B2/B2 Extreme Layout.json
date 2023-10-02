@@ -6,7 +6,7 @@
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
       "SubSeed": 1,
-      "MarkerSubSeed": 1,
+      "MarkerSubSeed": 2,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
       "SubComplex": 4,
@@ -31,7 +31,7 @@
       "ZoneExpansion": 3,
       "LightSettings": 93,
       "AltitudeData": {
-        "AllowedZoneAltitude": 1,
+        "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
       },
       "EventsOnEnter": [],
@@ -85,7 +85,7 @@
       "AllowSmallPickupsAllocation": true,
       "AllowResourceContainerAllocation": true,
       "ForceBigPickupsAllocation": false,
-      "ConsumableDistributionInZone": 1,
+      "ConsumableDistributionInZone": 27,
       "BigPickupDistributionInZone": 0,
       "TerminalPlacements": [
         {
@@ -119,19 +119,19 @@
       "PowerGeneratorPlacements": [],
       "DisinfectionStationPlacements": [],
       "DumbwaiterPlacements": [],
-      "HealthMulti": 0.2,
+      "HealthMulti": 1.0,
       "HealthPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "WeaponAmmoMulti": 0.4,
+      "WeaponAmmoMulti": 2.0,
       "WeaponAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "ToolAmmoMulti": 0.2,
+      "ToolAmmoMulti": 1.0,
       "ToolAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
@@ -175,7 +175,7 @@
       "ZoneExpansion": 5,
       "LightSettings": 93,
       "AltitudeData": {
-        "AllowedZoneAltitude": 1,
+        "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
       },
       "EventsOnEnter": [],
@@ -229,7 +229,7 @@
       "AllowSmallPickupsAllocation": true,
       "AllowResourceContainerAllocation": true,
       "ForceBigPickupsAllocation": false,
-      "ConsumableDistributionInZone": 1,
+      "ConsumableDistributionInZone": 4,
       "BigPickupDistributionInZone": 0,
       "TerminalPlacements": [
         {
@@ -319,7 +319,7 @@
       "ZoneExpansion": 3,
       "LightSettings": 9,
       "AltitudeData": {
-        "AllowedZoneAltitude": 1,
+        "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
       },
       "EventsOnEnter": [],
@@ -372,7 +372,7 @@
       "AllowSmallPickupsAllocation": true,
       "AllowResourceContainerAllocation": true,
       "ForceBigPickupsAllocation": false,
-      "ConsumableDistributionInZone": 1,
+      "ConsumableDistributionInZone": 4,
       "BigPickupDistributionInZone": 0,
       "TerminalPlacements": [
         {
@@ -462,7 +462,7 @@
       "ZoneExpansion": 6,
       "LightSettings": 9,
       "AltitudeData": {
-        "AllowedZoneAltitude": 1,
+        "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
       },
       "EventsOnEnter": [],
@@ -515,7 +515,7 @@
       "AllowSmallPickupsAllocation": true,
       "AllowResourceContainerAllocation": true,
       "ForceBigPickupsAllocation": false,
-      "ConsumableDistributionInZone": 1,
+      "ConsumableDistributionInZone": 4,
       "BigPickupDistributionInZone": 0,
       "TerminalPlacements": [
         {
