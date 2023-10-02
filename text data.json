@@ -1,0 +1,112 @@
+{
+  "SkipLocalization": true,
+  "MachineTranslation": false,
+  "English": "Storage vault under lockdown",
+  "Description": "",
+  "CharacterMetaData": 3,
+  "French": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Italian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "German": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Spanish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Russian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Portuguese_Brazil": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Polish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Japanese": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Korean": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Traditional": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Simplified": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "ExportVersion": 1,
+  "ImportVersion": 1,
+  "name": "B1_Ending_Subobjective_Header",
+  "internalEnabled": true,
+  "persistentID": 3000
+},
+{
+  "SkipLocalization": true,
+  "MachineTranslation": false,
+  "English": "use local terminal to release <color=orange>Zone 120</color> from lockdown",
+  "Description": "",
+  "CharacterMetaData": 3,
+  "French": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Italian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "German": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Spanish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Russian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Portuguese_Brazil": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Polish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Japanese": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Korean": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Traditional": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Simplified": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "ExportVersion": 1,
+  "ImportVersion": 1,
+  "name": "B1_Ending_Subobjective",
+  "internalEnabled": true,
+  "persistentID": 3001
+}

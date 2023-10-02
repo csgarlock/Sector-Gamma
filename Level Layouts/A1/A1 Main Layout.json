@@ -540,7 +540,7 @@
           "Delay": 0.0,
           "Duration": 0.0,
           "ClearDimension": false,
-          "WardenIntel": "Zone 74 lockdown imminent",
+          "WardenIntel": "<color=orange>Zone 74</color> lockdown imminent",
           "CustomSubObjectiveHeader": 0,
           "CustomSubObjective": 0,
           "SoundID": 0,
@@ -660,10 +660,11 @@
         {
           "Type": "Countdown",
           "Countdown": {
-            "Duration": 120.0,
-            "TimerText": "Automatically opening Zones 75 and 76 in", //Also can use TextDataBlock ID
-            "TimerColor": "red"
-          }
+            "Duration": 90.0,
+            "TimerText": "Remaining <color=orange>Zone 74</color> Lockdown Time:", //Also can use TextDataBlock ID
+            "TimerColor": "red",
+          },
+          "Delay": 30.0
         },
         {
           "Type": "CloseSecurityDoor",
@@ -671,15 +672,15 @@
           "DimensionIndex": 0,
           "LocalIndex": 3,
           "CleanUpEnemiesBehind": false,
-          "Delay": 40,
-          "WardenIntel": "Zone 74 lockdown in effect"
+          "Delay": 30.0,
+          "WardenIntel": "<color=orange>Zone 74</color> lockdown in effect"
         },
         {
           "Type": "AlertEnemiesInZone",
           "Layer": 0,
           "DimensionIndex": 0,
           "LocalIndex": 3,
-          "Delay": 130
+          "Delay": 125
         },
         {
           "Type": 1,
@@ -693,7 +694,7 @@
           "Layer": 0,
           "DimensionIndex": 0,
           "LocalIndex": 3,
-          "Delay": 150.0,
+          "Delay": 120.0,
           "Duration": 0.0,
           "ClearDimension": false,
           "WardenIntel": "Lockdown Lifted",
@@ -757,7 +758,7 @@
           "GroupType": 0,
           "Difficulty": 0,
           "Distribution": 2,
-          "DistributionValue": 1.2
+          "DistributionValue": 0.6
         },
         {
           "GroupType": 1,
@@ -905,8 +906,8 @@
       "ActiveEnemyWave": {
         "HasActiveEnemyWave": true,
         "EnemyGroupInfrontOfDoor": 30,
-        "EnemyGroupInArea": 31,
-        "EnemyGroupsInArea": 1
+        "EnemyGroupInArea": 0,
+        "EnemyGroupsInArea": 0
       },
       "EnemySpawningInZone": [],
       "EnemyRespawning": false,
@@ -1049,8 +1050,8 @@
       "ActiveEnemyWave": {
         "HasActiveEnemyWave": true,
         "EnemyGroupInfrontOfDoor": 30,
-        "EnemyGroupInArea": 31,
-        "EnemyGroupsInArea": 1
+        "EnemyGroupInArea": 0,
+        "EnemyGroupsInArea": 0
       },
       "EnemyRespawning": false,
       "EnemyRespawnRequireOtherZone": true,

@@ -391,12 +391,6 @@
           "DistributionValue": 1.0
         },
         {
-          "GroupType": 3,
-          "Difficulty": 0,
-          "Distribution": 1,
-          "DistributionValue": 1.0
-        },
-        {
           "GroupType": 1,
           "Difficulty": 2,
           "Distribution": 1,
@@ -1211,12 +1205,6 @@
           "Difficulty": 0,
           "Distribution": 2,
           "DistributionValue": 0.8
-        },
-        {
-          "GroupType": 3,
-          "Difficulty": 0,
-          "Distribution": 1,
-          "DistributionValue": 1.0
         }
       ],
       "EnemyRespawning": false,
@@ -1399,7 +1387,52 @@
       },
       "EventsOnEnter": [],
       "EventsOnPortalWarp": [],
-      "EventsOnApproachDoor": [],
+      "EventsOnApproachDoor": [
+        {
+          "Type": 11,
+          "Condition": {
+            "ConditionIndex": -1,
+            "IsTrue": false
+          },
+          "Trigger": 0,
+          "ChainPuzzle": 0,
+          "UseStaticBioscanPoints": false,
+          "Layer": 0,
+          "DimensionIndex": 0,
+          "LocalIndex": 0,
+          "Delay": 0.0,
+          "Duration": 0.0,
+          "ClearDimension": false,
+          "WardenIntel": "Use local terminal to release <color=orange>Zone 120</color> from lockdown",
+          "CustomSubObjectiveHeader": 3000,
+          "CustomSubObjective": 3001,
+          "SoundID": 0,
+          "SoundSubtitle": 0,
+          "DialogueID": 0,
+          "FogSetting": 0,
+          "FogTransitionDuration": 0.0,
+          "EnemyWaveData": {
+            "WaveSettings": 0,
+            "WavePopulation": 0,
+            "AreaDistance": 2,
+            "SpawnDelay": 0.0,
+            "TriggerAlarm": false,
+            "IntelMessage": 0
+          },
+          "EnemyID": 0,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          },
+          "Count": 0,
+          "Enabled": false,
+          "TerminalCommand": 0,
+          "TerminalCommandRule": 0
+        },
+      ],
       "EventsOnUnlockDoor": [],
       "EventsOnOpenDoor": [],
       "EventsOnDoorScanStart": [],
@@ -1447,11 +1480,55 @@
           "Enabled": false,
           "TerminalCommand": 0,
           "TerminalCommandRule": 0
+        },
+        {
+          "Type": 11,
+          "Condition": {
+            "ConditionIndex": -1,
+            "IsTrue": false
+          },
+          "Trigger": 0,
+          "ChainPuzzle": 0,
+          "UseStaticBioscanPoints": false,
+          "Layer": 0,
+          "DimensionIndex": 0,
+          "LocalIndex": 0,
+          "Delay": 0.0,
+          "Duration": 0.0,
+          "ClearDimension": false,
+          "WardenIntel": 0,
+          "CustomSubObjectiveHeader": 0,
+          "CustomSubObjective": 0,
+          "SoundID": 0,
+          "SoundSubtitle": 0,
+          "DialogueID": 0,
+          "FogSetting": 0,
+          "FogTransitionDuration": 0.0,
+          "EnemyWaveData": {
+            "WaveSettings": 0,
+            "WavePopulation": 0,
+            "AreaDistance": 2,
+            "SpawnDelay": 0.0,
+            "TriggerAlarm": false,
+            "IntelMessage": 0
+          },
+          "EnemyID": 0,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          },
+          "Count": 0,
+          "Enabled": false,
+          "TerminalCommand": 0,
+          "TerminalCommandRule": 0
         }
       ],
       "ProgressionPuzzleToEnter": {
         "PuzzleType": 3,
-        "CustomText": 972,
+        "CustomText": "<color=red>://ERROR: Door in emergency lockdown. Override Required at local terminal.</color>",
         "PlacementCount": 1,
         "ZonePlacementData": []
       },
