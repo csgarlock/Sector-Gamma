@@ -29,7 +29,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 1,
       "ZoneExpansion": 3,
-      "LightSettings": 93,
+      "LightSettings": 55,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -125,7 +125,7 @@
         "Middle": 0.0,
         "End": 0.0
       },
-      "WeaponAmmoMulti": 2.0,
+      "WeaponAmmoMulti": 3.0,
       "WeaponAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
@@ -173,7 +173,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 3,
       "ZoneExpansion": 5,
-      "LightSettings": 93,
+      "LightSettings": 55,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -317,7 +317,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 1,
       "ZoneExpansion": 3,
-      "LightSettings": 9,
+      "LightSettings": 55,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -460,7 +460,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 4,
       "ZoneExpansion": 6,
-      "LightSettings": 9,
+      "LightSettings": 55,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5

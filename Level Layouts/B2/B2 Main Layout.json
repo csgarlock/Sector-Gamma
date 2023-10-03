@@ -29,7 +29,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 1,
       "ZoneExpansion": 3,
-      "LightSettings": 93,
+      "LightSettings": 31,
       "AltitudeData": {
         "AllowedZoneAltitude": 2,
         "ChanceToChange": 0.5
@@ -180,7 +180,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 3,
       "ZoneExpansion": 5,
-      "LightSettings": 93,
+      "LightSettings": 31,
       "AltitudeData": {
         "AllowedZoneAltitude": 2,
         "ChanceToChange": 0.5
@@ -337,7 +337,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 3,
       "ZoneExpansion": 5,
-      "LightSettings": 9,
+      "LightSettings": 31,
       "AltitudeData": {
         "AllowedZoneAltitude": 2,
         "ChanceToChange": 0.5
@@ -486,7 +486,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 2,
       "ZoneExpansion": 1,
-      "LightSettings": 9,
+      "LightSettings": 31,
       "AltitudeData": {
         "AllowedZoneAltitude": 2,
         "ChanceToChange": 0.5
@@ -641,7 +641,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 1,
       "ZoneExpansion": 1,
-      "LightSettings": 93,
+      "LightSettings": 31,
       "AltitudeData": {
         "AllowedZoneAltitude": 1,
         "ChanceToChange": 0.5
@@ -807,7 +807,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 1,
       "ZoneExpansion": 3,
-      "LightSettings": 93,
+      "LightSettings": 23,
       "AltitudeData": {
         "AllowedZoneAltitude": 1,
         "ChanceToChange": 0.5
@@ -1000,7 +1000,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 3,
       "ZoneExpansion": 5,
-      "LightSettings": 93,
+      "LightSettings": 31,
       "AltitudeData": {
         "AllowedZoneAltitude": 2,
         "ChanceToChange": 0.5
@@ -1150,7 +1150,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 4,
       "ZoneExpansion": 6,
-      "LightSettings": 68,
+      "LightSettings": 100,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -1312,7 +1312,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 4,
       "ZoneExpansion": 1,
-      "LightSettings": 68,
+      "LightSettings": 100,
       "AltitudeData": {
         "AllowedZoneAltitude": 1,
         "ChanceToChange": 0.5
@@ -1468,7 +1468,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 2,
       "ZoneExpansion": 4,
-      "LightSettings": 68,
+      "LightSettings": 100,
       "AltitudeData": {
         "AllowedZoneAltitude": 2,
         "ChanceToChange": 0.5
@@ -1634,9 +1634,9 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 2,
       "ZoneExpansion": 4,
-      "LightSettings": 68,
+      "LightSettings": 100,
       "AltitudeData": {
-        "AllowedZoneAltitude": 3,
+        "AllowedZoneAltitude": 1,
         "ChanceToChange": 0.5
       },
       "EventsOnEnter": [],
@@ -1809,7 +1809,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 4,
       "ZoneExpansion": 1,
-      "LightSettings": 68,
+      "LightSettings": 100,
       "AltitudeData": {
         "AllowedZoneAltitude": 2,
         "ChanceToChange": 0.5
@@ -1959,7 +1959,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 3,
       "ZoneExpansion": 1,
-      "LightSettings": 68,
+      "LightSettings": 100,
       "AltitudeData": {
         "AllowedZoneAltitude": 2,
         "ChanceToChange": 0.5

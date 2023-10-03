@@ -26,7 +26,288 @@
   "FogTransitionDataOnElevatorLand": 0,
   "FogTransitionDurationOnElevatorLand": 0.0,
   "OnActivateOnSolveItem": false,
-  "WavesOnActivate": [],
+  "WavesOnActivate": [ 
+    {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 0.0,
+      "TriggerAlarm": true,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 5.0,
+      "TriggerAlarm": true,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 54,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 10.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 54,
+      "WavePopulation": 39,
+      "AreaDistance": 2,
+      "SpawnDelay": 20.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 30.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 54,
+      "WavePopulation": 8,
+      "AreaDistance": 2,
+      "SpawnDelay": 40.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 54,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 50.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 60.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 54,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 70.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 54,
+      "WavePopulation": 8,
+      "AreaDistance": 2,
+      "SpawnDelay": 80.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 90.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 54,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 100.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 54,
+      "WavePopulation": 8,
+      "AreaDistance": 2,
+      "SpawnDelay": 110.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 54,
+      "WavePopulation": 39,
+      "AreaDistance": 2,
+      "SpawnDelay": 120.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 130.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 135.0,
+      "TriggerAlarm": true,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 140.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 54,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 150.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 54,
+      "WavePopulation": 8,
+      "AreaDistance": 2,
+      "SpawnDelay": 160.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 170.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 54,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 180.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 54,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 190.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 200.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 54,
+      "WavePopulation": 8,
+      "AreaDistance": 2,
+      "SpawnDelay": 210.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 54,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 220.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 225.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 230.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 235.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 240.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 54,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 250.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 260.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 54,
+      "WavePopulation": 12,
+      "AreaDistance": 2,
+      "SpawnDelay": 270.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 53,
+      "WavePopulation": 8,
+      "AreaDistance": 2,
+      "SpawnDelay": 280.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 53,
+      "WavePopulation": 8,
+      "AreaDistance": 2,
+      "SpawnDelay": 290.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 54,
+      "WavePopulation": 39,
+      "AreaDistance": 2,
+      "SpawnDelay": 300.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    }
+  ],
   "EventsOnActivate": [
     {
       "Type": 1,
