@@ -1,0 +1,34 @@
+{
+  "PublicAlarmName": "Class S V Alarm",
+  "TriggerAlarmOnActivate": true,
+  "SurvivalWaveSettings": 1,
+  "SurvivalWavePopulation": 8,
+  "SurvivalWaveAreaDistance": 2,
+  "DisableSurvivalWaveOnComplete": true,
+  "UseRandomPositions": true,
+  "WantedDistanceFromStartPos": 15.0,
+  "WantedDistanceBetweenPuzzleComponents": 10.0,
+  "ChainedPuzzle": [
+    {
+      "PuzzleType": 14
+    },
+    {
+      "PuzzleType": 14
+    },
+    {
+      "PuzzleType": 14
+    },
+    {
+      "PuzzleType": 14
+    },
+    {
+      "PuzzleType": 14
+    }
+  ],
+  "OnlyShowHUDWhenPlayerIsClose": false,
+  "AlarmSoundStart": 3339129407,
+  "AlarmSoundStop": 42633153,
+  "name": "Far Sustained x5 - Hybrids",
+  "internalEnabled": true,
+  "persistentID": 3000
+}
