@@ -138,13 +138,13 @@
         "Middle": 0.0,
         "End": 0.0
       },
-      "WeaponAmmoMulti": 0.8,
+      "WeaponAmmoMulti": 0.4,
       "WeaponAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "ToolAmmoMulti": 0.6,
+      "ToolAmmoMulti": 0.2,
       "ToolAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
@@ -391,10 +391,22 @@
           "DistributionValue": 1.0
         },
         {
+          "GroupType": 3,
+          "Difficulty": 0,
+          "Distribution": 1,
+          "DistributionValue": 1.0
+        },
+        {
           "GroupType": 1,
           "Difficulty": 2,
           "Distribution": 1,
           "DistributionValue": 1.0
+        },
+        {
+          "GroupType": 1,
+          "Difficulty": 7,
+          "Distribution": 2,
+          "DistributionValue": 0.4
         }
       ],
       "EnemyRespawning": false,
@@ -447,19 +459,19 @@
       "PowerGeneratorPlacements": [],
       "DisinfectionStationPlacements": [],
       "DumbwaiterPlacements": [],
-      "HealthMulti": 0.4,
+      "HealthMulti": 0.0,
       "HealthPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "WeaponAmmoMulti": 0.4,
+      "WeaponAmmoMulti": 0.0,
       "WeaponAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "ToolAmmoMulti": 0.4,
+      "ToolAmmoMulti": 0.0,
       "ToolAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
@@ -1326,19 +1338,19 @@
       "PowerGeneratorPlacements": [],
       "DisinfectionStationPlacements": [],
       "DumbwaiterPlacements": [],
-      "HealthMulti": 0.8,
+      "HealthMulti": 0.6,
       "HealthPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "WeaponAmmoMulti": 1.8,
+      "WeaponAmmoMulti": 1.0,
       "WeaponAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "ToolAmmoMulti": 1.0,
+      "ToolAmmoMulti": 0.4,
       "ToolAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,

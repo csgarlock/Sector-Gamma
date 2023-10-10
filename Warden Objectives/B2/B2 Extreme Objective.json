@@ -124,6 +124,14 @@
       "IntelMessage": 0
     },
     {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 100.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
       "WaveSettings": 54,
       "WavePopulation": 8,
       "AreaDistance": 2,
@@ -164,6 +172,14 @@
       "IntelMessage": 0
     },
     {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 145.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
       "WaveSettings": 54,
       "WavePopulation": 1,
       "AreaDistance": 2,
@@ -172,8 +188,16 @@
       "IntelMessage": 0
     },
     {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 155.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
       "WaveSettings": 54,
-      "WavePopulation": 8,
+      "WavePopulation": 12,
       "AreaDistance": 2,
       "SpawnDelay": 160.0,
       "TriggerAlarm": false,
@@ -183,15 +207,7 @@
       "WaveSettings": 53,
       "WavePopulation": 1,
       "AreaDistance": 2,
-      "SpawnDelay": 170.0,
-      "TriggerAlarm": false,
-      "IntelMessage": 0
-    },
-    {
-      "WaveSettings": 54,
-      "WavePopulation": 1,
-      "AreaDistance": 2,
-      "SpawnDelay": 180.0,
+      "SpawnDelay": 165.0,
       "TriggerAlarm": false,
       "IntelMessage": 0
     },
@@ -200,6 +216,14 @@
       "WavePopulation": 1,
       "AreaDistance": 2,
       "SpawnDelay": 190.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
+      "SpawnDelay": 195.0,
       "TriggerAlarm": false,
       "IntelMessage": 0
     },
@@ -271,21 +295,37 @@
       "WaveSettings": 53,
       "WavePopulation": 1,
       "AreaDistance": 2,
+      "SpawnDelay": 255.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 53,
+      "WavePopulation": 1,
+      "AreaDistance": 2,
       "SpawnDelay": 260.0,
       "TriggerAlarm": false,
       "IntelMessage": 0
     },
     {
       "WaveSettings": 54,
-      "WavePopulation": 12,
+      "WavePopulation": 1,
       "AreaDistance": 2,
       "SpawnDelay": 270.0,
       "TriggerAlarm": false,
       "IntelMessage": 0
     },
     {
-      "WaveSettings": 53,
-      "WavePopulation": 8,
+      "WaveSettings": 56,
+      "WavePopulation": 16,
+      "AreaDistance": 2,
+      "SpawnDelay": 280.0,
+      "TriggerAlarm": false,
+      "IntelMessage": 0
+    },
+    {
+      "WaveSettings": 56,
+      "WavePopulation": 16,
       "AreaDistance": 2,
       "SpawnDelay": 280.0,
       "TriggerAlarm": false,
@@ -293,7 +333,7 @@
     },
     {
       "WaveSettings": 53,
-      "WavePopulation": 8,
+      "WavePopulation": 1,
       "AreaDistance": 2,
       "SpawnDelay": 290.0,
       "TriggerAlarm": false,
@@ -301,7 +341,7 @@
     },
     {
       "WaveSettings": 54,
-      "WavePopulation": 39,
+      "WavePopulation": 8,
       "AreaDistance": 2,
       "SpawnDelay": 300.0,
       "TriggerAlarm": false,

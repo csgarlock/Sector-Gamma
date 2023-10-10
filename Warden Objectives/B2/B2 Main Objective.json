@@ -54,7 +54,7 @@
       "SoundSubtitle": 0,
       "DialogueID": 0,
       "FogSetting": 3222,
-      "FogTransitionDuration": 1800.0,
+      "FogTransitionDuration": 1700.0,
       "EnemyWaveData": {
         "WaveSettings": 0,
         "WavePopulation": 0,
