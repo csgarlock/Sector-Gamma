@@ -1,0 +1,6 @@
+in_verify = 1
+code_3_uplink_complete = 2
+code_1_sent = 3
+code_2_sent = 4
+code_3_sent = 5
+code_4_sent = 6
