@@ -1,0 +1,50 @@
+{
+  "MainLevelLayout": 69311,
+  "Definitions": [
+    {
+      "DimensionIndex": "Reality",
+      "LayerType": "MainLayer",
+      "LocalIndex": 9,
+      "InstanceIndex": 0,
+      "DisplayUplinkWarning": true,
+      "SetupAsCorruptedUplink": false,
+      "UseUplinkAddress": true,
+      "UplinkAddressLogPosition": {
+        "DimensionIndex": "Reality",
+        "LayerType": "MainLayer",
+        "LocalIndex": 9,
+        "InstanceIndex": 0
+      },
+      "ChainedPuzzleToStartUplink": 4,
+      "NumberOfVerificationRounds": 4,
+      "DefaultTimeSettings": {
+        "TimeToStartVerify": 5,
+        "TimeToCompleteVerify": 6,
+        "TimeToRestoreFromFail": 6
+      },
+      "RoundOverrides": [],
+      "EventsOnCommence": [
+        {
+          "Type": 9,
+          "Delay": 0.0,
+          "WorldEventObjectFilter": "SG_C1_UPLINK_ALARM",
+          "EnemyWaveData": {
+            "WaveSettings": 5,
+            "WavePopulation": 1,
+            "SpawnDelay": 2.0,
+            "IntelMessage": 0,
+            "AreaDistance": 2,
+            "TriggerAlarm": false
+          }
+        }
+      ],
+      "EventsOnComplete": [
+        {
+          "Type": 10,
+          "WorldEventObjectFilter": "SG_C1_UPLINK_ALARM",
+          "Delay": 0.0
+        }
+      ]
+    }
+  ]
+}

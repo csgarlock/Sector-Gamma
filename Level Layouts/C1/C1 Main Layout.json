@@ -511,7 +511,7 @@
         "PlacementCount": 1,
         "ZonePlacementData": []
       },
-      "ChainedPuzzleToEnter": 0,
+      "ChainedPuzzleToEnter": 3002,
       "IsCheckpointDoor": false,
       "PlayScannerVoiceAudio": true,
       "SkipAutomaticProgressionObjective": false,
@@ -725,7 +725,7 @@
       "EventsOnDoorScanDone": [],
       "EventsOnTrigger": [],
       "ProgressionPuzzleToEnter": {
-        "PuzzleType": 0,
+        "PuzzleType": 3,
         "CustomText": 972,
         "PlacementCount": 1,
         "ZonePlacementData": []
@@ -750,14 +750,7 @@
         "EnemyGroupInArea": 0,
         "EnemyGroupsInArea": 0
       },
-      "EnemySpawningInZone": [
-        {
-          "GroupType": 0,
-          "Difficulty": 0,
-          "Distribution": 2,
-          "DistributionValue": 0.8
-        }
-      ],
+      "EnemySpawningInZone": [],
       "EnemyRespawning": false,
       "EnemyRespawnRequireOtherZone": true,
       "EnemyRespawnRoomDistance": 2,
@@ -839,7 +832,7 @@
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
       "SubSeed": 8,
-      "MarkerSubSeed": 0,
+      "MarkerSubSeed": 1,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
       "SubComplex": 3,
@@ -876,10 +869,20 @@
       "EventsOnDoorScanDone": [],
       "EventsOnTrigger": [],
       "ProgressionPuzzleToEnter": {
-        "PuzzleType": 3,
+        "PuzzleType": 1,
         "CustomText": 972,
         "PlacementCount": 1,
-        "ZonePlacementData": []
+        "ZonePlacementData": [
+          {
+            "DimensionIndex": 0,
+            "LocalIndex": 1,
+            "Weights": {
+              "Start": 0.0,
+              "Middle": 1000.0,
+              "End": 1000.0
+            }
+          }
+        ]
       },
       "ChainedPuzzleToEnter": 4,
       "IsCheckpointDoor": false,
@@ -1088,7 +1091,75 @@
           "AreaSeedOffset": 0,
           "MarkerSeedOffset": 1996,
           "LocalLogFiles": [],
-          "UniqueCommands": [],
+          "UniqueCommands": [
+            {
+              "Command": "SEND_REACTOR_CODES",
+              "CommandDesc": 0,
+              "PostCommandOutputs": [],
+              "CommandEvents": [
+                {
+                  "Type": 19,
+                  "Condition": {
+                    "ConditionIndex": 4,
+                    "IsTrue": true
+                  },
+                  "Trigger": 0,
+                  "ChainPuzzle": 0,
+                  "UseStaticBioscanPoints": false,
+                  "Layer": 0,
+                  "DimensionIndex": 0,
+                  "LocalIndex": 0,
+                  "Delay": 0.0,
+                  "Duration": 0.0,
+                  "ClearDimension": false,
+                  "WardenIntel": 0,
+                  "CustomSubObjectiveHeader": 0,
+                  "CustomSubObjective": 0,
+                  "SoundID": 0,
+                  "SoundSubtitle": 0,
+                  "DialogueID": 0,
+                  "FogSetting": 0,
+                  "FogTransitionDuration": 0.0,
+                  "EnemyWaveData": {
+                    "WaveSettings": 0,
+                    "WavePopulation": 0,
+                    "AreaDistance": 2,
+                    "SpawnDelay": 0.0,
+                    "TriggerAlarm": false,
+                    "IntelMessage": 0
+                  },
+                  "EnemyID": 0,
+                  "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "magnitude": 0.0,
+                    "sqrMagnitude": 0.0
+                  },
+                  "Count": 0,
+                  "Enabled": false,
+                  "TerminalCommand": 0,
+                  "TerminalCommandRule": 0
+                },
+                {
+                  "Condition": {
+                    "ConditionIndex": 1,
+                    "IsTrue": true
+                  },
+                  "Delay": 2.0,
+                  "WardenIntel": "Forced Through Terminal",
+                  "Type": "ModifyReactorWaveState",
+                  "Layer": 0,
+                  "Reactor": {
+                    "State": "Intro",
+                    "Wave": 3,
+                    "Progress": 0.0
+                  }
+                }
+              ],
+              "SpecialCommandRule": 2
+            }
+          ],
           "StartingStateData": {
             "StartingState": 0,
             "UseCustomInfoText": false,

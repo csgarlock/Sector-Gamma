@@ -1,0 +1,53 @@
+{
+  "m_pauseBeforeStart": 0.0,
+  "m_pauseBetweenGroups": 1.0,
+  "m_wavePauseMin_atCost": 3.0,
+  "m_wavePauseMax_atCost": 10.0,
+  "m_wavePauseMin": 3.0,
+  "m_wavePauseMax": 30.0,
+  "m_populationFilter": [
+    0
+  ],
+  "m_filterType": 1,
+  "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+  "m_chanceToRandomizeSpawnDirectionPerGroup": 0.1,
+  "m_overrideWaveSpawnType": true,
+  "m_survivalWaveSpawnType": 6,
+  "m_populationPointsTotal": 12.0,
+  "m_populationPointsPerWaveStart": 12.0,
+  "m_populationPointsPerWaveEnd": 12.0,
+  "m_populationPointsMinPerGroup": 6.0,
+  "m_populationPointsPerGroupStart": 6.0,
+  "m_populationPointsPerGroupEnd": 12.0,
+  "m_populationRampOverTime": 50.0,
+  "name": "Reactor 12 SSpMB From Spawn",
+  "internalEnabled": true,
+  "persistentID": 3100
+},
+{
+  "m_pauseBeforeStart": 1.0,
+  "m_pauseBetweenGroups": 5.0,
+  "m_wavePauseMin_atCost": 1.0,
+  "m_wavePauseMax_atCost": 10.0,
+  "m_wavePauseMin": 1.0,
+  "m_wavePauseMax": 20.0,
+  "m_populationFilter": [
+    3,
+    4
+  ],
+  "m_filterType": 0,
+  "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
+  "m_chanceToRandomizeSpawnDirectionPerGroup": 0.8,
+  "m_overrideWaveSpawnType": true,
+  "m_survivalWaveSpawnType": 6,
+  "m_populationPointsTotal": 6.0,
+  "m_populationPointsPerWaveStart": 6.0,
+  "m_populationPointsPerWaveEnd": 6.0,
+  "m_populationPointsMinPerGroup": 1.0,
+  "m_populationPointsPerGroupStart": 1.0,
+  "m_populationPointsPerGroupEnd": 6.0,
+  "m_populationRampOverTime": 0.0,
+  "name": "Reactor 6 MB From Spawn",
+  "internalEnabled": true,
+  "persistentID": 3101
+}
