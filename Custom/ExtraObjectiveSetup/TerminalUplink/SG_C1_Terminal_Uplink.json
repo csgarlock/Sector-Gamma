@@ -12,7 +12,7 @@
       "UplinkAddressLogPosition": {
         "DimensionIndex": "Reality",
         "LayerType": "MainLayer",
-        "LocalIndex": 9,
+        "LocalIndex": 14,
         "InstanceIndex": 0
       },
       "ChainedPuzzleToStartUplink": 4,
@@ -43,6 +43,50 @@
           "Type": 10,
           "WorldEventObjectFilter": "SG_C1_UPLINK_ALARM",
           "Delay": 0.0
+        },
+        {
+          "Type": 19,
+          "Condition": {
+            "ConditionIndex": 2,
+            "IsTrue": true
+          },
+          "Trigger": 0,
+          "ChainPuzzle": 0,
+          "UseStaticBioscanPoints": false,
+          "Layer": 0,
+          "DimensionIndex": 0,
+          "LocalIndex": 0,
+          "Delay": 0.0,
+          "Duration": 0.0,
+          "ClearDimension": false,
+          "WardenIntel": 0,
+          "CustomSubObjectiveHeader": 0,
+          "CustomSubObjective": 0,
+          "SoundID": 0,
+          "SoundSubtitle": 0,
+          "DialogueID": 0,
+          "FogSetting": 0,
+          "FogTransitionDuration": 0.0,
+          "EnemyWaveData": {
+            "WaveSettings": 0,
+            "WavePopulation": 0,
+            "AreaDistance": 2,
+            "SpawnDelay": 0.0,
+            "TriggerAlarm": false,
+            "IntelMessage": 0
+          },
+          "EnemyID": 0,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          },
+          "Count": 0,
+          "Enabled": false,
+          "TerminalCommand": 0,
+          "TerminalCommandRule": 0
         }
       ]
     }

@@ -1,7 +1,51 @@
+//STANDARD ENEMIES
 //Scout
 {
   "GroupType": 3,
   "Difficulty": 0,
   "Distribution": 1,
   "DistributionValue": 1.0
+}
+//Strikers and Shooters
+{
+  "GroupType": 0,
+  "Difficulty": 0,
+  "Distribution": 2,
+  "DistributionValue": 0.8
+}
+//Giants
+{
+  "GroupType": 1,
+  "Difficulty": 1,
+  "Distribution": 2,
+  "DistributionValue": 1.4
+}
+//Hybrids
+{
+  "GroupType": 1,
+  "Difficulty": 6,
+  "Distribution": 2,
+  "DistributionValue": 0.4
+}
+//SHADOWS
+//Shadow Scout
+{
+  "GroupType": 3,
+  "Difficulty": 4,
+  "Distribution": 1,
+  "DistributionValue": 1.0
+}
+//Shadow Strikers
+{
+  "GroupType": 0,
+  "Difficulty": 6,
+  "Distribution": 2,
+  "DistributionValue": 1.0
+}
+//Shadow Giants
+{
+  "GroupType": 0,
+  "Difficulty": 7,
+  "Distribution": 2,
+  "DistributionValue": 0.64
 }
