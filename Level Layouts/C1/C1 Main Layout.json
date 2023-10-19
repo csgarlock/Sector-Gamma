@@ -97,8 +97,8 @@
       "TerminalPlacements": [
         {
           "PlacementWeights": {
-            "Start": 0.0,
-            "Middle": 1000.0,
+            "Start": 1000.0,
+            "Middle": 0.0,
             "End": 0.0
           },
           "AreaSeedOffset": 0,
@@ -618,12 +618,55 @@
                   "TerminalCommandRule": 0
                 },
                 {
+                  "Type": 11,
+                  "Condition": {
+                    "ConditionIndex": -1,
+                    "IsTrue": false
+                  },
+                  "Trigger": 0,
+                  "ChainPuzzle": 0,
+                  "UseStaticBioscanPoints": false,
+                  "Layer": 0,
+                  "DimensionIndex": 0,
+                  "LocalIndex": 0,
+                  "Delay": 0.0,
+                  "Duration": 0.0,
+                  "ClearDimension": false,
+                  "WardenIntel": 3100,
+                  "CustomSubObjectiveHeader": 3100,
+                  "CustomSubObjective": 0,
+                  "SoundID": 0,
+                  "SoundSubtitle": 0,
+                  "DialogueID": 0,
+                  "FogSetting": 0,
+                  "FogTransitionDuration": 0.0,
+                  "EnemyWaveData": {
+                    "WaveSettings": 0,
+                    "WavePopulation": 0,
+                    "AreaDistance": 2,
+                    "SpawnDelay": 0.0,
+                    "TriggerAlarm": false,
+                    "IntelMessage": 0
+                  },
+                  "EnemyID": 0,
+                  "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "magnitude": 0.0,
+                    "sqrMagnitude": 0.0
+                  },
+                  "Count": 0,
+                  "Enabled": false,
+                  "TerminalCommand": 0,
+                  "TerminalCommandRule": 0
+                },
+                {
                   "Condition": {
                     "ConditionIndex": 1,
                     "IsTrue": true
                   },
                   "Delay": 2.0,
-                  "WardenIntel": "Forced Through Terminal",
                   "Type": "ModifyReactorWaveState",
                   "Layer": 0,
                   "Reactor": {
@@ -631,6 +674,50 @@
                     "Wave": 2,
                     "Progress": 0.0
                   }
+                },
+                {
+                  "Type": 11,
+                  "Condition": {
+                    "ConditionIndex": 1,
+                    "IsTrue": true
+                  },
+                  "Trigger": 0,
+                  "ChainPuzzle": 0,
+                  "UseStaticBioscanPoints": false,
+                  "Layer": 0,
+                  "DimensionIndex": 0,
+                  "LocalIndex": 0,
+                  "Delay": 2.0,
+                  "Duration": 0.0,
+                  "ClearDimension": false,
+                  "WardenIntel": 3102,
+                  "CustomSubObjectiveHeader": 3102,
+                  "CustomSubObjective": 0,
+                  "SoundID": 0,
+                  "SoundSubtitle": 0,
+                  "DialogueID": 0,
+                  "FogSetting": 0,
+                  "FogTransitionDuration": 0.0,
+                  "EnemyWaveData": {
+                    "WaveSettings": 0,
+                    "WavePopulation": 0,
+                    "AreaDistance": 2,
+                    "SpawnDelay": 0.0,
+                    "TriggerAlarm": false,
+                    "IntelMessage": 0
+                  },
+                  "EnemyID": 0,
+                  "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "magnitude": 0.0,
+                    "sqrMagnitude": 0.0
+                  },
+                  "Count": 0,
+                  "Enabled": false,
+                  "TerminalCommand": 0,
+                  "TerminalCommandRule": 0
                 }
               ],
               "SpecialCommandRule": 2
@@ -1154,12 +1241,55 @@
                   "TerminalCommandRule": 0
                 },
                 {
+                  "Type": 11,
+                  "Condition": {
+                    "ConditionIndex": -1,
+                    "IsTrue": false
+                  },
+                  "Trigger": 0,
+                  "ChainPuzzle": 0,
+                  "UseStaticBioscanPoints": false,
+                  "Layer": 0,
+                  "DimensionIndex": 0,
+                  "LocalIndex": 0,
+                  "Delay": 0.0,
+                  "Duration": 0.0,
+                  "ClearDimension": false,
+                  "WardenIntel": 3100,
+                  "CustomSubObjectiveHeader": 3100,
+                  "CustomSubObjective": 0,
+                  "SoundID": 0,
+                  "SoundSubtitle": 0,
+                  "DialogueID": 0,
+                  "FogSetting": 0,
+                  "FogTransitionDuration": 0.0,
+                  "EnemyWaveData": {
+                    "WaveSettings": 0,
+                    "WavePopulation": 0,
+                    "AreaDistance": 2,
+                    "SpawnDelay": 0.0,
+                    "TriggerAlarm": false,
+                    "IntelMessage": 0
+                  },
+                  "EnemyID": 0,
+                  "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "magnitude": 0.0,
+                    "sqrMagnitude": 0.0
+                  },
+                  "Count": 0,
+                  "Enabled": false,
+                  "TerminalCommand": 0,
+                  "TerminalCommandRule": 0
+                },
+                {
                   "Condition": {
                     "ConditionIndex": 1,
                     "IsTrue": true
                   },
                   "Delay": 2.0,
-                  "WardenIntel": "Forced Through Terminal",
                   "Type": "ModifyReactorWaveState",
                   "Layer": 0,
                   "Reactor": {
@@ -1167,6 +1297,50 @@
                     "Wave": 3,
                     "Progress": 0.0
                   }
+                },
+                {
+                  "Type": 11,
+                  "Condition": {
+                    "ConditionIndex": 1,
+                    "IsTrue": true
+                  },
+                  "Trigger": 0,
+                  "ChainPuzzle": 0,
+                  "UseStaticBioscanPoints": false,
+                  "Layer": 0,
+                  "DimensionIndex": 0,
+                  "LocalIndex": 0,
+                  "Delay": 2.0,
+                  "Duration": 0.0,
+                  "ClearDimension": false,
+                  "WardenIntel": 3103,
+                  "CustomSubObjectiveHeader": 3103,
+                  "CustomSubObjective": 0,
+                  "SoundID": 0,
+                  "SoundSubtitle": 0,
+                  "DialogueID": 0,
+                  "FogSetting": 0,
+                  "FogTransitionDuration": 0.0,
+                  "EnemyWaveData": {
+                    "WaveSettings": 0,
+                    "WavePopulation": 0,
+                    "AreaDistance": 2,
+                    "SpawnDelay": 0.0,
+                    "TriggerAlarm": false,
+                    "IntelMessage": 0
+                  },
+                  "EnemyID": 0,
+                  "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "magnitude": 0.0,
+                    "sqrMagnitude": 0.0
+                  },
+                  "Count": 0,
+                  "Enabled": false,
+                  "TerminalCommand": 0,
+                  "TerminalCommandRule": 0
                 }
               ],
               "SpecialCommandRule": 2
@@ -1703,7 +1877,51 @@
                   "TerminalCommandRule": 0
                 },
                 {
-                  "Type": 0,
+                  "Type": 11,
+                  "Condition": {
+                    "ConditionIndex": 2,
+                    "IsTrue": true
+                  },
+                  "Trigger": 0,
+                  "ChainPuzzle": 0,
+                  "UseStaticBioscanPoints": false,
+                  "Layer": 0,
+                  "DimensionIndex": 0,
+                  "LocalIndex": 0,
+                  "Delay": 0.0,
+                  "Duration": 0.0,
+                  "ClearDimension": false,
+                  "WardenIntel": 3100,
+                  "CustomSubObjectiveHeader": 3100,
+                  "CustomSubObjective": 0,
+                  "SoundID": 0,
+                  "SoundSubtitle": 0,
+                  "DialogueID": 0,
+                  "FogSetting": 0,
+                  "FogTransitionDuration": 0.0,
+                  "EnemyWaveData": {
+                    "WaveSettings": 0,
+                    "WavePopulation": 0,
+                    "AreaDistance": 2,
+                    "SpawnDelay": 0.0,
+                    "TriggerAlarm": false,
+                    "IntelMessage": 0
+                  },
+                  "EnemyID": 0,
+                  "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "magnitude": 0.0,
+                    "sqrMagnitude": 0.0
+                  },
+                  "Count": 0,
+                  "Enabled": false,
+                  "TerminalCommand": 0,
+                  "TerminalCommandRule": 0
+                },
+                {
+                  "Type": 11,
                   "Condition": {
                     "ConditionIndex": 2,
                     "IsTrue": false
@@ -1717,9 +1935,9 @@
                   "Delay": 0.0,
                   "Duration": 0.0,
                   "ClearDimension": false,
-                  "WardenIntel": "Must Complete Uplink to send codes",
-                  "CustomSubObjectiveHeader": 0,
-                  "CustomSubObjective": 0,
+                  "WardenIntel": 3104,
+                  "CustomSubObjectiveHeader": 3104,
+                  "CustomSubObjective": 3105,
                   "SoundID": 0,
                   "SoundSubtitle": 0,
                   "DialogueID": 0,
@@ -2246,7 +2464,157 @@
           "AreaSeedOffset": 0,
           "MarkerSeedOffset": 1996,
           "LocalLogFiles": [],
-          "UniqueCommands": [],
+          "UniqueCommands": [
+            {
+              "Command": "SEND_REACTOR_CODES",
+              "CommandDesc": 0,
+              "PostCommandOutputs": [],
+              "CommandEvents": [
+                {
+                  "Type": 19,
+                  "Condition": {
+                    "ConditionIndex": 6,
+                    "IsTrue": true
+                  },
+                  "Trigger": 0,
+                  "ChainPuzzle": 0,
+                  "UseStaticBioscanPoints": false,
+                  "Layer": 0,
+                  "DimensionIndex": 0,
+                  "LocalIndex": 0,
+                  "Delay": 0.0,
+                  "Duration": 0.0,
+                  "ClearDimension": false,
+                  "WardenIntel": 0,
+                  "CustomSubObjectiveHeader": 0,
+                  "CustomSubObjective": 0,
+                  "SoundID": 0,
+                  "SoundSubtitle": 0,
+                  "DialogueID": 0,
+                  "FogSetting": 0,
+                  "FogTransitionDuration": 0.0,
+                  "EnemyWaveData": {
+                    "WaveSettings": 0,
+                    "WavePopulation": 0,
+                    "AreaDistance": 2,
+                    "SpawnDelay": 0.0,
+                    "TriggerAlarm": false,
+                    "IntelMessage": 0
+                  },
+                  "EnemyID": 0,
+                  "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "magnitude": 0.0,
+                    "sqrMagnitude": 0.0
+                  },
+                  "Count": 0,
+                  "Enabled": false,
+                  "TerminalCommand": 0,
+                  "TerminalCommandRule": 0
+                },
+                {
+                  "Type": 11,
+                  "Condition": {
+                    "ConditionIndex": -1,
+                    "IsTrue": false
+                  },
+                  "Trigger": 0,
+                  "ChainPuzzle": 0,
+                  "UseStaticBioscanPoints": false,
+                  "Layer": 0,
+                  "DimensionIndex": 0,
+                  "LocalIndex": 0,
+                  "Delay": 0.0,
+                  "Duration": 0.0,
+                  "ClearDimension": false,
+                  "WardenIntel": 3100,
+                  "CustomSubObjectiveHeader": 3100,
+                  "CustomSubObjective": 0,
+                  "SoundID": 0,
+                  "SoundSubtitle": 0,
+                  "DialogueID": 0,
+                  "FogSetting": 0,
+                  "FogTransitionDuration": 0.0,
+                  "EnemyWaveData": {
+                    "WaveSettings": 0,
+                    "WavePopulation": 0,
+                    "AreaDistance": 2,
+                    "SpawnDelay": 0.0,
+                    "TriggerAlarm": false,
+                    "IntelMessage": 0
+                  },
+                  "EnemyID": 0,
+                  "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "magnitude": 0.0,
+                    "sqrMagnitude": 0.0
+                  },
+                  "Count": 0,
+                  "Enabled": false,
+                  "TerminalCommand": 0,
+                  "TerminalCommandRule": 0
+                },
+                {
+                  "Condition": {
+                    "ConditionIndex": 1,
+                    "IsTrue": true
+                  },
+                  "Delay": 2.0,
+                  "Type": "ForceCompleteReactor",
+                  "Layer": 0
+                },
+                {
+                  "Type": 11,
+                  "Condition": {
+                    "ConditionIndex": 1,
+                    "IsTrue": true
+                  },
+                  "Trigger": 0,
+                  "ChainPuzzle": 0,
+                  "UseStaticBioscanPoints": false,
+                  "Layer": 0,
+                  "DimensionIndex": 0,
+                  "LocalIndex": 0,
+                  "Delay": 2.0,
+                  "Duration": 0.0,
+                  "ClearDimension": false,
+                  "WardenIntel": 0,
+                  "CustomSubObjectiveHeader": 0,
+                  "CustomSubObjective": 0,
+                  "SoundID": 0,
+                  "SoundSubtitle": 0,
+                  "DialogueID": 0,
+                  "FogSetting": 0,
+                  "FogTransitionDuration": 0.0,
+                  "EnemyWaveData": {
+                    "WaveSettings": 0,
+                    "WavePopulation": 0,
+                    "AreaDistance": 2,
+                    "SpawnDelay": 0.0,
+                    "TriggerAlarm": false,
+                    "IntelMessage": 0
+                  },
+                  "EnemyID": 0,
+                  "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "magnitude": 0.0,
+                    "sqrMagnitude": 0.0
+                  },
+                  "Count": 0,
+                  "Enabled": false,
+                  "TerminalCommand": 0,
+                  "TerminalCommandRule": 0
+                }
+              ],
+              "SpecialCommandRule": 2
+            }
+          ],
           "StartingStateData": {
             "StartingState": 0,
             "UseCustomInfoText": false,
@@ -2696,7 +3064,6 @@
             "IsTrue": true
           },
           "Delay": 2.0,
-          "WardenIntel": "Forced Through Terminal",
           "Type": "ModifyReactorWaveState",
           "Layer": 0,
           "Reactor": {
@@ -2704,6 +3071,50 @@
             "Wave": 4,
             "Progress": 0.0
           }
+        },
+        {
+          "Type": 11,
+          "Condition": {
+            "ConditionIndex": 1,
+            "IsTrue": true
+          },
+          "Trigger": 0,
+          "ChainPuzzle": 0,
+          "UseStaticBioscanPoints": false,
+          "Layer": 0,
+          "DimensionIndex": 0,
+          "LocalIndex": 0,
+          "Delay": 2.0,
+          "Duration": 0.0,
+          "ClearDimension": false,
+          "WardenIntel": 3106,
+          "CustomSubObjectiveHeader": 3106,
+          "CustomSubObjective": 0,
+          "SoundID": 0,
+          "SoundSubtitle": 0,
+          "DialogueID": 0,
+          "FogSetting": 0,
+          "FogTransitionDuration": 0.0,
+          "EnemyWaveData": {
+            "WaveSettings": 0,
+            "WavePopulation": 0,
+            "AreaDistance": 2,
+            "SpawnDelay": 0.0,
+            "TriggerAlarm": false,
+            "IntelMessage": 0
+          },
+          "EnemyID": 0,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          },
+          "Count": 0,
+          "Enabled": false,
+          "TerminalCommand": 0,
+          "TerminalCommandRule": 0
         }
       ],
       "EventsOnDoorScanStart": [],

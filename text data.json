@@ -109,4 +109,396 @@
   "name": "B1_Ending_Subobjective",
   "internalEnabled": true,
   "persistentID": 3001
+},
+{
+  "SkipLocalization": true,
+  "MachineTranslation": false,
+  "English": "Standby for next reactor test",
+  "Description": "",
+  "CharacterMetaData": 3,
+  "French": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Italian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "German": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Spanish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Russian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Portuguese_Brazil": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Polish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Japanese": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Korean": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Traditional": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Simplified": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "ExportVersion": 1,
+  "ImportVersion": 1,
+  "name": "C1_REACTOR_STANDBY_HEADER",
+  "internalEnabled": true,
+  "persistentID": 3100
+},
+{
+  "SkipLocalization": true,
+  "MachineTranslation": false,
+  "English": "Locate terminal in <color=orange>Zone 82</color> and use Command <color=red>SEND_REACTOR_CODES</color>",
+  "Description": "",
+  "CharacterMetaData": 3,
+  "French": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Italian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "German": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Spanish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Russian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Portuguese_Brazil": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Polish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Japanese": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Korean": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Traditional": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Simplified": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "ExportVersion": 1,
+  "ImportVersion": 1,
+  "name": "C1_Code_1_Hint_Header",
+  "internalEnabled": true,
+  "persistentID": 3101
+},
+{
+  "SkipLocalization": true,
+  "MachineTranslation": false,
+  "English": "Locate terminal in <color=orange>Zone 84</color> and use Command <color=red>SEND_REACTOR_CODES</color>",
+  "Description": "",
+  "CharacterMetaData": 3,
+  "French": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Italian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "German": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Spanish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Russian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Portuguese_Brazil": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Polish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Japanese": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Korean": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Traditional": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Simplified": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "ExportVersion": 1,
+  "ImportVersion": 1,
+  "name": "C1_Code_2_Hint_Header",
+  "internalEnabled": true,
+  "persistentID": 3102
+},
+{
+  "SkipLocalization": true,
+  "MachineTranslation": false,
+  "English": "Locate terminal in <color=orange>Zone 87</color> and use Command <color=red>SEND_REACTOR_CODES</color>",
+  "Description": "",
+  "CharacterMetaData": 3,
+  "French": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Italian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "German": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Spanish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Russian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Portuguese_Brazil": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Polish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Japanese": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Korean": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Traditional": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Simplified": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "ExportVersion": 1,
+  "ImportVersion": 1,
+  "name": "C1_Code_3_Hint_Header",
+  "internalEnabled": true,
+  "persistentID": 3103
+},
+{
+  "SkipLocalization": true,
+  "MachineTranslation": false,
+  "English": "External connection required to send codes",
+  "Description": "",
+  "CharacterMetaData": 3,
+  "French": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Italian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "German": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Spanish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Russian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Portuguese_Brazil": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Polish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Japanese": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Korean": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Traditional": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Simplified": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "ExportVersion": 1,
+  "ImportVersion": 1,
+  "name": "C1_Code_3_Uplink_Hint_Header",
+  "internalEnabled": true,
+  "persistentID": 3104
+},
+{
+  "SkipLocalization": true,
+  "MachineTranslation": false,
+  "English": "Establish uplink on terminal in <color=orange>Zone 87</color> using address located on terminal in <color=orange>Zone 92</color>",
+  "Description": "",
+  "CharacterMetaData": 3,
+  "French": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Italian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "German": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Spanish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Russian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Portuguese_Brazil": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Polish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Japanese": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Korean": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Traditional": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Simplified": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "ExportVersion": 1,
+  "ImportVersion": 1,
+  "name": "C1_Code_3_Uplink_Hint_Body",
+  "internalEnabled": true,
+  "persistentID": 3105
+},
+{
+  "SkipLocalization": true,
+  "MachineTranslation": false,
+  "English": "Locate terminal in <color=orange>Zone 90</color> and use Command <color=red>SEND_REACTOR_CODES</color>",
+  "Description": "",
+  "CharacterMetaData": 3,
+  "French": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Italian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "German": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Spanish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Russian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Portuguese_Brazil": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Polish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Japanese": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Korean": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Traditional": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Simplified": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "ExportVersion": 1,
+  "ImportVersion": 1,
+  "name": "C1_Code_4_Hint_Header",
+  "internalEnabled": true,
+  "persistentID": 3106
 }
