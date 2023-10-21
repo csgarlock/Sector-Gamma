@@ -49,3 +49,11 @@
   "Distribution": 2,
   "DistributionValue": 0.64
 }
+//BOSSES
+//Mother
+{
+  "GroupType": 1,
+  "Difficulty": 2,
+  "Distribution": 1,
+  "DistributionValue": 1.0
+}

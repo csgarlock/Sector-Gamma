@@ -27,7 +27,7 @@
       "Countdown": {
         "Duration": 60.0,
         "TimerText": "Time Until Reactor Startup:", 
-        "TimerColor": "blue"
+        "TimerColor": "green"
       },
       "Delay": 1
     },
@@ -90,14 +90,59 @@
   "StopAllWavesBeforeGotoWin": false,
   "WavesOnGotoWin": [],
   "WaveOnGotoWinTrigger": 0,
-  "EventsOnGotoWin": [],
+  "EventsOnGotoWin": [
+    {
+      "Type": 2,
+      "Condition": {
+        "ConditionIndex": -1,
+        "IsTrue": false
+      },
+      "Trigger": 1,
+      "ChainPuzzle": 0,
+      "UseStaticBioscanPoints": false,
+      "Layer": 0,
+      "DimensionIndex": 0,
+      "LocalIndex": 13,
+      "Delay": 0.0,
+      "Duration": 0.0,
+      "ClearDimension": false,
+      "WardenIntel": "<color=orange>Zone 91</color> unlocked",
+      "CustomSubObjectiveHeader": 0,
+      "CustomSubObjective": 0,
+      "SoundID": 0,
+      "SoundSubtitle": 0,
+      "DialogueID": 0,
+      "FogSetting": 0,
+      "FogTransitionDuration": 0.0,
+      "EnemyWaveData": {
+        "WaveSettings": 0,
+        "WavePopulation": 0,
+        "AreaDistance": 2,
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": false,
+        "IntelMessage": 0
+      },
+      "EnemyID": 0,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "Count": 0,
+      "Enabled": false,
+      "TerminalCommand": 0,
+      "TerminalCommandRule": 0
+    },
+  ],
   "EventsOnGotoWinTrigger": 0,
   "FogTransitionDataOnGotoWin": 0,
   "FogTransitionDurationOnGotoWin": 0.0,
   "ChainedPuzzleToActive": 10,
   "ChainedPuzzleMidObjective": 0,
   "ChainedPuzzleAtExit": 11,
-  "ChainedPuzzleAtExitScanSpeedMultiplier": 2.0,
+  "ChainedPuzzleAtExitScanSpeedMultiplier": 4.0,
   "Gather_RequiredCount": -1,
   "Gather_ItemId": 0,
   "Gather_SpawnCount": 0,
@@ -118,13 +163,6 @@
           "WavePopulation": 6,
           "AreaDistance": 2,
           "SpawnTimeRel": 0.0,
-          "SpawnType": 1
-        },
-        {
-          "WaveSettings": 3101,
-          "WavePopulation": 8,
-          "AreaDistance": 2,
-          "SpawnTimeRel": 0.1,
           "SpawnType": 1
         }
       ],
@@ -752,9 +790,9 @@
     {
       "Warmup": 10.0,
       "WarmupFail": 10.0,
-      "Wave": 30.0,
-      "Verify": 20.0,
-      "VerifyFail": 20.0,
+      "Wave": 20.0,
+      "Verify": 15.0,
+      "VerifyFail": 15.0,
       "VerifyInOtherZone": true,
       "ZoneForVerification": 12,
       "EnemyWaves": [
@@ -928,7 +966,7 @@
           "Layer": 0,
           "DimensionIndex": 0,
           "LocalIndex": 0,
-          "Delay": 20.0,
+          "Delay": 15.0,
           "Duration": 0.0,
           "ClearDimension": false,
           "WardenIntel": 0,
