@@ -5,7 +5,7 @@
       "LocalIndex": 0,
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
-      "SubSeed": 0,
+      "SubSeed": 3,
       "MarkerSubSeed": 0,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
@@ -13,7 +13,7 @@
       "CustomGeomorph": "",
       "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
-        "x": 40.0,
+        "x": 45.0,
         "y": 60.0,
         "normalized": {
           "x": 0.6401844,
@@ -27,8 +27,8 @@
       "BuildFromLocalIndex": 0,
       "StartPosition": 1,
       "StartPosition_IndexWeight": 0.0,
-      "StartExpansion": 3,
-      "ZoneExpansion": 1,
+      "StartExpansion": 2,
+      "ZoneExpansion": 6,
       "LightSettings": 68,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
@@ -161,11 +161,11 @@
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
       "SubComplex": 2,
-      "CustomGeomorph": "",
+      "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_dead_end_HA_01.prefab",
       "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
-        "x": 35.0,
-        "y": 55.0,
+        "x": 10.0,
+        "y": 30.0,
         "normalized": {
           "x": 0.6401844,
           "y": 0.7682213,
@@ -176,10 +176,10 @@
         "sqrMagnitude": 1525.0
       },
       "BuildFromLocalIndex": 0,
-      "StartPosition": 3,
+      "StartPosition": 2,
       "StartPosition_IndexWeight": 0.0,
-      "StartExpansion": 4,
-      "ZoneExpansion": 5,
+      "StartExpansion": 2,
+      "ZoneExpansion": 4,
       "LightSettings": 68,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
@@ -307,7 +307,7 @@
       "LocalIndex": 2,
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
-      "SubSeed": 0,
+      "SubSeed": 4,
       "MarkerSubSeed": 0,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
@@ -315,8 +315,8 @@
       "CustomGeomorph": "",
       "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
-        "x": 1.0,
-        "y": 5.0,
+        "x": 40.0,
+        "y": 60.0,
         "normalized": {
           "x": 0.6401844,
           "y": 0.7682213,
@@ -326,11 +326,11 @@
         "magnitude": 39.0512466,
         "sqrMagnitude": 1525.0
       },
-      "BuildFromLocalIndex": 1,
+      "BuildFromLocalIndex": 0,
       "StartPosition": 3,
       "StartPosition_IndexWeight": 0.0,
-      "StartExpansion": 1,
-      "ZoneExpansion": 1,
+      "StartExpansion": 2,
+      "ZoneExpansion": 4,
       "LightSettings": 68,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
@@ -455,19 +455,19 @@
       "StaticSpawnDataContainers": []
     },
     {
-      "LocalIndex": 4,
+      "LocalIndex": 3,
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
-      "SubSeed": 0,
+      "SubSeed": 3,
       "MarkerSubSeed": 0,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
       "SubComplex": 2,
-      "CustomGeomorph": "",
+      "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_dead_end_HA_01.prefab",
       "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
-        "x": 40.0,
-        "y": 60.0,
+        "x": 10.0,
+        "y": 30.0,
         "normalized": {
           "x": 0.6401844,
           "y": 0.7682213,
@@ -477,11 +477,11 @@
         "magnitude": 39.0512466,
         "sqrMagnitude": 1525.0
       },
-      "BuildFromLocalIndex": 1,
-      "StartPosition": 1,
+      "BuildFromLocalIndex": 2,
+      "StartPosition": 2,
       "StartPosition_IndexWeight": 0.0,
-      "StartExpansion": 2,
-      "ZoneExpansion": 4,
+      "StartExpansion": 4,
+      "ZoneExpansion": 6,
       "LightSettings": 68,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,

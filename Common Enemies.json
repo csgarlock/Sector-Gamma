@@ -27,6 +27,13 @@
   "Distribution": 2,
   "DistributionValue": 0.4
 }
+//Babies
+{
+  "GroupType": 1,
+  "Difficulty": 7,
+  "Distribution": 2,
+  "DistributionValue": 0.4
+}
 //SHADOWS
 //Shadow Scout
 {
@@ -54,6 +61,13 @@
 {
   "GroupType": 1,
   "Difficulty": 2,
+  "Distribution": 1,
+  "DistributionValue": 1.0
+}
+//PMother
+{
+  "GroupType": 1,
+  "Difficulty": 3,
   "Distribution": 1,
   "DistributionValue": 1.0
 }

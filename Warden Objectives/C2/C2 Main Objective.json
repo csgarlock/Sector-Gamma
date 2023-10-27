@@ -38,7 +38,7 @@
   "ChainedPuzzleToActive": 0,
   "ChainedPuzzleMidObjective": 0,
   "ChainedPuzzleAtExit": 11,
-  "ChainedPuzzleAtExitScanSpeedMultiplier": 0.15,
+  "ChainedPuzzleAtExitScanSpeedMultiplier": 0.25,
   "Gather_RequiredCount": -1,
   "Gather_ItemId": 0,
   "Gather_SpawnCount": 0,
@@ -57,8 +57,8 @@
   "Uplink_NumberOfVerificationRounds": 0,
   "Uplink_NumberOfTerminals": 1,
   "Uplink_WaveSpawnType": 1,
-  "CentralPowerGenClustser_NumberOfGenerators": 3,
-  "CentralPowerGenClustser_NumberOfPowerCells": 3,
+  "CentralPowerGenClustser_NumberOfGenerators": 5,
+  "CentralPowerGenClustser_NumberOfPowerCells": 5,
   "CentralPowerGenClustser_FogDataSteps": [],
   "ActivateHSU_ItemFromStart": 0,
   "ActivateHSU_ItemAfterActivation": 0,
@@ -91,4 +91,4 @@
   "name": "SG_C2_Main_Central_Generator_Cluster",
   "internalEnabled": true,
   "persistentID": 3321
-  }
+}
