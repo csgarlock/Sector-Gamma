@@ -135,7 +135,7 @@
   "persistentID": 3003
 },
 {
-  "PublicAlarmName": "Class IV S Surge Alarm",
+  "PublicAlarmName": "Class IV S Alarm",
   "TriggerAlarmOnActivate": true,
   "SurvivalWaveSettings": 21,
   "SurvivalWavePopulation": 7,
@@ -143,7 +143,7 @@
   "DisableSurvivalWaveOnComplete": true,
   "UseRandomPositions": true,
   "WantedDistanceFromStartPos": 35.0,
-  "WantedDistanceBetweenPuzzleComponents": 35.0,
+  "WantedDistanceBetweenPuzzleComponents": 40.0,
   "ChainedPuzzle": [
     {
       "PuzzleType": 14
@@ -161,7 +161,69 @@
   "OnlyShowHUDWhenPlayerIsClose": false,
   "AlarmSoundStart": 3339129407,
   "AlarmSoundStop": 42633153,
-  "name": "Sustained x4 Far Surge- Shadows",
+  "name": "Sustained x4 Far  - Shadows",
   "internalEnabled": true,
   "persistentID": 3004
+},
+{
+  "PublicAlarmName": "Class IV Alarm",
+  "TriggerAlarmOnActivate": true,
+  "SurvivalWaveSettings": 12,
+  "SurvivalWavePopulation": 5,
+  "SurvivalWaveAreaDistance": 2,
+  "DisableSurvivalWaveOnComplete": true,
+  "UseRandomPositions": true,
+  "WantedDistanceFromStartPos": 0.0,
+  "WantedDistanceBetweenPuzzleComponents": 10.0,
+  "ChainedPuzzle": [
+    {
+      "PuzzleType": 6
+    },
+    {
+      "PuzzleType": 2
+    },
+    {
+      "PuzzleType": 5
+    },
+    {
+      "PuzzleType": 2
+    }
+  ],
+  "OnlyShowHUDWhenPlayerIsClose": false,
+  "AlarmSoundStart": 3339129407,
+  "AlarmSoundStop": 42633153,
+  "name": "Mixed x4 - Bullrush",
+  "internalEnabled": true,
+  "persistentID": 3005
+},
+{
+  "PublicAlarmName": "Class IV Alarm",
+  "TriggerAlarmOnActivate": true,
+  "SurvivalWaveSettings": 122,
+  "SurvivalWavePopulation": 9,
+  "SurvivalWaveAreaDistance": 2,
+  "DisableSurvivalWaveOnComplete": true,
+  "UseRandomPositions": true,
+  "WantedDistanceFromStartPos": 10.0,
+  "WantedDistanceBetweenPuzzleComponents": 15.0,
+  "ChainedPuzzle": [
+    {
+      "PuzzleType": 8
+    },
+    {
+      "PuzzleType": 8
+    },
+    {
+      "PuzzleType": 8
+    },
+    {
+      "PuzzleType": 8
+    }
+  ],
+  "OnlyShowHUDWhenPlayerIsClose": false,
+  "AlarmSoundStart": 3339129407,
+  "AlarmSoundStop": 42633153,
+  "name": "Require All x4 - Alarm Increased",
+  "internalEnabled": true,
+  "persistentID": 3006
 }

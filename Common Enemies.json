@@ -56,6 +56,28 @@
   "Distribution": 2,
   "DistributionValue": 0.64
 }
+//CHARGERS
+//Charger Scout
+{
+  "GroupType": 3,
+  "Difficulty": 3,
+  "Distribution": 1,
+  "DistributionValue": 1.0
+}
+//Giant Chargers
+{
+  "GroupType": 2,
+  "Difficulty": 2,
+  "Distribution": 2,
+  "DistributionValue": 1.0
+}
+//Chargers
+{
+  "GroupType": 2,
+  "Difficulty": 0,
+  "Distribution": 2,
+  "DistributionValue": 0.6
+}
 //BOSSES
 //Mother
 {
@@ -68,6 +90,13 @@
 {
   "GroupType": 1,
   "Difficulty": 3,
+  "Distribution": 1,
+  "DistributionValue": 1.0
+}
+//Tank
+{
+  "GroupType": 1,
+  "Difficulty": 5,
   "Distribution": 1,
   "DistributionValue": 1.0
 }

@@ -1,0 +1,12 @@
+{
+  "SpawnsPerZone": 1,
+  "SpawnData": [
+    {
+      "ItemID": 154,
+      "Weight": 1.0
+    }
+  ],
+  "name": "Hi-Sec_Cargo",
+  "internalEnabled": true,
+  "persistentID": 300
+}

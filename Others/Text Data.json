@@ -501,4 +501,172 @@
   "name": "C1_Code_4_Hint_Header",
   "internalEnabled": true,
   "persistentID": 3106
+},
+{
+  "SkipLocalization": true,
+  "MachineTranslation": false,
+  "English": "<color=red>SECURITY SYSTEM MALFUNCTION</color>",
+  "Description": "",
+  "CharacterMetaData": 3,
+  "French": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Italian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "German": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Spanish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Russian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Portuguese_Brazil": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Polish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Japanese": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Korean": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Traditional": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Simplified": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "ExportVersion": 1,
+  "ImportVersion": 1,
+  "name": "SG_C2_Extreme_Error_Hint_Header",
+  "internalEnabled": true,
+  "persistentID": 3107
+},
+{
+  "SkipLocalization": true,
+  "MachineTranslation": false,
+  "English": "Bring <color=orange>Hisec Cargo</color> to Admin terminal in <color=orange>Zone 176</color> and use Command <color=red>DISABLE_HISEC_TAMPER_DETECTION</color> to shut off alarm",
+  "Description": "",
+  "CharacterMetaData": 3,
+  "French": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Italian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "German": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Spanish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Russian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Portuguese_Brazil": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Polish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Japanese": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Korean": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Traditional": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Simplified": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "ExportVersion": 1,
+  "ImportVersion": 1,
+  "name": "SG_C2_Extreme_Error_Hint",
+  "internalEnabled": true,
+  "persistentID": 3108
+},
+{
+  "SkipLocalization": true,
+  "MachineTranslation": false,
+  "English": "Establish Uplink in <color=orange>Zone 28</color> to gain Access to <color=orange>Zone 26</color>",
+  "Description": "",
+  "CharacterMetaData": 3,
+  "French": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Italian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "German": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Spanish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Russian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Portuguese_Brazil": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Polish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Japanese": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Korean": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Traditional": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Simplified": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "ExportVersion": 1,
+  "ImportVersion": 1,
+  "name": "SG_C2_Main_Uplink_Hint",
+  "internalEnabled": true,
+  "persistentID": 3109
 }
