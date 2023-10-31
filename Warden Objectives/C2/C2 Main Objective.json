@@ -27,7 +27,253 @@
   "FogTransitionDurationOnElevatorLand": 0.0,
   "OnActivateOnSolveItem": true,
   "WavesOnActivate": [],
-  "EventsOnActivate": [],
+  "EventsOnActivate": [
+    {
+      "Type": 999,
+      "Condition": {
+        "ConditionIndex": -1,
+        "IsTrue": false
+      },
+      "Trigger": 0,
+      "ChainPuzzle": 0,
+      "UseStaticBioscanPoints": false,
+      "Layer": 0,
+      "DimensionIndex": 0,
+      "LocalIndex": 0,
+      "Delay": 0.0,
+      "Duration": 0.0,
+      "ClearDimension": false,
+      "WardenIntel": 0,
+      "CustomSubObjectiveHeader": 0,
+      "CustomSubObjective": 0,
+      "SoundID": 0,
+      "SoundSubtitle": 0,
+      "DialogueID": 0,
+      "FogSetting": 0,
+      "FogTransitionDuration": 0.0,
+      "EnemyWaveData": {
+        "WaveSettings": 0,
+        "WavePopulation": 0,
+        "AreaDistance": 2,
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": false,
+        "IntelMessage": 0
+      },
+      "EnemyID": 0,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "Count": 0,
+      "Enabled": false,
+      "TerminalCommand": 0,
+      "TerminalCommandRule": 0
+    },
+    {
+      "Type": 10,
+      "WorldEventObjectFilter": "SG_C2_Main_Uplink_Error",
+      "Delay": 0.0
+    },
+    {
+      "Type": 999,
+      "Condition": {
+        "ConditionIndex": -1,
+        "IsTrue": false
+      },
+      "Trigger": 0,
+      "ChainPuzzle": 0,
+      "UseStaticBioscanPoints": false,
+      "Layer": 0,
+      "DimensionIndex": 0,
+      "LocalIndex": 0,
+      "Delay": 0.0,
+      "Duration": 0.0,
+      "ClearDimension": false,
+      "WardenIntel": 0,
+      "CustomSubObjectiveHeader": 0,
+      "CustomSubObjective": 0,
+      "SoundID": 0,
+      "SoundSubtitle": 0,
+      "DialogueID": 0,
+      "FogSetting": 0,
+      "FogTransitionDuration": 0.0,
+      "EnemyWaveData": {
+        "WaveSettings": 0,
+        "WavePopulation": 0,
+        "AreaDistance": 2,
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": false,
+        "IntelMessage": 0
+      },
+      "EnemyID": 0,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "Count": 0,
+      "Enabled": false,
+      "TerminalCommand": 0,
+      "TerminalCommandRule": 0
+    },
+    {
+      "Type": 10,
+      "WorldEventObjectFilter": "SG_C2_Main_Uplink_Error",
+      "Delay": 0.0
+    },
+    {
+      "Type": 999,
+      "Condition": {
+        "ConditionIndex": -1,
+        "IsTrue": false
+      },
+      "Trigger": 0,
+      "ChainPuzzle": 0,
+      "UseStaticBioscanPoints": false,
+      "Layer": 0,
+      "DimensionIndex": 0,
+      "LocalIndex": 0,
+      "Delay": 0.0,
+      "Duration": 0.0,
+      "ClearDimension": false,
+      "WardenIntel": 0,
+      "CustomSubObjectiveHeader": 0,
+      "CustomSubObjective": 0,
+      "SoundID": 0,
+      "SoundSubtitle": 0,
+      "DialogueID": 0,
+      "FogSetting": 0,
+      "FogTransitionDuration": 0.0,
+      "EnemyWaveData": {
+        "WaveSettings": 0,
+        "WavePopulation": 0,
+        "AreaDistance": 2,
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": false,
+        "IntelMessage": 0
+      },
+      "EnemyID": 0,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "Count": 0,
+      "Enabled": false,
+      "TerminalCommand": 0,
+      "TerminalCommandRule": 0
+    },
+    {
+      "Type": 10,
+      "WorldEventObjectFilter": "SG_C2_Main_Uplink_Error",
+      "Delay": 0.0
+    },
+    {
+      "Type": 999,
+      "Condition": {
+        "ConditionIndex": -1,
+        "IsTrue": false
+      },
+      "Trigger": 0,
+      "ChainPuzzle": 0,
+      "UseStaticBioscanPoints": false,
+      "Layer": 0,
+      "DimensionIndex": 0,
+      "LocalIndex": 0,
+      "Delay": 0.0,
+      "Duration": 0.0,
+      "ClearDimension": false,
+      "WardenIntel": 0,
+      "CustomSubObjectiveHeader": 0,
+      "CustomSubObjective": 0,
+      "SoundID": 0,
+      "SoundSubtitle": 0,
+      "DialogueID": 0,
+      "FogSetting": 0,
+      "FogTransitionDuration": 0.0,
+      "EnemyWaveData": {
+        "WaveSettings": 0,
+        "WavePopulation": 0,
+        "AreaDistance": 2,
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": false,
+        "IntelMessage": 0
+      },
+      "EnemyID": 0,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "Count": 0,
+      "Enabled": false,
+      "TerminalCommand": 0,
+      "TerminalCommandRule": 0
+    },
+    {
+      "Type": 10,
+      "WorldEventObjectFilter": "SG_C2_Main_Uplink_Error",
+      "Delay": 0.0
+    },
+    {
+      "Type": 999,
+      "Condition": {
+        "ConditionIndex": -1,
+        "IsTrue": false
+      },
+      "Trigger": 0,
+      "ChainPuzzle": 0,
+      "UseStaticBioscanPoints": false,
+      "Layer": 0,
+      "DimensionIndex": 0,
+      "LocalIndex": 0,
+      "Delay": 0.0,
+      "Duration": 0.0,
+      "ClearDimension": false,
+      "WardenIntel": 0,
+      "CustomSubObjectiveHeader": 0,
+      "CustomSubObjective": 0,
+      "SoundID": 0,
+      "SoundSubtitle": 0,
+      "DialogueID": 0,
+      "FogSetting": 0,
+      "FogTransitionDuration": 0.0,
+      "EnemyWaveData": {
+        "WaveSettings": 0,
+        "WavePopulation": 0,
+        "AreaDistance": 2,
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": false,
+        "IntelMessage": 0
+      },
+      "EnemyID": 0,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "Count": 0,
+      "Enabled": false,
+      "TerminalCommand": 0,
+      "TerminalCommandRule": 0
+    },
+    {
+      "Type": 10,
+      "WorldEventObjectFilter": "SG_C2_Main_Uplink_Error",
+      "Delay": 0.0
+    }
+  ],
   "StopAllWavesBeforeGotoWin": false,
   "WavesOnGotoWin": [],
   "WaveOnGotoWinTrigger": 0,
@@ -36,9 +282,9 @@
   "FogTransitionDataOnGotoWin": 0,
   "FogTransitionDurationOnGotoWin": 0.0,
   "ChainedPuzzleToActive": 0,
-  "ChainedPuzzleMidObjective": 0,
+  "ChainedPuzzleMidObjective": 3008,
   "ChainedPuzzleAtExit": 11,
-  "ChainedPuzzleAtExitScanSpeedMultiplier": 0.25,
+  "ChainedPuzzleAtExitScanSpeedMultiplier": 0.33,
   "Gather_RequiredCount": -1,
   "Gather_ItemId": 0,
   "Gather_SpawnCount": 0,

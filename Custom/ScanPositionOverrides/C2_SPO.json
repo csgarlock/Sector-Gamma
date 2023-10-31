@@ -1,0 +1,23 @@
+{
+  "MainLevelLayout": 69321,
+  "ConcurrentCluster": false,
+  "Puzzles": [
+    {
+      "Index": 0,
+      "ConcurrentCluster": false,
+      "HideSpline": true,
+      "Position": {
+        "x": 0.4589,
+        "y": 5.0158,
+        "z": 275.8185
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "EventsOnPuzzleSolved": [],
+      "RequiredItemsIndices": []
+    }
+  ]
+}

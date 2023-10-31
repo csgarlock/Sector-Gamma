@@ -1,0 +1,140 @@
+{
+  "MainLevelLayout": 69321,
+  "Definitions": [
+    {
+      "DimensionIndex": 0,
+      "LayerType": 0,
+      "LocalIndex": 7,
+      "InstanceIndex": 0,
+      "DisplayUplinkWarning": true,
+      "SetupAsCorruptedUplink": true,
+      "CorruptedUplinkReceiver": {
+        "DimensionIndex": 0,
+        "LayerType": 0,
+        "LocalIndex": 6,
+        "InstanceIndex": 0
+      },
+      "UseUplinkAddress": false,
+      "UplinkAddressLogPosition": {
+        "DimensionIndex": "Reality",
+        "LayerType": "MainLayer",
+        "LocalIndex": "Zone_0",
+        "InstanceIndex": 4294967295
+      },
+      "ChainedPuzzleToStartUplink": 0,
+      "NumberOfVerificationRounds": 4,
+      "DefaultTimeSettings": {
+        "TimeToStartVerify": 5,
+        "TimeToCompleteVerify": 6,
+        "TimeToRestoreFromFail": 6
+      },
+      "RoundOverrides": [],
+      "EventsOnCommence": [],
+      "EventsOnComplete": [
+        {
+          "Type": 9,
+          "Delay": 5.0,
+          "WorldEventObjectFilter": "SG_C2_Main_Uplink_Error",
+          "WardenIntel": 0,
+          "Trigger": 1,
+          "EnemyWaveData": {
+            "WaveSettings": 3001,
+            "WavePopulation": 1,
+            "SpawnDelay": 5.0,
+            "IntelMessage": 0,
+            "AreaDistance": 2,
+            "TriggerAlarm": false
+          }
+        },
+        {
+          "Type": 11,
+          "Condition": {
+            "ConditionIndex": -1,
+            "IsTrue": false
+          },
+          "Trigger": 1,
+          "ChainPuzzle": 0,
+          "UseStaticBioscanPoints": false,
+          "Layer": 0,
+          "DimensionIndex": 0,
+          "LocalIndex": 0,
+          "Delay": 0.0,
+          "Duration": 0.0,
+          "ClearDimension": false,
+          "WardenIntel": 0,
+          "CustomSubObjectiveHeader": 0,
+          "CustomSubObjective": 0,
+          "SoundID": 0,
+          "SoundSubtitle": 0,
+          "DialogueID": 0,
+          "FogSetting": 0,
+          "FogTransitionDuration": 0.0,
+          "EnemyWaveData": {
+            "WaveSettings": 0,
+            "WavePopulation": 0,
+            "AreaDistance": 2,
+            "SpawnDelay": 0.0,
+            "TriggerAlarm": false,
+            "IntelMessage": 0
+          },
+          "EnemyID": 0,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          },
+          "Count": 0,
+          "Enabled": false,
+          "TerminalCommand": 0,
+          "TerminalCommandRule": 0
+        },
+        {
+          "Type": 2,
+          "Condition": {
+            "ConditionIndex": -1,
+            "IsTrue": false
+          },
+          "Trigger": 1,
+          "ChainPuzzle": 0,
+          "UseStaticBioscanPoints": false,
+          "Layer": 0,
+          "DimensionIndex": 0,
+          "LocalIndex": 5,
+          "Delay": 0.0,
+          "Duration": 0.0,
+          "ClearDimension": false,
+          "WardenIntel": "<color=orange>Zone 26</color> Unlocked",
+          "CustomSubObjectiveHeader": 0,
+          "CustomSubObjective": 0,
+          "SoundID": 0,
+          "SoundSubtitle": 0,
+          "DialogueID": 0,
+          "FogSetting": 0,
+          "FogTransitionDuration": 0.0,
+          "EnemyWaveData": {
+            "WaveSettings": 0,
+            "WavePopulation": 0,
+            "AreaDistance": 2,
+            "SpawnDelay": 0.0,
+            "TriggerAlarm": false,
+            "IntelMessage": 0
+          },
+          "EnemyID": 0,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          },
+          "Count": 0,
+          "Enabled": false,
+          "TerminalCommand": 0,
+          "TerminalCommandRule": 0
+        }
+      ]
+    }
+  ]
+}

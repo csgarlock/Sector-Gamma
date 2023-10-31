@@ -226,4 +226,75 @@
   "name": "Require All x4 - Alarm Increased",
   "internalEnabled": true,
   "persistentID": 3006
+},
+{
+  "PublicAlarmName": "Class V Distributed Alarm",
+  "TriggerAlarmOnActivate": true,
+  "SurvivalWaveSettings": 3002,
+  "SurvivalWavePopulation": 1,
+  "SurvivalWaveAreaDistance": 2,
+  "DisableSurvivalWaveOnComplete": true,
+  "UseRandomPositions": true,
+  "WantedDistanceFromStartPos": 1.0,
+  "WantedDistanceBetweenPuzzleComponents": 1.0,
+  "ChainedPuzzle": [
+    {
+      "PuzzleType": 6
+    },
+    {
+      "PuzzleType": 5
+    },
+    {
+      "PuzzleType": 5
+    },
+    {
+      "PuzzleType": 5
+    },
+    {
+      "PuzzleType": 5
+    }
+  ],
+  "OnlyShowHUDWhenPlayerIsClose": false,
+  "AlarmSoundStart": 3339129407,
+  "AlarmSoundStop": 42633153,
+  "name": "Mixed x5 - Distributed - SG C2 Main",
+  "internalEnabled": true,
+  "persistentID": 3007
+},
+{
+  "PublicAlarmName": "Class VI Distributed Alarm",
+  "TriggerAlarmOnActivate": true,
+  "SurvivalWaveSettings": 3003,
+  "SurvivalWavePopulation": 1,
+  "SurvivalWaveAreaDistance": 2,
+  "DisableSurvivalWaveOnComplete": false,
+  "UseRandomPositions": true,
+  "WantedDistanceFromStartPos": 1.0,
+  "WantedDistanceBetweenPuzzleComponents": 1.0,
+  "ChainedPuzzle": [
+    {
+      "PuzzleType": 6
+    },
+    {
+      "PuzzleType": 5
+    },
+    {
+      "PuzzleType": 6
+    },
+    {
+      "PuzzleType": 5
+    },
+    {
+      "PuzzleType": 5
+    },
+    {
+      "PuzzleType": 6
+    }
+  ],
+  "OnlyShowHUDWhenPlayerIsClose": false,
+  "AlarmSoundStart": 3339129407,
+  "AlarmSoundStop": 42633153,
+  "name": "Mixed x6 - Distributed - SG C2 Main Gen",
+  "internalEnabled": true,
+  "persistentID": 3008
 }
