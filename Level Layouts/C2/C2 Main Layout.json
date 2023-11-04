@@ -461,7 +461,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 1,
       "ZoneExpansion": 3,
-      "LightSettings": 68,
+      "LightSettings": 24,
       "AltitudeData": {
         "AllowedZoneAltitude": 2,
         "ChanceToChange": 0.5
@@ -624,7 +624,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 1,
       "ZoneExpansion": 3,
-      "LightSettings": 68,
+      "LightSettings": 24,
       "AltitudeData": {
         "AllowedZoneAltitude": 2,
         "ChanceToChange": 0.5
@@ -787,7 +787,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 1,
       "ZoneExpansion": 1,
-      "LightSettings": 68,
+      "LightSettings": 23,
       "AltitudeData": {
         "AllowedZoneAltitude": 2,
         "ChanceToChange": 0.5
@@ -989,7 +989,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 3,
       "ZoneExpansion": 1,
-      "LightSettings": 68,
+      "LightSettings": 24,
       "AltitudeData": {
         "AllowedZoneAltitude": 2,
         "ChanceToChange": 0.5
@@ -1065,10 +1065,10 @@
           "PlacementWeights": {
             "Start": 0.0,
             "Middle": 0.0,
-            "End": 0.0
+            "End": 1000.0
           },
-          "AreaSeedOffset": 0,
-          "MarkerSeedOffset": 0,
+          "AreaSeedOffset": 3,
+          "MarkerSeedOffset": 3,
           "LocalLogFiles": [],
           "UniqueCommands": [],
           "StartingStateData": {
@@ -1146,7 +1146,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 4,
       "ZoneExpansion": 1,
-      "LightSettings": 68,
+      "LightSettings": 24,
       "AltitudeData": {
         "AllowedZoneAltitude": 2,
         "ChanceToChange": 0.5
@@ -1222,10 +1222,10 @@
           "PlacementWeights": {
             "Start": 0.0,
             "Middle": 0.0,
-            "End": 0.0
+            "End": 1000.0
           },
-          "AreaSeedOffset": 0,
-          "MarkerSeedOffset": 0,
+          "AreaSeedOffset": 2,
+          "MarkerSeedOffset": 2,
           "LocalLogFiles": [],
           "UniqueCommands": [],
           "StartingStateData": {
@@ -1303,7 +1303,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 2,
       "ZoneExpansion": 4,
-      "LightSettings": 68,
+      "LightSettings": 72,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -1454,7 +1454,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 2,
       "ZoneExpansion": 4,
-      "LightSettings": 68,
+      "LightSettings": 13,
       "AltitudeData": {
         "AllowedZoneAltitude": 1,
         "ChanceToChange": 0.5
@@ -1611,7 +1611,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 2,
       "ZoneExpansion": 1,
-      "LightSettings": 68,
+      "LightSettings": 13,
       "AltitudeData": {
         "AllowedZoneAltitude": 1,
         "ChanceToChange": 0.5
@@ -1732,13 +1732,13 @@
         "Middle": 0.0,
         "End": 0.0
       },
-      "WeaponAmmoMulti": 0.4,
+      "WeaponAmmoMulti": 0.6,
       "WeaponAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "ToolAmmoMulti": 0.2,
+      "ToolAmmoMulti": 0.4,
       "ToolAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
@@ -1790,7 +1790,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 2,
       "ZoneExpansion": 4,
-      "LightSettings": 68,
+      "LightSettings": 13,
       "AltitudeData": {
         "AllowedZoneAltitude": 1,
         "ChanceToChange": 0.5
@@ -1915,13 +1915,13 @@
         "Middle": 0.0,
         "End": 0.0
       },
-      "WeaponAmmoMulti": 0.6,
+      "WeaponAmmoMulti": 0.8,
       "WeaponAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "ToolAmmoMulti": 0.2,
+      "ToolAmmoMulti": 0.4,
       "ToolAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
@@ -1973,7 +1973,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 4,
       "ZoneExpansion": 6,
-      "LightSettings": 68,
+      "LightSettings": 66,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -2130,7 +2130,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 4,
       "ZoneExpansion": 6,
-      "LightSettings": 68,
+      "LightSettings": 66,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -2281,7 +2281,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 4,
       "ZoneExpansion": 6,
-      "LightSettings": 68,
+      "LightSettings": 66,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -2396,7 +2396,7 @@
         "Middle": 0.0,
         "End": 0.0
       },
-      "WeaponAmmoMulti": 0.6,
+      "WeaponAmmoMulti": 0.8,
       "WeaponAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
@@ -2444,7 +2444,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 4,
       "ZoneExpansion": 6,
-      "LightSettings": 68,
+      "LightSettings": 66,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -2540,13 +2540,13 @@
         "Middle": 0.0,
         "End": 0.0
       },
-      "WeaponAmmoMulti": 0.4,
+      "WeaponAmmoMulti": 0.8,
       "WeaponAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "ToolAmmoMulti": 0.0,
+      "ToolAmmoMulti": 0.4,
       "ToolAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
@@ -2588,7 +2588,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 1,
       "ZoneExpansion": 1,
-      "LightSettings": 68,
+      "LightSettings": 66,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
@@ -2739,7 +2739,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 2,
       "ZoneExpansion": 1,
-      "LightSettings": 68,
+      "LightSettings": 66,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5

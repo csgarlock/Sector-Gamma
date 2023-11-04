@@ -235,8 +235,8 @@
   "SurvivalWaveAreaDistance": 2,
   "DisableSurvivalWaveOnComplete": true,
   "UseRandomPositions": true,
-  "WantedDistanceFromStartPos": 1.0,
-  "WantedDistanceBetweenPuzzleComponents": 1.0,
+  "WantedDistanceFromStartPos": 0.0,
+  "WantedDistanceBetweenPuzzleComponents": 0.0,
   "ChainedPuzzle": [
     {
       "PuzzleType": 6
@@ -269,8 +269,8 @@
   "SurvivalWaveAreaDistance": 2,
   "DisableSurvivalWaveOnComplete": false,
   "UseRandomPositions": true,
-  "WantedDistanceFromStartPos": 1.0,
-  "WantedDistanceBetweenPuzzleComponents": 1.0,
+  "WantedDistanceFromStartPos": 0.0,
+  "WantedDistanceBetweenPuzzleComponents": 0.0,
   "ChainedPuzzle": [
     {
       "PuzzleType": 6

@@ -1,0 +1,391 @@
+[Debug  :ScanPosOverride]
+Item Name: Power Cell
+Zone 26, MainLayer, Dim Reality
+Item Index: 1
+
+Item Name: Power Cell
+Zone 32, MainLayer, Dim Reality
+Item Index: 2
+
+Item Name: Power Cell
+Zone 32, MainLayer, Dim Reality
+Item Index: 3
+
+Item Name: Power Cell
+Zone 36, MainLayer, Dim Reality
+Item Index: 4
+
+Item Name: Power Cell
+Zone 36, MainLayer, Dim Reality
+Item Index: 5
+
+Item Name: Power Cell
+Zone 176, SecondaryLayer, Dim Reality
+Item Index: 6
+
+Item Name: Cargo Crate High Security
+Zone 178, SecondaryLayer, Dim Reality
+Item Index: 8
+
+Item Name: Cargo Crate High Security Open
+Zone 178, SecondaryLayer, Dim Reality
+Item Index: 9
+
+Item Name: Cargo Crate High Security
+Zone 180, SecondaryLayer, Dim Reality
+Item Index: 7
+
+
+[Debug  :Il2CppInterop] Original class was inflated, falling back to reflection
+[Debug  :ScanPosOverride]
+Zone 21, MainLayer, Dim Reality
+Alarm name: Alarm:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 66
+
+
+Zone 21, MainLayer, Dim Reality
+Alarm name: Scan:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 6
+
+
+Zone 22, MainLayer, Dim Reality
+Alarm name: Class IV Alarm:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 7
+puzzle index: 1
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 8
+puzzle index: 2
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 9
+puzzle index: 3
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 10
+
+
+Zone 23, MainLayer, Dim Reality
+Alarm name: Class VI Distributed Alarm:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 67
+puzzle index: 1
+type: CP_Cluster_Core
+PuzzleOverrideIndex: 68
+=== Clustered puzzles info: ===
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 69
+puzzle index: 1
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 70
+=== Clustered puzzles END ===
+puzzle index: 2
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 71
+puzzle index: 3
+type: CP_Cluster_Core
+PuzzleOverrideIndex: 72
+=== Clustered puzzles info: ===
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 73
+puzzle index: 1
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 74
+=== Clustered puzzles END ===
+puzzle index: 4
+type: CP_Cluster_Core
+PuzzleOverrideIndex: 75
+=== Clustered puzzles info: ===
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 76
+puzzle index: 1
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 77
+=== Clustered puzzles END ===
+puzzle index: 5
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 78
+
+
+Zone 23, MainLayer, Dim Reality
+Alarm name: Scan:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 11
+
+
+Zone 23, MainLayer, Dim Reality
+Alarm name: Scan:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 12
+
+
+Zone 23, MainLayer, Dim Reality
+Alarm name: Scan:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 13
+
+
+Zone 24, MainLayer, Dim Reality
+Alarm name: Scan:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 14
+
+
+Zone 25, MainLayer, Dim Reality
+Alarm name: Class IV Alarm:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 17
+puzzle index: 1
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 18
+puzzle index: 2
+type: CP_Cluster_Core
+PuzzleOverrideIndex: 19
+=== Clustered puzzles info: ===
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 20
+puzzle index: 1
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 21
+puzzle index: 2
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 22
+puzzle index: 3
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 23
+=== Clustered puzzles END ===
+puzzle index: 3
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 24
+
+
+Zone 25, MainLayer, Dim Reality
+Alarm name: Scan:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 16
+
+
+Zone 25, MainLayer, Dim Reality
+Alarm name: Scan:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 15
+
+
+Zone 29, MainLayer, Dim Reality
+Alarm name: Scan:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 3
+
+
+Zone 30, MainLayer, Dim Reality
+Alarm name: Class S V Alarm:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 25
+puzzle index: 1
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 26
+puzzle index: 2
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 27
+puzzle index: 3
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 28
+puzzle index: 4
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 29
+
+
+Zone 31, MainLayer, Dim Reality
+Alarm name: Scan:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 30
+
+
+Zone 33, MainLayer, Dim Reality
+Alarm name: Alarm:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 2
+
+
+Zone 33, MainLayer, Dim Reality
+Alarm name: Class V Alarm:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 31
+puzzle index: 1
+type: CP_Cluster_Core
+PuzzleOverrideIndex: 32
+=== Clustered puzzles info: ===
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 33
+puzzle index: 1
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 34
+puzzle index: 2
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 35
+puzzle index: 3
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 36
+=== Clustered puzzles END ===
+puzzle index: 2
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 37
+puzzle index: 3
+type: CP_Cluster_Core
+PuzzleOverrideIndex: 38
+=== Clustered puzzles info: ===
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 39
+puzzle index: 1
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 40
+puzzle index: 2
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 41
+puzzle index: 3
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 42
+=== Clustered puzzles END ===
+puzzle index: 4
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 43
+
+
+Zone 33, MainLayer, Dim Reality
+Alarm name: Alarm:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 1
+
+
+Zone 34, MainLayer, Dim Reality
+Alarm name: Scan:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 4
+
+
+Zone 35, MainLayer, Dim Reality
+Alarm name: Class V Distributed Alarm:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 44
+puzzle index: 1
+type: CP_Cluster_Core
+PuzzleOverrideIndex: 45
+=== Clustered puzzles info: ===
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 46
+puzzle index: 1
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 47
+=== Clustered puzzles END ===
+puzzle index: 2
+type: CP_Cluster_Core
+PuzzleOverrideIndex: 48
+=== Clustered puzzles info: ===
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 49
+puzzle index: 1
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 50
+=== Clustered puzzles END ===
+puzzle index: 3
+type: CP_Cluster_Core
+PuzzleOverrideIndex: 51
+=== Clustered puzzles info: ===
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 52
+puzzle index: 1
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 53
+=== Clustered puzzles END ===
+puzzle index: 4
+type: CP_Cluster_Core
+PuzzleOverrideIndex: 54
+=== Clustered puzzles info: ===
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 55
+puzzle index: 1
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 56
+=== Clustered puzzles END ===
+
+
+Zone 175, SecondaryLayer, Dim Reality
+Alarm name: Scan:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 5
+
+
+Zone 176, SecondaryLayer, Dim Reality
+Alarm name: Scan:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 65
+
+
+Zone 177, SecondaryLayer, Dim Reality
+Alarm name: Scan:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 57
+
+
+Zone 177, SecondaryLayer, Dim Reality
+Alarm name: Scan:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 58
+
+
+Zone 179, SecondaryLayer, Dim Reality
+Alarm name: Class IV Alarm:
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 59
+puzzle index: 1
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 60
+puzzle index: 2
+type: CP_Cluster_Core
+PuzzleOverrideIndex: 61
+=== Clustered puzzles info: ===
+puzzle index: 0
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 62
+puzzle index: 1
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 63
+=== Clustered puzzles END ===
+puzzle index: 3
+type: CP_Bioscan_Core
+PuzzleOverrideIndex: 64
+

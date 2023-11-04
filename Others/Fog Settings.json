@@ -47,4 +47,79 @@
   "name": "SG_B2_lower",
   "internalEnabled": true,
   "persistentID": 3221
+},
+{
+  "Enabled": true,
+  "FogColor": {
+    "r": 0.7835821,
+    "g": 0.7947761,
+    "b": 1,
+    "a": 0
+  },
+  "FogDensity": 5E-05,
+  "FogAmbience": 0.001,
+  "DensityNoiseDirection": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "DensityNoiseSpeed": 0,
+  "DensityNoiseScale": 0.131,
+  "DensityHeightAltitude": 2.7,
+  "DensityHeightRange": 0,
+  "DensityHeightMaxBoost": 0.015,
+  "Infection": 0,
+  "name": "SG_C2_Highest",
+  "internalEnabled": true,
+  "persistentID": 3321
+},
+{
+  "Enabled": true,
+  "FogColor": {
+    "r": 0.7835821,
+    "g": 0.7947761,
+    "b": 1,
+    "a": 0
+  },
+  "FogDensity": 5E-05,
+  "FogAmbience": 0.001,
+  "DensityNoiseDirection": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "DensityNoiseSpeed": 0,
+  "DensityNoiseScale": 0.131,
+  "DensityHeightAltitude": -1.7,
+  "DensityHeightRange": 0,
+  "DensityHeightMaxBoost": 0.015,
+  "Infection": 0,
+  "name": "SG_C2_Middle",
+  "internalEnabled": true,
+  "persistentID": 3322
+},
+{
+  "Enabled": true,
+  "FogColor": {
+    "r": 0.7835821,
+    "g": 0.7947761,
+    "b": 1,
+    "a": 0
+  },
+  "FogDensity": 5E-05,
+  "FogAmbience": 0.001,
+  "DensityNoiseDirection": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "DensityNoiseSpeed": 0,
+  "DensityNoiseScale": 0.131,
+  "DensityHeightAltitude": -10,
+  "DensityHeightRange": 0,
+  "DensityHeightMaxBoost": 0.015,
+  "Infection": 0,
+  "name": "SG_C2_Lowest",
+  "internalEnabled": true,
+  "persistentID": 3323
 }

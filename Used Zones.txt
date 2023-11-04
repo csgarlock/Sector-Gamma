@@ -3,3 +3,6 @@ B1 Main 112-122
 B2 Main 34-46
 B2 Extreme 231-234
 C1 Main 79-94
+C2 Main 21-38
+C2 Extreme 175-180
+C3 Main 96-

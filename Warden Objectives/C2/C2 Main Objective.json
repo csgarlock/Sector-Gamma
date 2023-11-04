@@ -305,7 +305,28 @@
   "Uplink_WaveSpawnType": 1,
   "CentralPowerGenClustser_NumberOfGenerators": 5,
   "CentralPowerGenClustser_NumberOfPowerCells": 5,
-  "CentralPowerGenClustser_FogDataSteps": [],
+  "CentralPowerGenClustser_FogDataSteps": [
+    {
+      "m_fogDataId": 3322,
+      "m_transitionToTime": 4.0
+    },
+    {
+      "m_fogDataId": 3322,
+      "m_transitionToTime": 4.0
+    },
+    {
+      "m_fogDataId": 3323,
+      "m_transitionToTime": 4.0
+    },
+    {
+      "m_fogDataId": 3323,
+      "m_transitionToTime": 4.0
+    },
+    {
+      "m_fogDataId": 3321,
+      "m_transitionToTime": 4.0
+    }
+  ],
   "ActivateHSU_ItemFromStart": 0,
   "ActivateHSU_ItemAfterActivation": 0,
   "ActivateHSU_BringItemInElevator": true,

@@ -22,15 +22,34 @@
         "InstanceIndex": 4294967295
       },
       "ChainedPuzzleToStartUplink": 0,
-      "NumberOfVerificationRounds": 4,
+      "NumberOfVerificationRounds": 3,
       "DefaultTimeSettings": {
         "TimeToStartVerify": 5,
         "TimeToCompleteVerify": 6,
         "TimeToRestoreFromFail": 6
       },
       "RoundOverrides": [],
-      "EventsOnCommence": [],
+      "EventsOnCommence": [
+        {
+          "Type": 9,
+          "Delay": 0.0,
+          "WorldEventObjectFilter": "SG_C2_UPLINK_ALARM",
+          "EnemyWaveData": {
+            "WaveSettings": 5,
+            "WavePopulation": 1,
+            "SpawnDelay": 2.0,
+            "IntelMessage": 0,
+            "AreaDistance": 2,
+            "TriggerAlarm": false
+          }
+        }
+      ],
       "EventsOnComplete": [
+        {
+          "Type": 10,
+          "WorldEventObjectFilter": "SG_C2_UPLINK_ALARM",
+          "Delay": 0.0
+        },
         {
           "Type": 9,
           "Delay": 5.0,
