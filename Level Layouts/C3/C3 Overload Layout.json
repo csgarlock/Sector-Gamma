@@ -1,16 +1,16 @@
 {
-  "ZoneAliasStart": 96,
+  "ZoneAliasStart": 421,
   "Zones": [
     {
       "LocalIndex": 0,
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
       "SubSeed": 0,
-      "MarkerSubSeed": 4,
+      "MarkerSubSeed": 3,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
-      "SubComplex": 0,
-      "CustomGeomorph": "",
+      "SubComplex": 1,
+      "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_I_HA_03.prefab",
       "IgnoreRandomGeomorphRotation": false,
       "CoverageMinMax": {
         "x": 30.0,
@@ -25,13 +25,13 @@
         "sqrMagnitude": 1525.0
       },
       "BuildFromLocalIndex": 0,
-      "StartPosition": 3,
+      "StartPosition": 2,
       "StartPosition_IndexWeight": 0.0,
-      "StartExpansion": 1,
-      "ZoneExpansion": 3,
+      "StartExpansion": 4,
+      "ZoneExpansion": 6,
       "LightSettings": 64,
       "AltitudeData": {
-        "AllowedZoneAltitude": 5,
+        "AllowedZoneAltitude": 9,
         "ChanceToChange": 0.5
       },
       "EventsOnEnter": [],
@@ -154,7 +154,7 @@
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
       "SubComplex": 0,
-      "CustomGeomorph": "",
+      "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_64x64_mining_reactor_open_HA_01.prefab",
       "IgnoreRandomGeomorphRotation": false,
       "CoverageMinMax": {
         "x": 30.0,
@@ -171,11 +171,11 @@
       "BuildFromLocalIndex": 0,
       "StartPosition": 3,
       "StartPosition_IndexWeight": 0.0,
-      "StartExpansion": 1,
-      "ZoneExpansion": 3,
+      "StartExpansion": 4,
+      "ZoneExpansion": 6,
       "LightSettings": 64,
       "AltitudeData": {
-        "AllowedZoneAltitude": 5,
+        "AllowedZoneAltitude": 9,
         "ChanceToChange": 0.5
       },
       "EventsOnEnter": [],
@@ -293,16 +293,16 @@
       "LocalIndex": 2,
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
-      "SubSeed": 3,
-      "MarkerSubSeed": 0,
+      "SubSeed": 4,
+      "MarkerSubSeed": 1,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
-      "SubComplex": 0,
+      "SubComplex": 1,
       "CustomGeomorph": "",
       "IgnoreRandomGeomorphRotation": false,
       "CoverageMinMax": {
-        "x": 30.0,
-        "y": 45.0,
+        "x": 40.0,
+        "y": 60.0,
         "normalized": {
           "x": 0.6401844,
           "y": 0.7682213,
@@ -313,13 +313,13 @@
         "sqrMagnitude": 1525.0
       },
       "BuildFromLocalIndex": 1,
-      "StartPosition": 2,
+      "StartPosition": 3,
       "StartPosition_IndexWeight": 0.0,
-      "StartExpansion": 4,
-      "ZoneExpansion": 6,
+      "StartExpansion": 1,
+      "ZoneExpansion": 1,
       "LightSettings": 64,
       "AltitudeData": {
-        "AllowedZoneAltitude": 5,
+        "AllowedZoneAltitude": 9,
         "ChanceToChange": 0.5
       },
       "EventsOnEnter": [],
@@ -438,15 +438,15 @@
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
       "SubSeed": 0,
-      "MarkerSubSeed": 0,
+      "MarkerSubSeed": 1,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
-      "SubComplex": 0,
-      "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Digsite/geo_64x64_mining_dig_site_hub_HA_03.prefab",
+      "SubComplex": 2,
+      "CustomGeomorph": "",
       "IgnoreRandomGeomorphRotation": false,
       "CoverageMinMax": {
-        "x": 30.0,
-        "y": 50.0,
+        "x": 1.0,
+        "y": 5.0,
         "normalized": {
           "x": 0.6401844,
           "y": 0.7682213,
@@ -456,14 +456,14 @@
         "magnitude": 39.0512466,
         "sqrMagnitude": 1525.0
       },
-      "BuildFromLocalIndex": 2,
+      "BuildFromLocalIndex": 1,
       "StartPosition": 3,
       "StartPosition_IndexWeight": 0.0,
-      "StartExpansion": 4,
-      "ZoneExpansion": 6,
+      "StartExpansion": 2,
+      "ZoneExpansion": 1,
       "LightSettings": 64,
       "AltitudeData": {
-        "AllowedZoneAltitude": 5,
+        "AllowedZoneAltitude": 9,
         "ChanceToChange": 0.5
       },
       "EventsOnEnter": [],
@@ -582,14 +582,14 @@
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
       "SubSeed": 0,
-      "MarkerSubSeed": 0,
+      "MarkerSubSeed": 1,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
-      "SubComplex": 0,
-      "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Storage/geo_64x64_mining_storage_vault_HA_01.prefab",
-      "IgnoreRandomGeomorphRotation": false,
+      "SubComplex": 1,
+      "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_I_HA_01.prefab",
+      "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
-        "x": 10.0,
+        "x": 30.0,
         "y": 50.0,
         "normalized": {
           "x": 0.6401844,
@@ -600,7 +600,7 @@
         "magnitude": 39.0512466,
         "sqrMagnitude": 1525.0
       },
-      "BuildFromLocalIndex": 3,
+      "BuildFromLocalIndex": 1,
       "StartPosition": 3,
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 4,
@@ -726,14 +726,14 @@
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
       "SubSeed": 0,
-      "MarkerSubSeed": 0,
+      "MarkerSubSeed": 1,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
-      "SubComplex": 0,
-      "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Storage/geo_64x64_mining_storage_vault_HA_01.prefab",
-      "IgnoreRandomGeomorphRotation": false,
+      "SubComplex": 1,
+      "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_X_HA_03.prefab",
+      "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
-        "x": 10.0,
+        "x": 30.0,
         "y": 50.0,
         "normalized": {
           "x": 0.6401844,
@@ -744,11 +744,11 @@
         "magnitude": 39.0512466,
         "sqrMagnitude": 1525.0
       },
-      "BuildFromLocalIndex": 2,
-      "StartPosition": 2,
+      "BuildFromLocalIndex": 4,
+      "StartPosition": 3,
       "StartPosition_IndexWeight": 0.0,
-      "StartExpansion": 2,
-      "ZoneExpansion": 4,
+      "StartExpansion": 4,
+      "ZoneExpansion": 6,
       "LightSettings": 64,
       "AltitudeData": {
         "AllowedZoneAltitude": 9,
@@ -866,163 +866,19 @@
       "StaticSpawnDataContainers": []
     },
     {
-      "LocalIndex": 6,
-      "AliasOverride": -1,
-      "OverrideAliasPrefix": false,
-      "SubSeed": 4,
-      "MarkerSubSeed": 0,
-      "LightsSubSeed": 0,
-      "BulkheadDCScanSeed": 0,
-      "SubComplex": 0,
-      "CustomGeomorph": "",
-      "IgnoreRandomGeomorphRotation": false,
-      "CoverageMinMax": {
-        "x": 30.0,
-        "y": 45.0,
-        "normalized": {
-          "x": 0.6401844,
-          "y": 0.7682213,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 39.0512466,
-        "sqrMagnitude": 1525.0
-      },
-      "BuildFromLocalIndex": 3,
-      "StartPosition": 3,
-      "StartPosition_IndexWeight": 0.0,
-      "StartExpansion": 1,
-      "ZoneExpansion": 3,
-      "LightSettings": 64,
-      "AltitudeData": {
-        "AllowedZoneAltitude": 5,
-        "ChanceToChange": 0.5
-      },
-      "EventsOnEnter": [],
-      "EventsOnPortalWarp": [],
-      "EventsOnApproachDoor": [],
-      "EventsOnUnlockDoor": [],
-      "EventsOnOpenDoor": [],
-      "EventsOnDoorScanStart": [],
-      "EventsOnDoorScanDone": [],
-      "EventsOnTrigger": [],
-      "ProgressionPuzzleToEnter": {
-        "PuzzleType": 0,
-        "CustomText": 972,
-        "PlacementCount": 1,
-        "ZonePlacementData": []
-      },
-      "ChainedPuzzleToEnter": 0,
-      "IsCheckpointDoor": false,
-      "PlayScannerVoiceAudio": true,
-      "SkipAutomaticProgressionObjective": false,
-      "SecurityGateToEnter": 0,
-      "UseStaticBioscanPointsInZone": false,
-      "TurnOffAlarmOnTerminal": false,
-      "TerminalPuzzleZone": {
-        "LocalIndex": 0,
-        "SeedType": 1,
-        "TerminalIndex": 0,
-        "StaticSeed": 0
-      },
-      "EventsOnTerminalDeactivateAlarm": [],
-      "ActiveEnemyWave": {
-        "HasActiveEnemyWave": false,
-        "EnemyGroupInfrontOfDoor": 0,
-        "EnemyGroupInArea": 0,
-        "EnemyGroupsInArea": 0
-      },
-      "EnemySpawningInZone": [],
-      "EnemyRespawning": false,
-      "EnemyRespawnRequireOtherZone": true,
-      "EnemyRespawnRoomDistance": 2,
-      "EnemyRespawnTimeInterval": 10.0,
-      "EnemyRespawnCountMultiplier": 1.0,
-      "HSUClustersInZone": 0,
-      "CorpseClustersInZone": 0,
-      "ResourceContainerClustersInZone": 0,
-      "GeneratorClustersInZone": 0,
-      "CorpsesInZone": 0,
-      "GroundSpawnersInZone": 0,
-      "HSUsInZone": 0,
-      "DeconUnitsInZone": 0,
-      "AllowSmallPickupsAllocation": true,
-      "AllowResourceContainerAllocation": true,
-      "ForceBigPickupsAllocation": false,
-      "ConsumableDistributionInZone": 1,
-      "BigPickupDistributionInZone": 0,
-      "TerminalPlacements": [
-        {
-          "PlacementWeights": {
-            "Start": 0.0,
-            "Middle": 0.0,
-            "End": 0.0
-          },
-          "AreaSeedOffset": 0,
-          "MarkerSeedOffset": 0,
-          "LocalLogFiles": [],
-          "UniqueCommands": [],
-          "StartingStateData": {
-            "StartingState": 0,
-            "UseCustomInfoText": false,
-            "CustomInfoText": 0,
-            "KeepShowingLocalLogCount": false,
-            "AudioEventEnter": 0,
-            "AudioEventExit": 0,
-            "PasswordProtected": false,
-            "PasswordHintText": "Password Required.",
-            "GeneratePassword": false,
-            "PasswordPartCount": 1,
-            "ShowPasswordLength": true,
-            "ShowPasswordPartPositions": false,
-            "TerminalZoneSelectionDatas": []
-          }
-        }
-      ],
-      "ForbidTerminalsInZone": false,
-      "PowerGeneratorPlacements": [],
-      "DisinfectionStationPlacements": [],
-      "DumbwaiterPlacements": [],
-      "HealthMulti": 0.0,
-      "HealthPlacement": {
-        "Start": 0.0,
-        "Middle": 0.0,
-        "End": 0.0
-      },
-      "WeaponAmmoMulti": 0.0,
-      "WeaponAmmoPlacement": {
-        "Start": 0.0,
-        "Middle": 0.0,
-        "End": 0.0
-      },
-      "ToolAmmoMulti": 0.0,
-      "ToolAmmoPlacement": {
-        "Start": 0.0,
-        "Middle": 0.0,
-        "End": 0.0
-      },
-      "DisinfectionMulti": 0.0,
-      "DisinfectionPlacement": {
-        "Start": 0.0,
-        "Middle": 0.0,
-        "End": 0.0
-      },
-      "StaticSpawnDataContainers": []
-    },
-    {
       "LocalIndex": 7,
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
-      "SubSeed": 2,
-      "MarkerSubSeed": 0,
+      "SubSeed": 4,
+      "MarkerSubSeed": 1,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
-      "SubComplex": 0,
+      "SubComplex": 1,
       "CustomGeomorph": "",
       "IgnoreRandomGeomorphRotation": false,
       "CoverageMinMax": {
-        "x": 20.0,
-        "y": 35.0,
+        "x": 25.0,
+        "y": 40.0,
         "normalized": {
           "x": 0.6401844,
           "y": 0.7682213,
@@ -1032,14 +888,14 @@
         "magnitude": 39.0512466,
         "sqrMagnitude": 1525.0
       },
-      "BuildFromLocalIndex": 1,
+      "BuildFromLocalIndex": 5,
       "StartPosition": 3,
       "StartPosition_IndexWeight": 0.0,
-      "StartExpansion": 3,
+      "StartExpansion": 4,
       "ZoneExpansion": 1,
       "LightSettings": 64,
       "AltitudeData": {
-        "AllowedZoneAltitude": 5,
+        "AllowedZoneAltitude": 9,
         "ChanceToChange": 0.5
       },
       "EventsOnEnter": [],
@@ -1157,16 +1013,16 @@
       "LocalIndex": 8,
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
-      "SubSeed": 2,
-      "MarkerSubSeed": 0,
+      "SubSeed": 3,
+      "MarkerSubSeed": 1,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
-      "SubComplex": 0,
+      "SubComplex": 1,
       "CustomGeomorph": "",
       "IgnoreRandomGeomorphRotation": false,
       "CoverageMinMax": {
-        "x": 30.0,
-        "y": 45.0,
+        "x": 35.0,
+        "y": 55.0,
         "normalized": {
           "x": 0.6401844,
           "y": 0.7682213,
@@ -1176,158 +1032,14 @@
         "magnitude": 39.0512466,
         "sqrMagnitude": 1525.0
       },
-      "BuildFromLocalIndex": 8,
-      "StartPosition": 3,
+      "BuildFromLocalIndex": 5,
+      "StartPosition": 2,
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 2,
       "ZoneExpansion": 1,
       "LightSettings": 64,
       "AltitudeData": {
-        "AllowedZoneAltitude": 5,
-        "ChanceToChange": 0.5
-      },
-      "EventsOnEnter": [],
-      "EventsOnPortalWarp": [],
-      "EventsOnApproachDoor": [],
-      "EventsOnUnlockDoor": [],
-      "EventsOnOpenDoor": [],
-      "EventsOnDoorScanStart": [],
-      "EventsOnDoorScanDone": [],
-      "EventsOnTrigger": [],
-      "ProgressionPuzzleToEnter": {
-        "PuzzleType": 0,
-        "CustomText": 972,
-        "PlacementCount": 1,
-        "ZonePlacementData": []
-      },
-      "ChainedPuzzleToEnter": 0,
-      "IsCheckpointDoor": false,
-      "PlayScannerVoiceAudio": true,
-      "SkipAutomaticProgressionObjective": false,
-      "SecurityGateToEnter": 0,
-      "UseStaticBioscanPointsInZone": false,
-      "TurnOffAlarmOnTerminal": false,
-      "TerminalPuzzleZone": {
-        "LocalIndex": 0,
-        "SeedType": 1,
-        "TerminalIndex": 0,
-        "StaticSeed": 0
-      },
-      "EventsOnTerminalDeactivateAlarm": [],
-      "ActiveEnemyWave": {
-        "HasActiveEnemyWave": false,
-        "EnemyGroupInfrontOfDoor": 0,
-        "EnemyGroupInArea": 0,
-        "EnemyGroupsInArea": 0
-      },
-      "EnemySpawningInZone": [],
-      "EnemyRespawning": false,
-      "EnemyRespawnRequireOtherZone": true,
-      "EnemyRespawnRoomDistance": 2,
-      "EnemyRespawnTimeInterval": 10.0,
-      "EnemyRespawnCountMultiplier": 1.0,
-      "HSUClustersInZone": 0,
-      "CorpseClustersInZone": 0,
-      "ResourceContainerClustersInZone": 0,
-      "GeneratorClustersInZone": 0,
-      "CorpsesInZone": 0,
-      "GroundSpawnersInZone": 0,
-      "HSUsInZone": 3,
-      "DeconUnitsInZone": 0,
-      "AllowSmallPickupsAllocation": true,
-      "AllowResourceContainerAllocation": true,
-      "ForceBigPickupsAllocation": false,
-      "ConsumableDistributionInZone": 1,
-      "BigPickupDistributionInZone": 0,
-      "TerminalPlacements": [
-        {
-          "PlacementWeights": {
-            "Start": 0.0,
-            "Middle": 0.0,
-            "End": 0.0
-          },
-          "AreaSeedOffset": 0,
-          "MarkerSeedOffset": 0,
-          "LocalLogFiles": [],
-          "UniqueCommands": [],
-          "StartingStateData": {
-            "StartingState": 0,
-            "UseCustomInfoText": false,
-            "CustomInfoText": 0,
-            "KeepShowingLocalLogCount": false,
-            "AudioEventEnter": 0,
-            "AudioEventExit": 0,
-            "PasswordProtected": false,
-            "PasswordHintText": "Password Required.",
-            "GeneratePassword": false,
-            "PasswordPartCount": 1,
-            "ShowPasswordLength": true,
-            "ShowPasswordPartPositions": false,
-            "TerminalZoneSelectionDatas": []
-          }
-        }
-      ],
-      "ForbidTerminalsInZone": false,
-      "PowerGeneratorPlacements": [],
-      "DisinfectionStationPlacements": [],
-      "DumbwaiterPlacements": [],
-      "HealthMulti": 0.0,
-      "HealthPlacement": {
-        "Start": 0.0,
-        "Middle": 0.0,
-        "End": 0.0
-      },
-      "WeaponAmmoMulti": 0.0,
-      "WeaponAmmoPlacement": {
-        "Start": 0.0,
-        "Middle": 0.0,
-        "End": 0.0
-      },
-      "ToolAmmoMulti": 0.0,
-      "ToolAmmoPlacement": {
-        "Start": 0.0,
-        "Middle": 0.0,
-        "End": 0.0
-      },
-      "DisinfectionMulti": 0.0,
-      "DisinfectionPlacement": {
-        "Start": 0.0,
-        "Middle": 0.0,
-        "End": 0.0
-      },
-      "StaticSpawnDataContainers": []
-    },
-    {
-      "LocalIndex": 9,
-      "AliasOverride": -1,
-      "OverrideAliasPrefix": false,
-      "SubSeed": 6,
-      "MarkerSubSeed": 0,
-      "LightsSubSeed": 0,
-      "BulkheadDCScanSeed": 0,
-      "SubComplex": 0,
-      "CustomGeomorph": "",
-      "IgnoreRandomGeomorphRotation": false,
-      "CoverageMinMax": {
-        "x": 20.0,
-        "y": 35.0,
-        "normalized": {
-          "x": 0.6401844,
-          "y": 0.7682213,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 39.0512466,
-        "sqrMagnitude": 1525.0
-      },
-      "BuildFromLocalIndex": 7,
-      "StartPosition": 3,
-      "StartPosition_IndexWeight": 0.0,
-      "StartExpansion": 3,
-      "ZoneExpansion": 1,
-      "LightSettings": 64,
-      "AltitudeData": {
-        "AllowedZoneAltitude": 5,
+        "AllowedZoneAltitude": 9,
         "ChanceToChange": 0.5
       },
       "EventsOnEnter": [],
@@ -1442,7 +1154,7 @@
       "StaticSpawnDataContainers": []
     }
   ],
-  "name": "SG_C3_Main",
+  "name": "SG_C3_Overload",
   "internalEnabled": true,
-  "persistentID": 69331
+  "persistentID": 69333
 }
