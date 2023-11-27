@@ -319,4 +319,26 @@
   "name": "Single x1 - Error Alarm Trickle 4-20 Bullrush",
   "internalEnabled": true,
   "persistentID": 3009
+},
+{
+  "PublicAlarmName": "Class ://ERROR! Alarm",
+  "TriggerAlarmOnActivate": true,
+  "SurvivalWaveSettings": 3005,
+  "SurvivalWavePopulation": 1,
+  "SurvivalWaveAreaDistance": 2,
+  "DisableSurvivalWaveOnComplete": false,
+  "UseRandomPositions": false,
+  "WantedDistanceFromStartPos": 0.0,
+  "WantedDistanceBetweenPuzzleComponents": 1.0,
+  "ChainedPuzzle": [
+    {
+      "PuzzleType": 6
+    }
+  ],
+  "OnlyShowHUDWhenPlayerIsClose": false,
+  "AlarmSoundStart": 2200133294,
+  "AlarmSoundStop": 1190355274,
+  "name": "Single x1 - Error Alarm Trickle 6-60",
+  "internalEnabled": true,
+  "persistentID": 3010
 }

@@ -1116,19 +1116,19 @@
       "PowerGeneratorPlacements": [],
       "DisinfectionStationPlacements": [],
       "DumbwaiterPlacements": [],
-      "HealthMulti": 0.0,
+      "HealthMulti": 1.0,
       "HealthPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "WeaponAmmoMulti": 0.0,
+      "WeaponAmmoMulti": 2.0,
       "WeaponAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "ToolAmmoMulti": 0.0,
+      "ToolAmmoMulti": 1.0,
       "ToolAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
@@ -1172,7 +1172,7 @@
       "ZoneExpansion": 1,
       "LightSettings": 64,
       "AltitudeData": {
-        "AllowedZoneAltitude": 5,
+        "AllowedZoneAltitude": 2,
         "ChanceToChange": 0.5
       },
       "EventsOnEnter": [],
@@ -1180,7 +1180,52 @@
       "EventsOnApproachDoor": [],
       "EventsOnUnlockDoor": [],
       "EventsOnOpenDoor": [],
-      "EventsOnDoorScanStart": [],
+      "EventsOnDoorScanStart": [
+        {
+          "Type": 9,
+          "Condition": {
+            "ConditionIndex": -1,
+            "IsTrue": false
+          },
+          "Trigger": 1,
+          "ChainPuzzle": 0,
+          "UseStaticBioscanPoints": false,
+          "Layer": 0,
+          "DimensionIndex": 0,
+          "LocalIndex": 0,
+          "Delay": 0.0,
+          "Duration": 0.0,
+          "ClearDimension": false,
+          "WardenIntel": 0,
+          "CustomSubObjectiveHeader": 0,
+          "CustomSubObjective": 0,
+          "SoundID": 0,
+          "SoundSubtitle": 0,
+          "DialogueID": 0,
+          "FogSetting": 0,
+          "FogTransitionDuration": 0.0,
+          "EnemyWaveData": {
+            "WaveSettings": 3006,
+            "WavePopulation": 1,
+            "AreaDistance": 2,
+            "SpawnDelay": 0.0,
+            "TriggerAlarm": false,
+            "IntelMessage": 0
+          },
+          "EnemyID": 0,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          },
+          "Count": 0,
+          "Enabled": false,
+          "TerminalCommand": 0,
+          "TerminalCommandRule": 0
+        }
+      ],
       "EventsOnDoorScanDone": [],
       "EventsOnTrigger": [],
       "ProgressionPuzzleToEnter": {
@@ -1189,7 +1234,7 @@
         "PlacementCount": 1,
         "ZonePlacementData": []
       },
-      "ChainedPuzzleToEnter": 4,
+      "ChainedPuzzleToEnter": 3010,
       "IsCheckpointDoor": false,
       "PlayScannerVoiceAudio": true,
       "SkipAutomaticProgressionObjective": false,
@@ -1209,7 +1254,20 @@
         "EnemyGroupInArea": 0,
         "EnemyGroupsInArea": 0
       },
-      "EnemySpawningInZone": [],
+      "EnemySpawningInZone": [
+        {
+          "GroupType": 0,
+          "Difficulty": 0,
+          "Distribution": 2,
+          "DistributionValue": 0.8
+        },
+        {
+          "GroupType": 1,
+          "Difficulty": 1,
+          "Distribution": 2,
+          "DistributionValue": 0.4
+        }
+      ],
       "EnemyRespawning": false,
       "EnemyRespawnRequireOtherZone": true,
       "EnemyRespawnRoomDistance": 2,
@@ -1260,19 +1318,19 @@
       "PowerGeneratorPlacements": [],
       "DisinfectionStationPlacements": [],
       "DumbwaiterPlacements": [],
-      "HealthMulti": 0.0,
+      "HealthMulti": 0.4,
       "HealthPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "WeaponAmmoMulti": 0.0,
+      "WeaponAmmoMulti": 0.8,
       "WeaponAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "ToolAmmoMulti": 0.0,
+      "ToolAmmoMulti": 0.4,
       "ToolAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
@@ -1316,7 +1374,7 @@
       "ZoneExpansion": 1,
       "LightSettings": 64,
       "AltitudeData": {
-        "AllowedZoneAltitude": 5,
+        "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.5
       },
       "EventsOnEnter": [],
@@ -1333,7 +1391,7 @@
         "PlacementCount": 1,
         "ZonePlacementData": []
       },
-      "ChainedPuzzleToEnter": 0,
+      "ChainedPuzzleToEnter": 32,
       "IsCheckpointDoor": false,
       "PlayScannerVoiceAudio": true,
       "SkipAutomaticProgressionObjective": false,
@@ -1353,7 +1411,26 @@
         "EnemyGroupInArea": 0,
         "EnemyGroupsInArea": 0
       },
-      "EnemySpawningInZone": [],
+      "EnemySpawningInZone": [
+        {
+          "GroupType": 3,
+          "Difficulty": 0,
+          "Distribution": 1,
+          "DistributionValue": 1.0
+        },
+        {
+          "GroupType": 0,
+          "Difficulty": 0,
+          "Distribution": 2,
+          "DistributionValue": 0.8
+        },
+        {
+          "GroupType": 1,
+          "Difficulty": 2,
+          "Distribution": 1,
+          "DistributionValue": 1.0
+        }
+      ],
       "EnemyRespawning": false,
       "EnemyRespawnRequireOtherZone": true,
       "EnemyRespawnRoomDistance": 2,
@@ -1404,19 +1481,19 @@
       "PowerGeneratorPlacements": [],
       "DisinfectionStationPlacements": [],
       "DumbwaiterPlacements": [],
-      "HealthMulti": 0.0,
+      "HealthMulti": 0.4,
       "HealthPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "WeaponAmmoMulti": 0.0,
+      "WeaponAmmoMulti": 1.0,
       "WeaponAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "ToolAmmoMulti": 0.0,
+      "ToolAmmoMulti": 0.4,
       "ToolAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
@@ -1460,7 +1537,7 @@
       "ZoneExpansion": 1,
       "LightSettings": 64,
       "AltitudeData": {
-        "AllowedZoneAltitude": 5,
+        "AllowedZoneAltitude": 1,
         "ChanceToChange": 0.5
       },
       "EventsOnEnter": [],
@@ -1477,7 +1554,7 @@
         "PlacementCount": 1,
         "ZonePlacementData": []
       },
-      "ChainedPuzzleToEnter": 0,
+      "ChainedPuzzleToEnter": 4,
       "IsCheckpointDoor": false,
       "PlayScannerVoiceAudio": true,
       "SkipAutomaticProgressionObjective": false,
@@ -1497,7 +1574,26 @@
         "EnemyGroupInArea": 0,
         "EnemyGroupsInArea": 0
       },
-      "EnemySpawningInZone": [],
+      "EnemySpawningInZone": [
+        {
+          "GroupType": 3,
+          "Difficulty": 0,
+          "Distribution": 1,
+          "DistributionValue": 1.0
+        },
+        {
+          "GroupType": 3,
+          "Difficulty": 0,
+          "Distribution": 1,
+          "DistributionValue": 1.0
+        },
+        {
+          "GroupType": 0,
+          "Difficulty": 0,
+          "Distribution": 2,
+          "DistributionValue": 0.8
+        }
+      ],
       "EnemyRespawning": false,
       "EnemyRespawnRequireOtherZone": true,
       "EnemyRespawnRoomDistance": 2,
@@ -1548,19 +1644,19 @@
       "PowerGeneratorPlacements": [],
       "DisinfectionStationPlacements": [],
       "DumbwaiterPlacements": [],
-      "HealthMulti": 0.0,
+      "HealthMulti": 0.4,
       "HealthPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "WeaponAmmoMulti": 0.0,
+      "WeaponAmmoMulti": 0.8,
       "WeaponAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "ToolAmmoMulti": 0.0,
+      "ToolAmmoMulti": 0.4,
       "ToolAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
