@@ -297,4 +297,26 @@
   "name": "Mixed x6 - Distributed - SG C2 Main Gen",
   "internalEnabled": true,
   "persistentID": 3008
+},
+{
+  "PublicAlarmName": "Class ://ERROR! Alarm",
+  "TriggerAlarmOnActivate": true,
+  "SurvivalWaveSettings": 3004,
+  "SurvivalWavePopulation": 47,
+  "SurvivalWaveAreaDistance": 2,
+  "DisableSurvivalWaveOnComplete": false,
+  "UseRandomPositions": false,
+  "WantedDistanceFromStartPos": 0.0,
+  "WantedDistanceBetweenPuzzleComponents": 1.0,
+  "ChainedPuzzle": [
+    {
+      "PuzzleType": 6
+    }
+  ],
+  "OnlyShowHUDWhenPlayerIsClose": false,
+  "AlarmSoundStart": 2200133294,
+  "AlarmSoundStop": 1190355274,
+  "name": "Single x1 - Error Alarm Trickle 4-20 Bullrush",
+  "internalEnabled": true,
+  "persistentID": 3009
 }

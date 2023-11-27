@@ -1,22 +1,22 @@
 {
-  "Type": 0,
-  "Header": "Essential DNA Core",
-  "MainObjective": "Find Hydrostasis Unit [ITEM_SERIAL] and retrieve a DNA core sample",
+  "Type": 1,
+  "Header": "Reactor Startup",
+  "MainObjective": "Find the reactor for the floor and make sure it is back online.",
   "WardenObjectiveSpecialUpdateType": 0,
   "GenericItemFromStart": 0,
   "DoNotMarkPickupItemsAsWardenObjectives": false,
-  "FindLocationInfo": "Gather information about the location of [ITEM_SERIAL]",
-  "FindLocationInfoHelp": "Access more data in the terminal maintenance system",
-  "GoToZone": "Navigate to [ITEM_ZONE] and find [ITEM_SERIAL]",
-  "GoToZoneHelp": "Use information in the environment to find [ITEM_ZONE] ",
-  "InZoneFindItem": "Find [ITEM_SERIAL] somewhere inside [ITEM_ZONE]",
-  "InZoneFindItemHelp": "Use maintenance terminal command PING to find [ITEM_SERIAL]",
-  "SolveItem": "Proceed to collect the DNA sample from [ITEM_SERIAL]",
-  "SolveItemHelp": "Close proximity access to Hydrostasis Unit is required to be able to acquire the sample",
+  "FindLocationInfo": "Gather information about the location of the Reactor",
+  "FindLocationInfoHelp": 0,
+  "GoToZone": "Navigate to [ITEM_ZONE] and start the Reactor",
+  "GoToZoneHelp": 0,
+  "InZoneFindItem": "Find the reactor control panel and initiate the startup",
+  "InZoneFindItemHelp": 0,
+  "SolveItem": "Make sure the Reactor is fully started before leaving",
+  "SolveItemHelp": 0,
   "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
-  "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
-  "GoToWinCondition_CustomGeo": "Go to the forward exit point in [EXTRACTION_ZONE]",
-  "GoToWinConditionHelp_CustomGeo": "Use the navigational beacon and the information in the surroundings to find the exit point",
+  "GoToWinConditionHelp_Elevator": 0,
+  "GoToWinCondition_CustomGeo": 0,
+  "GoToWinConditionHelp_CustomGeo": 0,
   "GoToWinCondition_ToMainLayer": "Go back to the main objective and complete the expedition.",
   "GoToWinConditionHelp_ToMainLayer": 0,
   "ShowHelpDelay": 180.0,
@@ -27,23 +27,27 @@
   "FogTransitionDurationOnElevatorLand": 0.0,
   "OnActivateOnSolveItem": false,
   "WavesOnActivate": [],
-  "EventsOnActivate": [
+  "EventsOnActivate": [],
+  "StopAllWavesBeforeGotoWin": false,
+  "WavesOnGotoWin": [],
+  "WaveOnGotoWinTrigger": 0,
+  "EventsOnGotoWin": [
     {
-      "Type": 0,
+      "Type": 2,
       "Condition": {
         "ConditionIndex": -1,
         "IsTrue": false
       },
-      "Trigger": 0,
+      "Trigger": 2,
       "ChainPuzzle": 0,
       "UseStaticBioscanPoints": false,
-      "Layer": 0,
+      "Layer": 2,
       "DimensionIndex": 0,
-      "LocalIndex": 0,
-      "Delay": 0.0,
+      "LocalIndex": 4,
+      "Delay": 5.0,
       "Duration": 0.0,
       "ClearDimension": false,
-      "WardenIntel": 0,
+      "WardenIntel": "Door to [ZONE_4] unlocked by startup sequence",
       "CustomSubObjectiveHeader": 0,
       "CustomSubObjective": 0,
       "SoundID": 0,
@@ -73,35 +77,63 @@
       "TerminalCommandRule": 0
     }
   ],
-  "StopAllWavesBeforeGotoWin": false,
-  "WavesOnGotoWin": [
-    {
-      "WaveSettings": 5,
-      "WavePopulation": 1,
-      "AreaDistance": 2,
-      "SpawnDelay": 4.0,
-      "TriggerAlarm": true,
-      "IntelMessage": 0
-    }
-  ],
-  "WaveOnGotoWinTrigger": 0,
-  "EventsOnGotoWin": [],
   "EventsOnGotoWinTrigger": 0,
-  "FogTransitionDataOnGotoWin": 0,
-  "FogTransitionDurationOnGotoWin": 0.0,
+  "FogTransitionDataOnGotoWin": 78,
+  "FogTransitionDurationOnGotoWin": 20.0,
   "ChainedPuzzleToActive": 10,
   "ChainedPuzzleMidObjective": 0,
   "ChainedPuzzleAtExit": 11,
-  "ChainedPuzzleAtExitScanSpeedMultiplier": 0.8,
+  "ChainedPuzzleAtExitScanSpeedMultiplier": 2.0,
   "Gather_RequiredCount": -1,
   "Gather_ItemId": 0,
   "Gather_SpawnCount": 0,
   "Gather_MaxPerZone": 0,
   "Retrieve_Items": [],
-  "ReactorWaves": [],
-  "LightsOnFromBeginning": false,
-  "LightsOnDuringIntro": false,
-  "LightsOnWhenStartupComplete": false,
+  "ReactorWaves": [
+    {
+      "Warmup": 20.0,
+      "WarmupFail": 20.0,
+      "Wave": 70.0,
+      "Verify": 30.0,
+      "VerifyFail": 30.0,
+      "VerifyInOtherZone": false,
+      "ZoneForVerification": 0,
+      "EnemyWaves": [
+        {
+          "WaveSettings": 23,
+          "WavePopulation": 6,
+          "AreaDistance": 2,
+          "SpawnTimeRel": 0.0,
+          "SpawnType": 0
+        },
+        {
+          "WaveSettings": 9,
+          "WavePopulation": 1,
+          "AreaDistance": 2,
+          "SpawnTimeRel": 0.2,
+          "SpawnType": 0
+        },
+        {
+          "WaveSettings": 23,
+          "WavePopulation": 6,
+          "AreaDistance": 2,
+          "SpawnTimeRel": 0.4,
+          "SpawnType": 0
+        },
+        {
+          "WaveSettings": 23,
+          "WavePopulation": 6,
+          "AreaDistance": 2,
+          "SpawnTimeRel": 0.5,
+          "SpawnType": 0
+        }
+      ],
+      "Events": []
+    }
+  ],
+  "LightsOnFromBeginning": true,
+  "LightsOnDuringIntro": true,
+  "LightsOnWhenStartupComplete": true,
   "DoNotSolveObjectiveOnReactorComplete": false,
   "SpecialTerminalCommand": "",
   "SpecialTerminalCommandDesc": "",
@@ -142,7 +174,7 @@
   "TimedTerminalSequence_EventsOnSequenceStart": [],
   "TimedTerminalSequence_EventsOnSequenceDone": [],
   "TimedTerminalSequence_EventsOnSequenceFail": [],
-  "name": "SG_C3_Main_HSU",
+  "name": "SG_C3_Overload_Reactor",
   "internalEnabled": true,
-  "persistentID": 3331
+  "persistentID": 3333
 }
