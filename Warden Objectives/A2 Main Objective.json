@@ -38,7 +38,7 @@
   "ChainedPuzzleToActive": 10,
   "ChainedPuzzleMidObjective": 0,
   "ChainedPuzzleAtExit": 11,
-  "ChainedPuzzleAtExitScanSpeedMultiplier": 2.0,
+  "ChainedPuzzleAtExitScanSpeedMultiplier": 3.0,
   "Gather_RequiredCount": -1,
   "Gather_ItemId": 0,
   "Gather_SpawnCount": 0,
@@ -297,6 +297,67 @@
           "SpawnType": 0
         }
       ],
+      "Events": []
+    },
+    {
+      "Warmup": 20.0,
+      "WarmupFail": 20.0,
+      "Wave": 110.0,
+      "Verify": 400.0,
+      "VerifyFail": 300.0,
+      "VerifyInOtherZone": true,
+      "ZoneForVerification": 12,
+      "EnemyWaves": [
+        {
+          "WaveSettings": 128,
+          "WavePopulation": 6,
+          "AreaDistance": 2,
+          "SpawnTimeRel": 0.0,
+          "SpawnType": 0
+        },
+        {
+          "WaveSettings": 198,
+          "WavePopulation": 6,
+          "AreaDistance": 2,
+          "SpawnTimeRel": 0.05,
+          "SpawnType": 0
+        },
+        {
+          "WaveSettings": 128,
+          "WavePopulation": 10,
+          "AreaDistance": 2,
+          "SpawnTimeRel": 0.25,
+          "SpawnType": 0
+        },
+        {
+          "WaveSettings": 198,
+          "WavePopulation": 10,
+          "AreaDistance": 2,
+          "SpawnTimeRel": 0.30,
+          "SpawnType": 0
+        },
+        {
+          "WaveSettings": 196,
+          "WavePopulation": 6,
+          "AreaDistance": 2,
+          "SpawnTimeRel": 0.60,
+          "SpawnType": 0
+        },
+        {
+          "WaveSettings": 198,
+          "WavePopulation": 10,
+          "AreaDistance": 2,
+          "SpawnTimeRel": 0.65,
+          "SpawnType": 0
+        },
+        {
+          "WaveSettings": 129,
+          "WavePopulation": 10,
+          "AreaDistance": 2,
+          "SpawnTimeRel": 0.80,
+          "SpawnType": 0
+        }
+      ],
       "Events": [
         {
           "Type": 2,
@@ -309,11 +370,110 @@
           "UseStaticBioscanPoints": false,
           "Layer": 0,
           "DimensionIndex": 0,
-          "LocalIndex": 9,
+          "LocalIndex": 6,
           "Delay": 0.0,
           "Duration": 0.0,
           "ClearDimension": false,
-          "WardenIntel": "<color=orange>Zone 54</color> Unlocked by Reactor Startup Sequence",
+          "WardenIntel": "<color=orange>Zone 51</color> Unlocked by Reactor Startup Sequence",
+          "CustomSubObjectiveHeader": 0,
+          "CustomSubObjective": 0,
+          "SoundID": 0,
+          "SoundSubtitle": 0,
+          "DialogueID": 0,
+          "FogSetting": 0,
+          "FogTransitionDuration": 0.0,
+          "EnemyWaveData": {
+            "WaveSettings": 0,
+            "WavePopulation": 0,
+            "AreaDistance": 2,
+            "SpawnDelay": 0.0,
+            "TriggerAlarm": false,
+            "IntelMessage": 0
+          },
+          "EnemyID": 0,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          },
+          "Count": 0,
+          "Enabled": false,
+          "TerminalCommand": 0,
+          "TerminalCommandRule": 0
+        }
+      ]
+    },
+    {
+      "Warmup": 20.0,
+      "WarmupFail": 20.0,
+      "Wave": 130.0,
+      "Verify": 1500.0,
+      "VerifyFail": 500.0,
+      "VerifyInOtherZone": true,
+      "ZoneForVerification": 11,
+      "EnemyWaves": [
+        {
+          "WaveSettings": 196,
+          "WavePopulation": 10,
+          "AreaDistance": 2,
+          "SpawnTimeRel": 0.0,
+          "SpawnType": 0
+        },
+        {
+          "WaveSettings": 198,
+          "WavePopulation": 10,
+          "AreaDistance": 2,
+          "SpawnTimeRel": 0.1,
+          "SpawnType": 0
+        },
+        {
+          "WaveSettings": 196,
+          "WavePopulation": 6,
+          "AreaDistance": 2,
+          "SpawnTimeRel": 0.40,
+          "SpawnType": 0
+        },
+        {
+          "WaveSettings": 198,
+          "WavePopulation": 6,
+          "AreaDistance": 2,
+          "SpawnTimeRel": 0.5,
+          "SpawnType": 0
+        },
+        {
+          "WaveSettings": 128,
+          "WavePopulation": 6,
+          "AreaDistance": 2,
+          "SpawnTimeRel": 0.70,
+          "SpawnType": 0
+        },
+        {
+          "WaveSettings": 200,
+          "WavePopulation": 31,
+          "AreaDistance": 2,
+          "SpawnTimeRel": 0.90,
+          "SpawnType": 0
+        }
+      ],
+      "Events": [
+        {
+          "Type": 2,
+          "Condition": {
+            "ConditionIndex": -1,
+            "IsTrue": false
+          },
+          "Trigger": 2,
+          "ChainPuzzle": 0,
+          "UseStaticBioscanPoints": false,
+          "Layer": 0,
+          "DimensionIndex": 0,
+          "LocalIndex": 6,
+          "Delay": 0.0,
+          "Duration": 0.0,
+          "ClearDimension": false,
+          "WardenIntel": "<color=orange>Zone 51</color> Unlocked by Reactor Startup Sequence",
           "CustomSubObjectiveHeader": 0,
           "CustomSubObjective": 0,
           "SoundID": 0,

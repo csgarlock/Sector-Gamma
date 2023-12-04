@@ -29,7 +29,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 1,
       "ZoneExpansion": 3,
-      "LightSettings": 64,
+      "LightSettings": 51,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.0
@@ -173,7 +173,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 1,
       "ZoneExpansion": 6,
-      "LightSettings": 64,
+      "LightSettings": 63,
       "AltitudeData": {
         "AllowedZoneAltitude": 9,
         "ChanceToChange": 0.5
@@ -643,7 +643,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 4,
       "ZoneExpansion": 6,
-      "LightSettings": 64,
+      "LightSettings": 61,
       "AltitudeData": {
         "AllowedZoneAltitude": 9,
         "ChanceToChange": 0.5
@@ -657,7 +657,7 @@
       "EventsOnDoorScanDone": [],
       "EventsOnTrigger": [],
       "ProgressionPuzzleToEnter": {
-        "PuzzleType": 0,
+        "PuzzleType": 3,
         "CustomText": 972,
         "PlacementCount": 1,
         "ZonePlacementData": []
@@ -787,7 +787,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 4,
       "ZoneExpansion": 6,
-      "LightSettings": 64,
+      "LightSettings": 28,
       "AltitudeData": {
         "AllowedZoneAltitude": 9,
         "ChanceToChange": 0.5
@@ -945,7 +945,7 @@
       "EventsOnDoorScanDone": [],
       "EventsOnTrigger": [],
       "ProgressionPuzzleToEnter": {
-        "PuzzleType": 0,
+        "PuzzleType": 3,
         "CustomText": 972,
         "PlacementCount": 1,
         "ZonePlacementData": []
@@ -1233,7 +1233,7 @@
       "EventsOnDoorScanDone": [],
       "EventsOnTrigger": [],
       "ProgressionPuzzleToEnter": {
-        "PuzzleType": 0,
+        "PuzzleType": 3,
         "CustomText": 972,
         "PlacementCount": 1,
         "ZonePlacementData": []
@@ -1377,7 +1377,7 @@
       "EventsOnDoorScanDone": [],
       "EventsOnTrigger": [],
       "ProgressionPuzzleToEnter": {
-        "PuzzleType": 0,
+        "PuzzleType": 3,
         "CustomText": 972,
         "PlacementCount": 1,
         "ZonePlacementData": []
@@ -1521,7 +1521,7 @@
       "EventsOnDoorScanDone": [],
       "EventsOnTrigger": [],
       "ProgressionPuzzleToEnter": {
-        "PuzzleType": 0,
+        "PuzzleType": 3,
         "CustomText": 972,
         "PlacementCount": 1,
         "ZonePlacementData": []
@@ -1809,10 +1809,20 @@
       "EventsOnDoorScanDone": [],
       "EventsOnTrigger": [],
       "ProgressionPuzzleToEnter": {
-        "PuzzleType": 0,
+        "PuzzleType": 1,
         "CustomText": 972,
         "PlacementCount": 1,
-        "ZonePlacementData": []
+        "ZonePlacementData": [
+          {
+            "DimensionIndex": 0,
+            "LocalIndex": 7,
+            "Weights": {
+              "Start": 0.0,
+              "Middle": 0.0,
+              "End": 0.0
+            }
+          }
+        ]
       },
       "ChainedPuzzleToEnter": 0,
       "IsCheckpointDoor": false,
@@ -1953,7 +1963,7 @@
       "EventsOnDoorScanDone": [],
       "EventsOnTrigger": [],
       "ProgressionPuzzleToEnter": {
-        "PuzzleType": 0,
+        "PuzzleType": 3,
         "CustomText": 972,
         "PlacementCount": 1,
         "ZonePlacementData": []
@@ -2097,7 +2107,7 @@
       "EventsOnDoorScanDone": [],
       "EventsOnTrigger": [],
       "ProgressionPuzzleToEnter": {
-        "PuzzleType": 0,
+        "PuzzleType": 3,
         "CustomText": 972,
         "PlacementCount": 1,
         "ZonePlacementData": []
