@@ -404,7 +404,26 @@
         }
       ],
       "ForbidTerminalsInZone": false,
-      "PowerGeneratorPlacements": [],
+      "PowerGeneratorPlacements": [
+        {
+          "PlacementWeights": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "AreaSeedOffset": 0,
+          "MarkerSeedOffset": 0
+        },
+        {
+          "PlacementWeights": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "AreaSeedOffset": 0,
+          "MarkerSeedOffset": 0
+        }
+      ],
       "DisinfectionStationPlacements": [],
       "DumbwaiterPlacements": [],
       "HealthMulti": 0.0,
@@ -547,8 +566,27 @@
           }
         }
       ],
-      "ForbidTerminalsInZone": false,
-      "PowerGeneratorPlacements": [],
+      "ForbidTerminalsInZone": true,
+      "PowerGeneratorPlacements": [
+        {
+          "PlacementWeights": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "AreaSeedOffset": 0,
+          "MarkerSeedOffset": 0
+        },
+        {
+          "PlacementWeights": {
+            "Start": 0.0,
+            "Middle": 0.0,
+            "End": 0.0
+          },
+          "AreaSeedOffset": 0,
+          "MarkerSeedOffset": 0
+        }
+      ],
       "DisinfectionStationPlacements": [],
       "DumbwaiterPlacements": [],
       "HealthMulti": 0.0,
@@ -1158,7 +1196,7 @@
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
       "SubSeed": 1,
-      "MarkerSubSeed": 0,
+      "MarkerSubSeed": 1,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
       "SubComplex": 4,
@@ -1244,7 +1282,7 @@
           "PlacementWeights": {
             "Start": 0.0,
             "Middle": 0.0,
-            "End": 0.0
+            "End": 1000.0
           },
           "AreaSeedOffset": 0,
           "MarkerSeedOffset": 0,
@@ -1302,7 +1340,7 @@
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
       "SubSeed": 1,
-      "MarkerSubSeed": 0,
+      "MarkerSubSeed": 2,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
       "SubComplex": 4,
@@ -1388,7 +1426,7 @@
           "PlacementWeights": {
             "Start": 0.0,
             "Middle": 0.0,
-            "End": 0.0
+            "End": 1000.0
           },
           "AreaSeedOffset": 0,
           "MarkerSeedOffset": 0,
@@ -1597,8 +1635,8 @@
       "CustomGeomorph": "",
       "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
-        "x": 20.0,
-        "y": 35.0,
+        "x": 15.0,
+        "y": 30.0,
         "normalized": {
           "x": 0.6401844,
           "y": 0.7682213,
@@ -1609,7 +1647,7 @@
         "sqrMagnitude": 1525.0
       },
       "BuildFromLocalIndex": 9,
-      "StartPosition": 2,
+      "StartPosition": 1,
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 2,
       "ZoneExpansion": 4,
@@ -1875,7 +1913,7 @@
     },
     {
       "LocalIndex": 13,
-      "AliasOverride": 59,
+      "AliasOverride": -1,
       "OverrideAliasPrefix": false,
       "SubSeed": 1,
       "MarkerSubSeed": 0,
@@ -2019,14 +2057,14 @@
     },
     {
       "LocalIndex": 14,
-      "AliasOverride": 58,
+      "AliasOverride": -1,
       "OverrideAliasPrefix": false,
       "SubSeed": 1,
       "MarkerSubSeed": 0,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
       "SubComplex": 4,
-      "CustomGeomorph": "",
+      "CustomGeomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_32x32_lab_exit_01.prefab",
       "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
         "x": 20.0,

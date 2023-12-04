@@ -1,0 +1,60 @@
+{
+  "MainLevelLayout": 0,
+  "Definitions": [
+    {
+      "DimensionIndex": "Reality",
+      "LayerType": "MainLayer",
+      "LocalIndex": "Zone_0",
+      "ReactorTerminal": {
+        "LocalLogFiles": [],
+        "UniqueCommands": [
+          {
+            "Command": "",
+            "CommandDesc": null,
+            "PostCommandOutputs": [],
+            "CommandEvents": [],
+            "SpecialCommandRule": "Normal"
+          }
+        ],
+        "PasswordData": {
+          "PasswordProtected": false,
+          "Password": "",
+          "PasswordHintText": "Password Required.",
+          "GeneratePassword": true,
+          "PasswordPartCount": 1,
+          "ShowPasswordLength": false,
+          "ShowPasswordPartPositions": false,
+          "TerminalZoneSelectionDatas": [
+            [
+              {
+                "DimensionIndex": "Reality",
+                "LayerType": "MainLayer",
+                "LocalIndex": "Zone_0",
+                "SeedType": "SessionSeed",
+                "TerminalIndex": 0,
+                "StaticSeed": 0
+              }
+            ]
+          ]
+        }
+      },
+      "EventsOnActive": [],
+      "InstanceIndex": 4294967295,
+      "StartupOnDrop": false,
+      "Overrides": [
+        {
+          "WaveIndex": -1,
+          "VerificationType": "NORMAL",
+          "HideVerificationTimer": false,
+          "ChangeVerifyZone": false,
+          "VerifyZone": {
+            "DimensionIndex": "Reality",
+            "LayerType": "MainLayer",
+            "LocalIndex": "Zone_0",
+            "InstanceIndex": 4294967295
+          }
+        }
+      ]
+    }
+  ]
+}

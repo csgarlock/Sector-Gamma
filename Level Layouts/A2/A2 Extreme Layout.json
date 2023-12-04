@@ -293,7 +293,7 @@
       "LocalIndex": 2,
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
-      "SubSeed": 3,
+      "SubSeed": 5,
       "MarkerSubSeed": 0,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
@@ -301,8 +301,8 @@
       "CustomGeomorph": "",
       "IgnoreRandomGeomorphRotation": false,
       "CoverageMinMax": {
-        "x": 25.0,
-        "y": 40.0,
+        "x": 15.0,
+        "y": 30.0,
         "normalized": {
           "x": 0.6401844,
           "y": 0.7682213,
@@ -437,7 +437,7 @@
       "LocalIndex": 3,
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
-      "SubSeed": 3,
+      "SubSeed": 5,
       "MarkerSubSeed": 0,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
@@ -445,8 +445,8 @@
       "CustomGeomorph": "",
       "IgnoreRandomGeomorphRotation": false,
       "CoverageMinMax": {
-        "x": 25.0,
-        "y": 40.0,
+        "x": 20.0,
+        "y": 35.0,
         "normalized": {
           "x": 0.6401844,
           "y": 0.7682213,

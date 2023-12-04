@@ -1,0 +1,40 @@
+{
+  "MainLevelLayout": 69121,
+  "ExpeditionGears": {
+    "Mode": "DISALLOW",
+    "GearIds": [
+      0
+    ]
+  },
+  "GeneratorGroups": [
+    {
+      "Generators": [
+        {
+          "DimensionIndex": "Reality",
+          "LayerType": "MainLayer",
+          "LocalIndex": 3,
+          "InstanceIndex": 0
+        },
+        {
+          "DimensionIndex": "Reality",
+          "LayerType": "MainLayer",
+          "LocalIndex": 3,
+          "InstanceIndex": 1
+        }
+      ],
+      "PlayEndSequenceOnGroupComplete": false,
+      "EventsOnInsertCell": [
+        [
+        ],
+        [
+          {
+            "Trigger": 0,
+            "Type": 151,
+            "Layer": 0, 
+            "Delay": 0.0
+          }
+        ]
+      ]
+    }
+  ]
+}

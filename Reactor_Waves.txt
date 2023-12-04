@@ -1,0 +1,13 @@
+196 Reactor 24 SSpMB SpawnPoints
+128 Reactor 12 SSpMB SpawnPoints
+197 Reactor 8 SSpMB SpawnPoints
+129 Reactor 6 SSpMB SpawnPoints
+198 Reactor 6 MB SpawnPoints
+199 Reactor 3 MB SpawnPoints
+200 Reactor 1 MB SpawnPoints
+
+6 Baseline Reactor
+Shadow, Striker, Shooter, Giant, BBC
+10 Baseline Reactor M-Hybrid
+Shadow, Striker, Shooter, Hybrid, BBC
+ 
