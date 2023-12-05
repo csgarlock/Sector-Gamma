@@ -164,8 +164,8 @@
       "Warmup": 20.0,
       "WarmupFail": 20.0,
       "Wave": 60.0,
-      "Verify": 180.0,
-      "VerifyFail": 120.0,
+      "Verify": 200.0,
+      "VerifyFail": 100.0,
       "VerifyInOtherZone": true,
       "ZoneForVerification": 9,
       "EnemyWaves": [
@@ -248,7 +248,7 @@
     {
       "Warmup": 20.0,
       "WarmupFail": 20.0,
-      "Wave": 80.0,
+      "Wave": 85.0,
       "Verify": 31536000.0,
       "VerifyFail": 31536000.0,
       "VerifyInOtherZone": false,
@@ -302,7 +302,7 @@
     {
       "Warmup": 20.0,
       "WarmupFail": 20.0,
-      "Wave": 110.0,
+      "Wave": 100.0,
       "Verify": 400.0,
       "VerifyFail": 300.0,
       "VerifyInOtherZone": true,
@@ -341,13 +341,6 @@
           "WavePopulation": 6,
           "AreaDistance": 2,
           "SpawnTimeRel": 0.60,
-          "SpawnType": 0
-        },
-        {
-          "WaveSettings": 198,
-          "WavePopulation": 10,
-          "AreaDistance": 2,
-          "SpawnTimeRel": 0.65,
           "SpawnType": 0
         },
         {
@@ -415,7 +408,7 @@
       "ZoneForVerification": 11,
       "EnemyWaves": [
         {
-          "WaveSettings": 196,
+          "WaveSettings": 128,
           "WavePopulation": 10,
           "AreaDistance": 2,
           "SpawnTimeRel": 0.0,
@@ -425,11 +418,18 @@
           "WaveSettings": 198,
           "WavePopulation": 10,
           "AreaDistance": 2,
+          "SpawnTimeRel": 0.05,
+          "SpawnType": 0
+        },
+        {
+          "WaveSettings": 129,
+          "WavePopulation": 10,
+          "AreaDistance": 2,
           "SpawnTimeRel": 0.1,
           "SpawnType": 0
         },
         {
-          "WaveSettings": 196,
+          "WaveSettings": 128,
           "WavePopulation": 6,
           "AreaDistance": 2,
           "SpawnTimeRel": 0.40,
@@ -439,7 +439,14 @@
           "WaveSettings": 198,
           "WavePopulation": 6,
           "AreaDistance": 2,
-          "SpawnTimeRel": 0.5,
+          "SpawnTimeRel": 0.45,
+          "SpawnType": 0
+        },
+        {
+          "WaveSettings": 128,
+          "WavePopulation": 6,
+          "AreaDistance": 2,
+          "SpawnTimeRel": 0.50,
           "SpawnType": 0
         },
         {
@@ -453,7 +460,7 @@
           "WaveSettings": 200,
           "WavePopulation": 31,
           "AreaDistance": 2,
-          "SpawnTimeRel": 0.90,
+          "SpawnTimeRel": 0.85,
           "SpawnType": 0
         }
       ],
@@ -469,11 +476,11 @@
           "UseStaticBioscanPoints": false,
           "Layer": 0,
           "DimensionIndex": 0,
-          "LocalIndex": 6,
+          "LocalIndex": 8,
           "Delay": 0.0,
           "Duration": 0.0,
           "ClearDimension": false,
-          "WardenIntel": "<color=orange>Zone 51</color> Unlocked by Reactor Startup Sequence",
+          "WardenIntel": "<color=orange>Zone 53</color> Unlocked by Reactor Startup Sequence",
           "CustomSubObjectiveHeader": 0,
           "CustomSubObjective": 0,
           "SoundID": 0,
