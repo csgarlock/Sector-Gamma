@@ -341,4 +341,57 @@
   "name": "Single x1 - Error Alarm Trickle 6-60",
   "internalEnabled": true,
   "persistentID": 3010
+},
+{
+  "PublicAlarmName": "Class Recon Alarm",
+  "TriggerAlarmOnActivate": true,
+  "SurvivalWaveSettings": 3002,
+  "SurvivalWavePopulation": 1,
+  "SurvivalWaveAreaDistance": 2,
+  "DisableSurvivalWaveOnComplete": true,
+  "UseRandomPositions": true,
+  "WantedDistanceFromStartPos": 0.0,
+  "WantedDistanceBetweenPuzzleComponents": 1.0,
+  "ChainedPuzzle": [
+    {
+      "PuzzleType": 21
+    }
+  ],
+  "OnlyShowHUDWhenPlayerIsClose": false,
+  "AlarmSoundStart": 3339129407,
+  "AlarmSoundStop": 42633153,
+  "name": "SG_A2 Class Recon Alarm",
+  "internalEnabled": true,
+  "persistentID": 3011
+},
+{
+  "PublicAlarmName": "Class IV Distributed Alarm",
+  "TriggerAlarmOnActivate": true,
+  "SurvivalWaveSettings": 3002,
+  "SurvivalWavePopulation": 1,
+  "SurvivalWaveAreaDistance": 2,
+  "DisableSurvivalWaveOnComplete": true,
+  "UseRandomPositions": true,
+  "WantedDistanceFromStartPos": 0.0,
+  "WantedDistanceBetweenPuzzleComponents": 0.0,
+  "ChainedPuzzle": [
+    {
+      "PuzzleType": 6
+    },
+    {
+      "PuzzleType": 5
+    },
+    {
+      "PuzzleType": 5
+    },
+    {
+      "PuzzleType": 5
+    }
+  ],
+  "OnlyShowHUDWhenPlayerIsClose": false,
+  "AlarmSoundStart": 3339129407,
+  "AlarmSoundStop": 42633153,
+  "name": "Mixed x4 - Distributed - SG A2 Main",
+  "internalEnabled": true,
+  "persistentID": 3012
 }

@@ -68,7 +68,14 @@
         "EnemyGroupInArea": 0,
         "EnemyGroupsInArea": 0
       },
-      "EnemySpawningInZone": [],
+      "EnemySpawningInZone": [
+        {
+          "GroupType": 0,
+          "Difficulty": 0,
+          "Distribution": 2,
+          "DistributionValue": 0.6
+        }
+      ],
       "EnemyRespawning": false,
       "EnemyRespawnRequireOtherZone": true,
       "EnemyRespawnRoomDistance": 2,
@@ -119,19 +126,19 @@
       "PowerGeneratorPlacements": [],
       "DisinfectionStationPlacements": [],
       "DumbwaiterPlacements": [],
-      "HealthMulti": 0.0,
+      "HealthMulti": 0.4,
       "HealthPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "WeaponAmmoMulti": 0.0,
+      "WeaponAmmoMulti": 0.8,
       "WeaponAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "ToolAmmoMulti": 0.0,
+      "ToolAmmoMulti": 0.4,
       "ToolAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
@@ -192,7 +199,7 @@
         "PlacementCount": 1,
         "ZonePlacementData": []
       },
-      "ChainedPuzzleToEnter": 0,
+      "ChainedPuzzleToEnter": 4,
       "IsCheckpointDoor": false,
       "PlayScannerVoiceAudio": true,
       "SkipAutomaticProgressionObjective": false,
@@ -212,8 +219,21 @@
         "EnemyGroupInArea": 0,
         "EnemyGroupsInArea": 0
       },
-      "EnemySpawningInZone": [],
-      "EnemyRespawning": false,
+      "EnemySpawningInZone": [
+        {
+          "GroupType": 0,
+          "Difficulty": 0,
+          "Distribution": 2,
+          "DistributionValue": 1.0
+        },
+        {
+          "GroupType": 3,
+          "Difficulty": 0,
+          "Distribution": 1,
+          "DistributionValue": 1.0
+        }
+      ],
+      "EnemyRespawning": true,
       "EnemyRespawnRequireOtherZone": true,
       "EnemyRespawnRoomDistance": 2,
       "EnemyRespawnTimeInterval": 10.0,
@@ -326,7 +346,28 @@
       "EventsOnPortalWarp": [],
       "EventsOnApproachDoor": [],
       "EventsOnUnlockDoor": [],
-      "EventsOnOpenDoor": [],
+      "EventsOnOpenDoor": [
+        {
+          "Type": 3,
+          "Delay": 6.0,
+          "SoundID": 1479064690
+        },
+        {
+          "Type": 4,
+          "Delay": 9.5
+        },
+        {
+          "Type": 5,
+          "Delay": 10.0,
+          "SoundID": 3206896761
+        },
+        {
+          "Type": 400,
+          "Delay": 10.0, 
+          "Count": 0,
+          "Enabled": true
+        }
+      ],
       "EventsOnDoorScanStart": [],
       "EventsOnDoorScanDone": [],
       "EventsOnTrigger": [],
@@ -336,7 +377,7 @@
         "PlacementCount": 1,
         "ZonePlacementData": []
       },
-      "ChainedPuzzleToEnter": 0,
+      "ChainedPuzzleToEnter": 4,
       "IsCheckpointDoor": false,
       "PlayScannerVoiceAudio": true,
       "SkipAutomaticProgressionObjective": false,
@@ -404,26 +445,7 @@
         }
       ],
       "ForbidTerminalsInZone": false,
-      "PowerGeneratorPlacements": [
-        {
-          "PlacementWeights": {
-            "Start": 0.0,
-            "Middle": 0.0,
-            "End": 0.0
-          },
-          "AreaSeedOffset": 0,
-          "MarkerSeedOffset": 0
-        },
-        {
-          "PlacementWeights": {
-            "Start": 0.0,
-            "Middle": 0.0,
-            "End": 0.0
-          },
-          "AreaSeedOffset": 0,
-          "MarkerSeedOffset": 0
-        }
-      ],
+      "PowerGeneratorPlacements": [],
       "DisinfectionStationPlacements": [],
       "DumbwaiterPlacements": [],
       "HealthMulti": 0.0,
@@ -499,11 +521,11 @@
         "PlacementCount": 1,
         "ZonePlacementData": []
       },
-      "ChainedPuzzleToEnter": 0,
+      "ChainedPuzzleToEnter": 4,
       "IsCheckpointDoor": false,
       "PlayScannerVoiceAudio": true,
       "SkipAutomaticProgressionObjective": false,
-      "SecurityGateToEnter": 0,
+      "SecurityGateToEnter": 1,
       "UseStaticBioscanPointsInZone": false,
       "TurnOffAlarmOnTerminal": false,
       "TerminalPuzzleZone": {
@@ -589,19 +611,19 @@
       ],
       "DisinfectionStationPlacements": [],
       "DumbwaiterPlacements": [],
-      "HealthMulti": 0.0,
+      "HealthMulti": 1.0,
       "HealthPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "WeaponAmmoMulti": 0.0,
+      "WeaponAmmoMulti": 2.0,
       "WeaponAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "ToolAmmoMulti": 0.0,
+      "ToolAmmoMulti": 1.0,
       "ToolAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
@@ -621,7 +643,7 @@
       "OverrideAliasPrefix": false,
       "SubSeed": 0,
       "MarkerSubSeed": 0,
-      "LightsSubSeed": 0,
+      "LightsSubSeed": 1,
       "BulkheadDCScanSeed": 0,
       "SubComplex": 4,
       "CustomGeomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_lab_I_HA_03.prefab",
@@ -733,19 +755,19 @@
       "PowerGeneratorPlacements": [],
       "DisinfectionStationPlacements": [],
       "DumbwaiterPlacements": [],
-      "HealthMulti": 0.0,
+      "HealthMulti": 0.6,
       "HealthPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "WeaponAmmoMulti": 0.0,
+      "WeaponAmmoMulti": 1.0,
       "WeaponAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
         "End": 0.0
       },
-      "ToolAmmoMulti": 0.0,
+      "ToolAmmoMulti": 0.6,
       "ToolAmmoPlacement": {
         "Start": 0.0,
         "Middle": 0.0,
@@ -765,7 +787,7 @@
       "OverrideAliasPrefix": false,
       "SubSeed": 0,
       "MarkerSubSeed": 0,
-      "LightsSubSeed": 0,
+      "LightsSubSeed": 1,
       "BulkheadDCScanSeed": 0,
       "SubComplex": 4,
       "CustomGeomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_lab_dead_end_HA_03_R7E1_03.prefab",
@@ -912,7 +934,7 @@
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
       "SubComplex": 4,
-      "CustomGeomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_lab_I_HA_03.prefab",
+      "CustomGeomorph": "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_lab_I_HA_01.prefab",
       "IgnoreRandomGeomorphRotation": false,
       "CoverageMinMax": {
         "x": 30.0,
@@ -941,16 +963,107 @@
       "EventsOnApproachDoor": [],
       "EventsOnUnlockDoor": [],
       "EventsOnOpenDoor": [],
-      "EventsOnDoorScanStart": [],
+      "EventsOnDoorScanStart": [
+        {
+          "Type": 1,
+          "Condition": {
+            "ConditionIndex": -1,
+            "IsTrue": false
+          },
+          "Trigger": 0,
+          "ChainPuzzle": 0,
+          "UseStaticBioscanPoints": false,
+          "Layer": 0,
+          "DimensionIndex": 0,
+          "LocalIndex": 6,
+          "Delay": 0.0,
+          "Duration": 0.0,
+          "ClearDimension": false,
+          "WardenIntel": 0,
+          "CustomSubObjectiveHeader": 0,
+          "CustomSubObjective": 0,
+          "SoundID": 0,
+          "SoundSubtitle": 0,
+          "DialogueID": 0,
+          "FogSetting": 0,
+          "FogTransitionDuration": 0.0,
+          "EnemyWaveData": {
+            "WaveSettings": 0,
+            "WavePopulation": 0,
+            "AreaDistance": 2,
+            "SpawnDelay": 0.0,
+            "TriggerAlarm": false,
+            "IntelMessage": 0
+          },
+          "EnemyID": 0,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          },
+          "Count": 0,
+          "Enabled": true,
+          "TerminalCommand": 0,
+          "TerminalCommandRule": 0
+        }
+      ],
       "EventsOnDoorScanDone": [],
-      "EventsOnTrigger": [],
+      "EventsOnTrigger": [
+        {
+          "WorldEventTriggerObjectFilter": "Evt_OpenApex",
+          "Type": 1,
+          "Condition": {
+            "ConditionIndex": -1,
+            "IsTrue": false
+          },
+          "Trigger": 0,
+          "ChainPuzzle": 0,
+          "UseStaticBioscanPoints": false,
+          "Layer": 0,
+          "DimensionIndex": 0,
+          "LocalIndex": 7,
+          "Delay": 8.0,
+          "Duration": 0.0,
+          "ClearDimension": false,
+          "WardenIntel": 0,
+          "CustomSubObjectiveHeader": 0,
+          "CustomSubObjective": 0,
+          "SoundID": 0,
+          "SoundSubtitle": 0,
+          "DialogueID": 0,
+          "FogSetting": 0,
+          "FogTransitionDuration": 0.0,
+          "EnemyWaveData": {
+            "WaveSettings": 0,
+            "WavePopulation": 0,
+            "AreaDistance": 2,
+            "SpawnDelay": 0.0,
+            "TriggerAlarm": false,
+            "IntelMessage": 0
+          },
+          "EnemyID": 0,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          },
+          "Count": 0,
+          "Enabled": true,
+          "TerminalCommand": 0,
+          "TerminalCommandRule": 0
+        }
+      ],
       "ProgressionPuzzleToEnter": {
         "PuzzleType": 3,
         "CustomText": 972,
         "PlacementCount": 1,
         "ZonePlacementData": []
       },
-      "ChainedPuzzleToEnter": 0,
+      "ChainedPuzzleToEnter": 3011,
       "IsCheckpointDoor": false,
       "PlayScannerVoiceAudio": true,
       "SkipAutomaticProgressionObjective": false,
@@ -970,7 +1083,14 @@
         "EnemyGroupInArea": 0,
         "EnemyGroupsInArea": 0
       },
-      "EnemySpawningInZone": [],
+      "EnemySpawningInZone": [
+        {
+          "GroupType": 0,
+          "Difficulty": 0,
+          "Distribution": 2,
+          "DistributionValue": 0.4
+        }
+      ],
       "EnemyRespawning": false,
       "EnemyRespawnRequireOtherZone": true,
       "EnemyRespawnRoomDistance": 2,
@@ -1089,7 +1209,7 @@
       "EventsOnDoorScanDone": [],
       "EventsOnTrigger": [],
       "ProgressionPuzzleToEnter": {
-        "PuzzleType": 0,
+        "PuzzleType": 3,
         "CustomText": 972,
         "PlacementCount": 1,
         "ZonePlacementData": []
@@ -1114,7 +1234,20 @@
         "EnemyGroupInArea": 0,
         "EnemyGroupsInArea": 0
       },
-      "EnemySpawningInZone": [],
+      "EnemySpawningInZone": [
+        {
+          "GroupType": 0,
+          "Difficulty": 0,
+          "Distribution": 2,
+          "DistributionValue": 0.6
+        },
+        {
+          "GroupType": 1,
+          "Difficulty": 1,
+          "Distribution": 2,
+          "DistributionValue": 0.2
+        }
+      ],
       "EnemyRespawning": false,
       "EnemyRespawnRequireOtherZone": true,
       "EnemyRespawnRoomDistance": 2,
@@ -1130,9 +1263,9 @@
       "DeconUnitsInZone": 0,
       "AllowSmallPickupsAllocation": true,
       "AllowResourceContainerAllocation": true,
-      "ForceBigPickupsAllocation": false,
+      "ForceBigPickupsAllocation": true,
       "ConsumableDistributionInZone": 1,
-      "BigPickupDistributionInZone": 0,
+      "BigPickupDistributionInZone": 3,
       "TerminalPlacements": [
         {
           "PlacementWeights": {
@@ -1203,8 +1336,8 @@
       "CustomGeomorph": "",
       "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
-        "x": 25.0,
-        "y": 40.0,
+        "x": 20.0,
+        "y": 35.0,
         "normalized": {
           "x": 0.6401844,
           "y": 0.7682213,
@@ -1258,7 +1391,20 @@
         "EnemyGroupInArea": 0,
         "EnemyGroupsInArea": 0
       },
-      "EnemySpawningInZone": [],
+      "EnemySpawningInZone": [
+        {
+          "GroupType": 0,
+          "Difficulty": 0,
+          "Distribution": 2,
+          "DistributionValue": 1.0
+        },
+        {
+          "GroupType": 3,
+          "Difficulty": 0,
+          "Distribution": 1,
+          "DistributionValue": 1.0
+        }
+      ],
       "EnemyRespawning": false,
       "EnemyRespawnRequireOtherZone": true,
       "EnemyRespawnRoomDistance": 2,
@@ -1340,7 +1486,7 @@
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
       "SubSeed": 1,
-      "MarkerSubSeed": 2,
+      "MarkerSubSeed": 5,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
       "SubComplex": 4,
@@ -1402,7 +1548,14 @@
         "EnemyGroupInArea": 0,
         "EnemyGroupsInArea": 0
       },
-      "EnemySpawningInZone": [],
+      "EnemySpawningInZone": [
+        {
+          "GroupType": 0,
+          "Difficulty": 0,
+          "Distribution": 2,
+          "DistributionValue": 1.0
+        }
+      ],
       "EnemyRespawning": false,
       "EnemyRespawnRequireOtherZone": true,
       "EnemyRespawnRoomDistance": 2,
@@ -1428,10 +1581,69 @@
             "Middle": 0.0,
             "End": 1000.0
           },
-          "AreaSeedOffset": 0,
-          "MarkerSeedOffset": 0,
+          "AreaSeedOffset": 1,
+          "MarkerSeedOffset": 1,
           "LocalLogFiles": [],
-          "UniqueCommands": [],
+          "UniqueCommands": [
+            {
+              "Command": "LIFT_ZONE_LOCKDOWNS",
+              "CommandDesc": "",
+              "PostCommandOutputs": [
+                {
+                  "LineType": 2,
+                  "Output": 0,
+                  "Time": 3.0
+                }
+              ],
+              "CommandEvents": [
+                {
+                  "Type": 22,
+                  "Condition": {
+                    "ConditionIndex": -1,
+                    "IsTrue": false
+                  },
+                  "Trigger": 1,
+                  "ChainPuzzle": 3012,
+                  "UseStaticBioscanPoints": false,
+                  "Layer": 0,
+                  "DimensionIndex": 0,
+                  "LocalIndex": 0,
+                  "Delay": 0.0,
+                  "Duration": 0.0,
+                  "ClearDimension": false,
+                  "WardenIntel": 0,
+                  "CustomSubObjectiveHeader": 0,
+                  "CustomSubObjective": 0,
+                  "SoundID": 0,
+                  "SoundSubtitle": 0,
+                  "DialogueID": 0,
+                  "FogSetting": 0,
+                  "FogTransitionDuration": 0.0,
+                  "EnemyWaveData": {
+                    "WaveSettings": 0,
+                    "WavePopulation": 0,
+                    "AreaDistance": 2,
+                    "SpawnDelay": 0.0,
+                    "TriggerAlarm": false,
+                    "IntelMessage": 0
+                  },
+                  "EnemyID": 0,
+                  "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "magnitude": 0.0,
+                    "sqrMagnitude": 0.0
+                  },
+                  "Count": 0,
+                  "Enabled": false,
+                  "TerminalCommand": 0,
+                  "TerminalCommandRule": 0
+                }
+              ],
+              "SpecialCommandRule": 1
+            }
+          ],
           "StartingStateData": {
             "StartingState": 0,
             "UseCustomInfoText": false,
@@ -1484,7 +1696,7 @@
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
       "SubSeed": 0,
-      "MarkerSubSeed": 0,
+      "MarkerSubSeed": 1,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
       "SubComplex": 4,
@@ -1635,8 +1847,8 @@
       "CustomGeomorph": "",
       "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
-        "x": 15.0,
-        "y": 30.0,
+        "x": 5.0,
+        "y": 15.0,
         "normalized": {
           "x": 0.6401844,
           "y": 0.7682213,
@@ -1690,7 +1902,26 @@
         "EnemyGroupInArea": 0,
         "EnemyGroupsInArea": 0
       },
-      "EnemySpawningInZone": [],
+      "EnemySpawningInZone": [
+        {
+          "GroupType": 3,
+          "Difficulty": 0,
+          "Distribution": 1,
+          "DistributionValue": 1.0
+        },
+        {
+          "GroupType": 3,
+          "Difficulty": 0,
+          "Distribution": 1,
+          "DistributionValue": 1.0
+        },
+        {
+          "GroupType": 3,
+          "Difficulty": 0,
+          "Distribution": 1,
+          "DistributionValue": 1.0
+        }
+      ],
       "EnemyRespawning": false,
       "EnemyRespawnRequireOtherZone": true,
       "EnemyRespawnRoomDistance": 2,
@@ -1926,7 +2157,7 @@
       "AliasOverride": -1,
       "OverrideAliasPrefix": false,
       "SubSeed": 1,
-      "MarkerSubSeed": 0,
+      "MarkerSubSeed": 1,
       "LightsSubSeed": 0,
       "BulkheadDCScanSeed": 0,
       "SubComplex": 4,

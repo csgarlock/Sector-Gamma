@@ -21,7 +21,14 @@
   "GoToWinConditionHelp_ToMainLayer": 0,
   "ShowHelpDelay": 180.0,
   "WavesOnElevatorLand": [],
-  "EventsOnElevatorLand": [],
+  "EventsOnElevatorLand": [
+    {
+      "Type": 400,
+      "Delay": 0.0, 
+      "Count": 0,
+      "Enabled": false
+    }
+  ],
   "WaveOnElevatorWardenIntel": 0,
   "FogTransitionDataOnElevatorLand": 0,
   "FogTransitionDurationOnElevatorLand": 0.0,
@@ -31,14 +38,59 @@
   "StopAllWavesBeforeGotoWin": false,
   "WavesOnGotoWin": [],
   "WaveOnGotoWinTrigger": 0,
-  "EventsOnGotoWin": [],
+  "EventsOnGotoWin": [
+    {
+      "Type": 2,
+      "Condition": {
+        "ConditionIndex": -1,
+        "IsTrue": false
+      },
+      "Trigger": 0,
+      "ChainPuzzle": 0,
+      "UseStaticBioscanPoints": false,
+      "Layer": 0,
+      "DimensionIndex": 0,
+      "LocalIndex": 14,
+      "Delay": 0.0,
+      "Duration": 0.0,
+      "ClearDimension": false,
+      "WardenIntel": "<color=orange>Zone 59</color> Unlocked by Reactor Startup Sequence",
+      "CustomSubObjectiveHeader": 0,
+      "CustomSubObjective": 0,
+      "SoundID": 0,
+      "SoundSubtitle": 0,
+      "DialogueID": 0,
+      "FogSetting": 0,
+      "FogTransitionDuration": 0.0,
+      "EnemyWaveData": {
+        "WaveSettings": 0,
+        "WavePopulation": 0,
+        "AreaDistance": 2,
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": false,
+        "IntelMessage": 0
+      },
+      "EnemyID": 0,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "Count": 0,
+      "Enabled": false,
+      "TerminalCommand": 0,
+      "TerminalCommandRule": 0
+    }
+  ],
   "EventsOnGotoWinTrigger": 0,
   "FogTransitionDataOnGotoWin": 0,
   "FogTransitionDurationOnGotoWin": 0.0,
   "ChainedPuzzleToActive": 10,
   "ChainedPuzzleMidObjective": 0,
   "ChainedPuzzleAtExit": 11,
-  "ChainedPuzzleAtExitScanSpeedMultiplier": 3.0,
+  "ChainedPuzzleAtExitScanSpeedMultiplier": 4.0,
   "Gather_RequiredCount": -1,
   "Gather_ItemId": 0,
   "Gather_SpawnCount": 0,
@@ -46,8 +98,8 @@
   "Retrieve_Items": [],
   "ReactorWaves": [
     {
-      "Warmup": 35.0,
-      "WarmupFail": 35.0,
+      "Warmup": 45.0,
+      "WarmupFail": 45.0,
       "Wave": 50.0,
       "Verify": 30.0,
       "VerifyFail": 30.0,
@@ -164,8 +216,8 @@
       "Warmup": 20.0,
       "WarmupFail": 20.0,
       "Wave": 60.0,
-      "Verify": 200.0,
-      "VerifyFail": 100.0,
+      "Verify": 230.0,
+      "VerifyFail": 120.0,
       "VerifyInOtherZone": true,
       "ZoneForVerification": 9,
       "EnemyWaves": [
@@ -337,17 +389,17 @@
           "SpawnType": 0
         },
         {
-          "WaveSettings": 196,
+          "WaveSettings": 128,
           "WavePopulation": 6,
           "AreaDistance": 2,
           "SpawnTimeRel": 0.60,
           "SpawnType": 0
         },
         {
-          "WaveSettings": 129,
-          "WavePopulation": 10,
+          "WaveSettings": 197,
+          "WavePopulation": 35,
           "AreaDistance": 2,
-          "SpawnTimeRel": 0.80,
+          "SpawnTimeRel": 0.65,
           "SpawnType": 0
         }
       ],
@@ -401,8 +453,8 @@
     {
       "Warmup": 20.0,
       "WarmupFail": 20.0,
-      "Wave": 130.0,
-      "Verify": 1500.0,
+      "Wave": 140.0,
+      "Verify": 1550.0,
       "VerifyFail": 500.0,
       "VerifyInOtherZone": true,
       "ZoneForVerification": 11,
@@ -423,7 +475,7 @@
         },
         {
           "WaveSettings": 129,
-          "WavePopulation": 10,
+          "WavePopulation": 35,
           "AreaDistance": 2,
           "SpawnTimeRel": 0.1,
           "SpawnType": 0
@@ -446,11 +498,18 @@
           "WaveSettings": 128,
           "WavePopulation": 6,
           "AreaDistance": 2,
-          "SpawnTimeRel": 0.50,
+          "SpawnTimeRel": 0.55,
           "SpawnType": 0
         },
         {
-          "WaveSettings": 128,
+          "WaveSettings": 197,
+          "WavePopulation": 35,
+          "AreaDistance": 2,
+          "SpawnTimeRel": 0.65,
+          "SpawnType": 0
+        },
+        {
+          "WaveSettings": 197,
           "WavePopulation": 6,
           "AreaDistance": 2,
           "SpawnTimeRel": 0.70,
@@ -460,7 +519,7 @@
           "WaveSettings": 200,
           "WavePopulation": 31,
           "AreaDistance": 2,
-          "SpawnTimeRel": 0.85,
+          "SpawnTimeRel": 0.80,
           "SpawnType": 0
         }
       ],
@@ -512,7 +571,7 @@
       ]
     }
   ],
-  "LightsOnFromBeginning": false,
+  "LightsOnFromBeginning": true,
   "LightsOnDuringIntro": true,
   "LightsOnWhenStartupComplete": true,
   "DoNotSolveObjectiveOnReactorComplete": false,

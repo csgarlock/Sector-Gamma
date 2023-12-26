@@ -29,7 +29,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 4,
       "ZoneExpansion": 6,
-      "LightSettings": 64,
+      "LightSettings": 23,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.0
@@ -68,7 +68,14 @@
         "EnemyGroupInArea": 0,
         "EnemyGroupsInArea": 0
       },
-      "EnemySpawningInZone": [],
+      "EnemySpawningInZone": [
+        {
+          "GroupType": 0,
+          "Difficulty": 0,
+          "Distribution": 2,
+          "DistributionValue": 1.0
+        }
+      ],
       "EnemyRespawning": false,
       "EnemyRespawnRequireOtherZone": true,
       "EnemyRespawnRoomDistance": 2,
@@ -173,7 +180,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 4,
       "ZoneExpansion": 6,
-      "LightSettings": 64,
+      "LightSettings": 23,
       "AltitudeData": {
         "AllowedZoneAltitude": 9,
         "ChanceToChange": 0.5
@@ -192,7 +199,7 @@
         "PlacementCount": 1,
         "ZonePlacementData": []
       },
-      "ChainedPuzzleToEnter": 0,
+      "ChainedPuzzleToEnter": 177,
       "IsCheckpointDoor": false,
       "PlayScannerVoiceAudio": true,
       "SkipAutomaticProgressionObjective": false,
@@ -212,7 +219,20 @@
         "EnemyGroupInArea": 0,
         "EnemyGroupsInArea": 0
       },
-      "EnemySpawningInZone": [],
+      "EnemySpawningInZone": [
+        {
+          "GroupType": 3,
+          "Difficulty": 4,
+          "Distribution": 1,
+          "DistributionValue": 1.0
+        },
+        {
+          "GroupType": 0,
+          "Difficulty": 6,
+          "Distribution": 2,
+          "DistributionValue": 0.6
+        }
+      ],
       "EnemyRespawning": false,
       "EnemyRespawnRequireOtherZone": true,
       "EnemyRespawnRoomDistance": 2,
@@ -222,7 +242,7 @@
       "CorpseClustersInZone": 0,
       "ResourceContainerClustersInZone": 0,
       "GeneratorClustersInZone": 0,
-      "CorpsesInZone": 0,
+      "CorpsesInZone": 1,
       "GroundSpawnersInZone": 0,
       "HSUsInZone": 0,
       "DeconUnitsInZone": 0,
@@ -301,8 +321,8 @@
       "CustomGeomorph": "",
       "IgnoreRandomGeomorphRotation": false,
       "CoverageMinMax": {
-        "x": 15.0,
-        "y": 30.0,
+        "x": 1.0,
+        "y": 10.0,
         "normalized": {
           "x": 0.6401844,
           "y": 0.7682213,
@@ -317,7 +337,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 2,
       "ZoneExpansion": 1,
-      "LightSettings": 64,
+      "LightSettings": 23,
       "AltitudeData": {
         "AllowedZoneAltitude": 1,
         "ChanceToChange": 0.0
@@ -326,17 +346,51 @@
       "EventsOnPortalWarp": [],
       "EventsOnApproachDoor": [],
       "EventsOnUnlockDoor": [],
-      "EventsOnOpenDoor": [],
-      "EventsOnDoorScanStart": [],
+      "EventsOnOpenDoor": [
+        {
+          "Type": 5,
+          "Delay": 2.0,
+          "SoundID": 3206896761
+        },
+        {
+          "Type": 400,
+          "Delay": 2.0, 
+          "Count": 0,
+          "Enabled": true
+        }
+      ],
+      "EventsOnDoorScanStart": [
+        {
+          "Type": 400,
+          "Count": 0,
+          "Delay": 2.0,
+          "Enabled": false
+        },
+        {
+          "Type": 3,
+          "Delay": 2.0,
+          "SoundID": 1479064690
+        }
+      ],
       "EventsOnDoorScanDone": [],
       "EventsOnTrigger": [],
       "ProgressionPuzzleToEnter": {
-        "PuzzleType": 0,
+        "PuzzleType": 1,
         "CustomText": 972,
         "PlacementCount": 1,
-        "ZonePlacementData": []
+        "ZonePlacementData": [
+          {
+            "DimensionIndex": 0,
+            "LocalIndex": 3,
+            "Weights": {
+              "Start": 0.0,
+              "Middle": 0.0,
+              "End": 0.0
+            }
+          }
+        ]
       },
-      "ChainedPuzzleToEnter": 0,
+      "ChainedPuzzleToEnter": 178,
       "IsCheckpointDoor": false,
       "PlayScannerVoiceAudio": true,
       "SkipAutomaticProgressionObjective": false,
@@ -461,7 +515,7 @@
       "StartPosition_IndexWeight": 0.0,
       "StartExpansion": 4,
       "ZoneExpansion": 1,
-      "LightSettings": 64,
+      "LightSettings": 23,
       "AltitudeData": {
         "AllowedZoneAltitude": 3,
         "ChanceToChange": 0.0
@@ -480,7 +534,7 @@
         "PlacementCount": 1,
         "ZonePlacementData": []
       },
-      "ChainedPuzzleToEnter": 0,
+      "ChainedPuzzleToEnter": 4,
       "IsCheckpointDoor": false,
       "PlayScannerVoiceAudio": true,
       "SkipAutomaticProgressionObjective": false,
@@ -500,7 +554,20 @@
         "EnemyGroupInArea": 0,
         "EnemyGroupsInArea": 0
       },
-      "EnemySpawningInZone": [],
+      "EnemySpawningInZone": [
+        {
+          "GroupType": 0,
+          "Difficulty": 6,
+          "Distribution": 2,
+          "DistributionValue": 0.8
+        },
+        {
+          "GroupType": 0,
+          "Difficulty": 7,
+          "Distribution": 2,
+          "DistributionValue": 0.4
+        }
+      ],
       "EnemyRespawning": false,
       "EnemyRespawnRequireOtherZone": true,
       "EnemyRespawnRoomDistance": 2,
