@@ -1,7 +1,7 @@
 {
   "Type": 5,
   "Header": "Backdoor Command",
-  "MainObjective": "Find Computer terminal [ITEM_SERIAL] and input the backdoor command [SPECIAL_COMMAND]",
+  "MainObjective": "Find Computer terminal [ITEM_SERIAL] and Upload coordinate data using [SPECIAL_COMMAND]",
   "WardenObjectiveSpecialUpdateType": 0,
   "GenericItemFromStart": 0,
   "DoNotMarkPickupItemsAsWardenObjectives": false,
@@ -11,7 +11,7 @@
   "GoToZoneHelp": "Use information in the environment to find [ITEM_ZONE] ",
   "InZoneFindItem": "Find [ITEM_SERIAL] somewhere inside [ITEM_ZONE]",
   "InZoneFindItemHelp": "Use maintenance terminal command PING to find [ITEM_SERIAL]",
-  "SolveItem": "Proceed to input the backdoor command [SPECIAL_COMMAND] in [ITEM_SERIAL]",
+  "SolveItem": "Proceed to Upload coordinate data using [SPECIAL_COMMAND] in [ITEM_SERIAL]",
   "SolveItemHelp": 0,
   "GoToWinCondition_Elevator": "Return to the point of entrance in [EXTRACTION_ZONE]",
   "GoToWinConditionHelp_Elevator": "Use the navigational beacon and the floor map ([KEY_MAP]) to find the way back",
@@ -31,24 +31,61 @@
   "StopAllWavesBeforeGotoWin": false,
   "WavesOnGotoWin": [
     {
-      "WaveSettings": 9,
-      "WavePopulation": 10,
+      "WaveSettings": 147,
+      "WavePopulation": 51,
       "AreaDistance": 2,
       "SpawnDelay": 4.0,
-      "TriggerAlarm": false,
-      "IntelMessage": 0
-    },
-    {
-      "WaveSettings": 7,
-      "WavePopulation": 10,
-      "AreaDistance": 2,
-      "SpawnDelay": 4.0,
-      "TriggerAlarm": false,
+      "TriggerAlarm": true,
       "IntelMessage": 0
     }
   ],
   "WaveOnGotoWinTrigger": 0,
-  "EventsOnGotoWin": [],
+  "EventsOnGotoWin": [
+    {
+      "Type": 2,
+      "Condition": {
+        "ConditionIndex": -1,
+        "IsTrue": false
+      },
+      "Trigger": 0,
+      "ChainPuzzle": 0,
+      "UseStaticBioscanPoints": false,
+      "Layer": 1,
+      "DimensionIndex": 0,
+      "LocalIndex": 2,
+      "Delay": 0.0,
+      "Duration": 0.0,
+      "ClearDimension": false,
+      "WardenIntel": "<color=orange>Zone 173</color> Unlocked",
+      "CustomSubObjectiveHeader": 0,
+      "CustomSubObjective": 0,
+      "SoundID": 0,
+      "SoundSubtitle": 0,
+      "DialogueID": 0,
+      "FogSetting": 0,
+      "FogTransitionDuration": 0.0,
+      "EnemyWaveData": {
+        "WaveSettings": 0,
+        "WavePopulation": 0,
+        "AreaDistance": 2,
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": false,
+        "IntelMessage": 0
+      },
+      "EnemyID": 0,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "Count": 0,
+      "Enabled": false,
+      "TerminalCommand": 0,
+      "TerminalCommandRule": 0
+    }
+  ],
   "EventsOnGotoWinTrigger": 0,
   "FogTransitionDataOnGotoWin": 0,
   "FogTransitionDurationOnGotoWin": 0.0,
@@ -66,8 +103,8 @@
   "LightsOnDuringIntro": false,
   "LightsOnWhenStartupComplete": false,
   "DoNotSolveObjectiveOnReactorComplete": false,
-  "SpecialTerminalCommand": "DEACTIVATE_FILTERS_S65T",
-  "SpecialTerminalCommandDesc": "Deactivates infection filters in sublevel 65t",
+  "SpecialTerminalCommand": "UPLOAD_A_3261_COORDINATES",
+  "SpecialTerminalCommandDesc": "Upload the location of A-3261 to complex servers",
   "PostCommandOutput": [],
   "SpecialCommandRule": 0,
   "PowerCellsToDistribute": 0,

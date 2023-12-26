@@ -1,1 +1,3 @@
 Black Out: 1
+Cell Inserted: 2
+In Verify: 3

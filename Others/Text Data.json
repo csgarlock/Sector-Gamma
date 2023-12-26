@@ -669,4 +669,116 @@
   "name": "SG_C2_Main_Uplink_Hint",
   "internalEnabled": true,
   "persistentID": 3109
+},
+{
+  "SkipLocalization": true,
+  "MachineTranslation": false,
+  "English": "Auxiliary power supply needed for reactor startup continuation",
+  "Description": "",
+  "CharacterMetaData": 3,
+  "French": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Italian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "German": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Spanish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Russian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Portuguese_Brazil": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Polish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Japanese": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Korean": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Traditional": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Simplified": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "ExportVersion": 1,
+  "ImportVersion": 1,
+  "name": "SG_A2_Main_Wave_3_Hint_Header",
+  "internalEnabled": true,
+  "persistentID": 3110
+},
+{
+  "SkipLocalization": true,
+  "MachineTranslation": false,
+  "English": "Locate backup power cells and bring them to auxiliary generators in <color=orange>Zone 48</color>",
+  "Description": "",
+  "CharacterMetaData": 3,
+  "French": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Italian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "German": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Spanish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Russian": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Portuguese_Brazil": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Polish": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Japanese": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Korean": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Traditional": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "Chinese_Simplified": {
+    "Translation": "",
+    "ShouldTranslate": false
+  },
+  "ExportVersion": 1,
+  "ImportVersion": 1,
+  "name": "SG_A2_Main_Wave_3_Hint",
+  "internalEnabled": true,
+  "persistentID": 3111
 }

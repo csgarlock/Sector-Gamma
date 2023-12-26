@@ -37,7 +37,7 @@
         {
           "WaveIndex": 2,
           "VerificationType": "BY_WARDEN_EVENT",
-          "HideVerificationTimer": true,
+          "HideVerificationTimer": false,
           "ChangeVerifyZone": false,
           "VerifyZone": {
             "DimensionIndex": "Reality",
