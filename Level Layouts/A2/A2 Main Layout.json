@@ -1009,7 +1009,52 @@
           "TerminalCommandRule": 0
         }
       ],
-      "EventsOnDoorScanDone": [],
+      "EventsOnDoorScanDone": [
+        {
+          "Type": 1,
+          "Condition": {
+            "ConditionIndex": -1,
+            "IsTrue": false
+          },
+          "Trigger": 0,
+          "ChainPuzzle": 0,
+          "UseStaticBioscanPoints": false,
+          "Layer": 0,
+          "DimensionIndex": 0,
+          "LocalIndex": 6,
+          "Delay": 1.0,
+          "Duration": 0.0,
+          "ClearDimension": false,
+          "WardenIntel": 0,
+          "CustomSubObjectiveHeader": 0,
+          "CustomSubObjective": 0,
+          "SoundID": 0,
+          "SoundSubtitle": 0,
+          "DialogueID": 0,
+          "FogSetting": 0,
+          "FogTransitionDuration": 0.0,
+          "EnemyWaveData": {
+            "WaveSettings": 0,
+            "WavePopulation": 0,
+            "AreaDistance": 2,
+            "SpawnDelay": 0.0,
+            "TriggerAlarm": false,
+            "IntelMessage": 0
+          },
+          "EnemyID": 0,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          },
+          "Count": 0,
+          "Enabled": true,
+          "TerminalCommand": 0,
+          "TerminalCommandRule": 0
+        }
+      ],
       "EventsOnTrigger": [
         {
           "WorldEventTriggerObjectFilter": "Evt_OpenApex",
@@ -1597,13 +1642,13 @@
               ],
               "CommandEvents": [
                 {
-                  "Type": 22,
+                  "Type": 0,
                   "Condition": {
-                    "ConditionIndex": -1,
+                    "ConditionIndex": 4,
                     "IsTrue": false
                   },
-                  "Trigger": 1,
-                  "ChainPuzzle": 3012,
+                  "Trigger": 0,
+                  "ChainPuzzle": 0,
                   "UseStaticBioscanPoints": false,
                   "Layer": 0,
                   "DimensionIndex": 0,
@@ -1611,7 +1656,7 @@
                   "Delay": 0.0,
                   "Duration": 0.0,
                   "ClearDimension": false,
-                  "WardenIntel": 0,
+                  "WardenIntel": "Command Unavailable. Insufficent Local Power from Reactor",
                   "CustomSubObjectiveHeader": 0,
                   "CustomSubObjective": 0,
                   "SoundID": 0,
@@ -1639,9 +1684,19 @@
                   "Enabled": false,
                   "TerminalCommand": 0,
                   "TerminalCommandRule": 0
+                },
+                {
+                  "Type": "TriggerSecurityDoorAlarm",
+                  "Condition": {
+                    "ConditionIndex": 4,
+                    "IsTrue": true
+                  },
+                  "Layer": 0,
+                  "DimensionIndex": 0,
+                  "LocalIndex": 10
                 }
               ],
-              "SpecialCommandRule": 1
+              "SpecialCommandRule": 0
             }
           ],
           "StartingStateData": {
@@ -1730,15 +1785,60 @@
       "EventsOnUnlockDoor": [],
       "EventsOnOpenDoor": [],
       "EventsOnDoorScanStart": [],
-      "EventsOnDoorScanDone": [],
+      "EventsOnDoorScanDone": [
+        {
+          "Type": 1,
+          "Condition": {
+            "ConditionIndex": -1,
+            "IsTrue": false
+          },
+          "Trigger": 0,
+          "ChainPuzzle": 0,
+          "UseStaticBioscanPoints": false,
+          "Layer": 0,
+          "DimensionIndex": 0,
+          "LocalIndex": 10,
+          "Delay": 1.0,
+          "Duration": 0.0,
+          "ClearDimension": false,
+          "WardenIntel": 0,
+          "CustomSubObjectiveHeader": 0,
+          "CustomSubObjective": 0,
+          "SoundID": 0,
+          "SoundSubtitle": 0,
+          "DialogueID": 0,
+          "FogSetting": 0,
+          "FogTransitionDuration": 0.0,
+          "EnemyWaveData": {
+            "WaveSettings": 0,
+            "WavePopulation": 0,
+            "AreaDistance": 2,
+            "SpawnDelay": 0.0,
+            "TriggerAlarm": false,
+            "IntelMessage": 0
+          },
+          "EnemyID": 0,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          },
+          "Count": 0,
+          "Enabled": true,
+          "TerminalCommand": 0,
+          "TerminalCommandRule": 0
+        }
+      ],
       "EventsOnTrigger": [],
       "ProgressionPuzzleToEnter": {
         "PuzzleType": 3,
-        "CustomText": 972,
+        "CustomText": "<color=red>://ERROR: Door in emergency lockdown, Use local terminal to access</color>",
         "PlacementCount": 1,
         "ZonePlacementData": []
       },
-      "ChainedPuzzleToEnter": 0,
+      "ChainedPuzzleToEnter": 3012,
       "IsCheckpointDoor": false,
       "PlayScannerVoiceAudio": true,
       "SkipAutomaticProgressionObjective": false,
@@ -2055,7 +2155,7 @@
           }
         ]
       },
-      "ChainedPuzzleToEnter": 0,
+      "ChainedPuzzleToEnter": 4,
       "IsCheckpointDoor": false,
       "PlayScannerVoiceAudio": true,
       "SkipAutomaticProgressionObjective": false,
@@ -2075,7 +2175,32 @@
         "EnemyGroupInArea": 0,
         "EnemyGroupsInArea": 0
       },
-      "EnemySpawningInZone": [],
+      "EnemySpawningInZone": [
+        {
+          "GroupType": 3,
+          "Difficulty": 0,
+          "Distribution": 1,
+          "DistributionValue": 1.0
+        },
+        {
+          "GroupType": 3,
+          "Difficulty": 0,
+          "Distribution": 1,
+          "DistributionValue": 1.0
+        },
+        {
+          "GroupType": 0,
+          "Difficulty": 0,
+          "Distribution": 2,
+          "DistributionValue": 0.5
+        },
+        {
+          "GroupType": 1,
+          "Difficulty": 6,
+          "Distribution": 2,
+          "DistributionValue": 0.2
+        }
+      ],
       "EnemyRespawning": false,
       "EnemyRespawnRequireOtherZone": true,
       "EnemyRespawnRoomDistance": 2,
@@ -2195,7 +2320,7 @@
       "EventsOnTrigger": [],
       "ProgressionPuzzleToEnter": {
         "PuzzleType": 3,
-        "CustomText": 972,
+        "CustomText": "<color=red>://ERROR: Door in emergency lockdown, Use local terminal to access</color>",
         "PlacementCount": 1,
         "ZonePlacementData": []
       },

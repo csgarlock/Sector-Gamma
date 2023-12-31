@@ -1682,6 +1682,18 @@
       "EventsOnDoorScanStart": [],
       "EventsOnDoorScanDone": [
         {
+          "Type": 9,
+          "Delay": 5.0,
+          "EnemyWaveData": {
+            "WaveSettings": 54, 
+            "WavePopulation": 56,
+            "SpawnDelay": 2.0,
+            "IntelMessage": 0,
+            "AreaDistance": 2,
+            "TriggerAlarm": false
+          }
+        },
+        {
           "Type": "TriggerSecurityDoorAlarm",
           "Layer": 0,
           "DimensionIndex": 0,

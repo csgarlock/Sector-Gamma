@@ -27,6 +27,50 @@
       "Delay": 0.0, 
       "Count": 0,
       "Enabled": false
+    },
+    {
+      "Type": 19,
+      "Condition": {
+        "ConditionIndex": 4,
+        "IsTrue": false
+      },
+      "Trigger": 2,
+      "ChainPuzzle": 0,
+      "UseStaticBioscanPoints": false,
+      "Layer": 0,
+      "DimensionIndex": 0,
+      "LocalIndex": 0,
+      "Delay": 0.0,
+      "Duration": 0.0,
+      "ClearDimension": false,
+      "WardenIntel": 0,
+      "CustomSubObjectiveHeader": 0,
+      "CustomSubObjective": 0,
+      "SoundID": 0,
+      "SoundSubtitle": 0,
+      "DialogueID": 0,
+      "FogSetting": 0,
+      "FogTransitionDuration": 0.0,
+      "EnemyWaveData": {
+        "WaveSettings": 0,
+        "WavePopulation": 0,
+        "AreaDistance": 2,
+        "SpawnDelay": 0.0,
+        "TriggerAlarm": false,
+        "IntelMessage": 0
+      },
+      "EnemyID": 0,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "Count": 0,
+      "Enabled": false,
+      "TerminalCommand": 0,
+      "TerminalCommandRule": 0
     }
   ],
   "WaveOnElevatorWardenIntel": 0,
@@ -36,7 +80,16 @@
   "WavesOnActivate": [],
   "EventsOnActivate": [],
   "StopAllWavesBeforeGotoWin": false,
-  "WavesOnGotoWin": [],
+  "WavesOnGotoWin": [
+    {
+      "WaveSettings": 3005,
+      "WavePopulation": 35,
+      "AreaDistance": 2,
+      "SpawnDelay": 5.0,
+      "TriggerAlarm": true,
+      "IntelMessage": 0
+    }
+  ],
   "WaveOnGotoWinTrigger": 0,
   "EventsOnGotoWin": [
     {
@@ -90,7 +143,7 @@
   "ChainedPuzzleToActive": 10,
   "ChainedPuzzleMidObjective": 0,
   "ChainedPuzzleAtExit": 11,
-  "ChainedPuzzleAtExitScanSpeedMultiplier": 4.0,
+  "ChainedPuzzleAtExitScanSpeedMultiplier": 5.0,
   "Gather_RequiredCount": -1,
   "Gather_ItemId": 0,
   "Gather_SpawnCount": 0,
@@ -301,8 +354,8 @@
       "Warmup": 20.0,
       "WarmupFail": 20.0,
       "Wave": 85.0,
-      "Verify": 300.0,
-      "VerifyFail": 300.0,
+      "Verify": 400.0,
+      "VerifyFail": 400.0,
       "VerifyInOtherZone": false,
       "ZoneForVerification": 0,
       "EnemyWaves": [
@@ -317,7 +370,7 @@
           "WaveSettings": 198,
           "WavePopulation": 6,
           "AreaDistance": 2,
-          "SpawnTimeRel": 0.1,
+          "SpawnTimeRel": 0.06,
           "SpawnType": 0
         },
         {
@@ -331,7 +384,7 @@
           "WaveSettings": 198,
           "WavePopulation": 10,
           "AreaDistance": 2,
-          "SpawnTimeRel": 0.4,
+          "SpawnTimeRel": 0.36,
           "SpawnType": 0
         },
         {
@@ -345,11 +398,55 @@
           "WaveSettings": 198,
           "WavePopulation": 6,
           "AreaDistance": 2,
-          "SpawnTimeRel": 0.7,
+          "SpawnTimeRel": 0.66,
           "SpawnType": 0
         }
       ],
       "Events": [
+        {
+          "Type": 19,
+          "Condition": {
+            "ConditionIndex": 4,
+            "IsTrue": true
+          },
+          "Trigger": 2,
+          "ChainPuzzle": 0,
+          "UseStaticBioscanPoints": false,
+          "Layer": 0,
+          "DimensionIndex": 0,
+          "LocalIndex": 0,
+          "Delay": 0.0,
+          "Duration": 0.0,
+          "ClearDimension": false,
+          "WardenIntel": 0,
+          "CustomSubObjectiveHeader": 0,
+          "CustomSubObjective": 0,
+          "SoundID": 0,
+          "SoundSubtitle": 0,
+          "DialogueID": 0,
+          "FogSetting": 0,
+          "FogTransitionDuration": 0.0,
+          "EnemyWaveData": {
+            "WaveSettings": 0,
+            "WavePopulation": 0,
+            "AreaDistance": 2,
+            "SpawnDelay": 0.0,
+            "TriggerAlarm": false,
+            "IntelMessage": 0
+          },
+          "EnemyID": 0,
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0.0
+          },
+          "Count": 0,
+          "Enabled": false,
+          "TerminalCommand": 0,
+          "TerminalCommandRule": 0
+        },
         {
           "Type": 11,
           "Condition": {
@@ -405,7 +502,7 @@
           "Layer": 0,
           "Reactor": {
             "State": "Intro",
-            "Wave": 2,
+            "Wave": 4,
             "Progress": 0.0
           }
         },
@@ -500,7 +597,7 @@
         {
           "Type": 19,
           "Condition": {
-            "ConditionIndex": 1,
+            "ConditionIndex": 3,
             "IsTrue": false
           },
           "Trigger": 2,
@@ -509,7 +606,7 @@
           "Layer": 0,
           "DimensionIndex": 0,
           "LocalIndex": 0,
-          "Delay": 300.0,
+          "Delay": 400.0,
           "Duration": 0.0,
           "ClearDimension": false,
           "WardenIntel": 0,
@@ -546,8 +643,8 @@
     {
       "Warmup": 20.0,
       "WarmupFail": 20.0,
-      "Wave": 100.0,
-      "Verify": 400.0,
+      "Wave": 90.0,
+      "Verify": 630.0,
       "VerifyFail": 300.0,
       "VerifyInOtherZone": true,
       "ZoneForVerification": 12,
@@ -645,9 +742,9 @@
     {
       "Warmup": 20.0,
       "WarmupFail": 20.0,
-      "Wave": 140.0,
-      "Verify": 1550.0,
-      "VerifyFail": 500.0,
+      "Wave": 120.0,
+      "Verify": 1230.0,
+      "VerifyFail": 300.0,
       "VerifyInOtherZone": true,
       "ZoneForVerification": 11,
       "EnemyWaves": [
@@ -676,21 +773,21 @@
           "WaveSettings": 128,
           "WavePopulation": 6,
           "AreaDistance": 2,
-          "SpawnTimeRel": 0.40,
+          "SpawnTimeRel": 0.30,
           "SpawnType": 0
         },
         {
           "WaveSettings": 198,
           "WavePopulation": 6,
           "AreaDistance": 2,
-          "SpawnTimeRel": 0.45,
+          "SpawnTimeRel": 0.35,
           "SpawnType": 0
         },
         {
           "WaveSettings": 128,
           "WavePopulation": 6,
           "AreaDistance": 2,
-          "SpawnTimeRel": 0.55,
+          "SpawnTimeRel": 0.45,
           "SpawnType": 0
         },
         {
@@ -711,7 +808,7 @@
           "WaveSettings": 200,
           "WavePopulation": 31,
           "AreaDistance": 2,
-          "SpawnTimeRel": 0.80,
+          "SpawnTimeRel": 0.75,
           "SpawnType": 0
         }
       ],

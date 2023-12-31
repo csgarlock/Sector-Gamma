@@ -3,7 +3,7 @@
   "ConcurrentCluster": false,
   "Puzzles": [
     {
-      "Index": 7,
+      "Index": 17,
       "TPositions": [
         {
           "x": -64.02,
@@ -126,10 +126,27 @@
           "z": 402.61
         }
       ],
-      "TMoveSpeedMulti": 0.41
+      "TMoveSpeedMulti": 0.42
     },
     {
-      "Index": 10,
+      "Index": 5,
+      "ConcurrentCluster": false,
+      "HideSpline": true,
+      "Position": {
+        "x": 40.16,
+        "y": 2.94,
+        "z": 255.99
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "EventsOnPuzzleSolved": [],
+      "RequiredItemsIndices": []
+    },
+    {
+      "Index": 7,
       "ConcurrentCluster": false,
       "HideSpline": true,
       "Position": {
@@ -146,7 +163,7 @@
       "RequiredItemsIndices": []
     },
     {
-      "Index": 11,
+      "Index": 8,
       "ConcurrentCluster": false,
       "HideSpline": true,
       "Position": {
@@ -163,41 +180,41 @@
       "RequiredItemsIndices": []
     },
     {
+      "Index": 10,
+      "ConcurrentCluster": false,
+      "HideSpline": true,
+      "Position": {
+        "x": 77.28,
+        "y": 3.95,
+        "z": 233.51
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "EventsOnPuzzleSolved": [],
+      "RequiredItemsIndices": []
+    },
+    {
+      "Index": 11,
+      "ConcurrentCluster": false,
+      "HideSpline": true,
+      "Position": {
+        "x": 64.20,
+        "y": 4.03,
+        "z": 288.02
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "EventsOnPuzzleSolved": [],
+      "RequiredItemsIndices": []
+    },
+    {
       "Index": 13,
-      "ConcurrentCluster": false,
-      "HideSpline": true,
-      "Position": {
-        "x": 63.96,
-        "y": 2.03,
-        "z": 223.27
-      },
-      "Rotation": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "EventsOnPuzzleSolved": [],
-      "RequiredItemsIndices": []
-    },
-    {
-      "Index": 14,
-      "ConcurrentCluster": false,
-      "HideSpline": true,
-      "Position": {
-        "x": 63.96,
-        "y": 2.03,
-        "z": 288.07
-      },
-      "Rotation": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "EventsOnPuzzleSolved": [],
-      "RequiredItemsIndices": []
-    },
-    {
-      "Index": 16,
       "ConcurrentCluster": false,
       "HideSpline": true,
       "Position": {
@@ -214,7 +231,7 @@
       "RequiredItemsIndices": []
     },
     {
-      "Index": 17,
+      "Index": 14,
       "ConcurrentCluster": false,
       "HideSpline": true,
       "Position": {
@@ -231,7 +248,7 @@
       "RequiredItemsIndices": []
     },
     {
-      "Index": 9,
+      "Index": 6,
       "ConcurrentCluster": false,
       "HideSpline": true,
       "Position": {
@@ -337,7 +354,7 @@
       "RequiredItemsIndices": []
     },
     {
-      "Index": 12,
+      "Index": 9,
       "ConcurrentCluster": false,
       "HideSpline": true,
       "Position": {
@@ -354,7 +371,7 @@
       "RequiredItemsIndices": []
     },
     {
-      "Index": 15,
+      "Index": 12,
       "ConcurrentCluster": false,
       "HideSpline": true,
       "Position": {
