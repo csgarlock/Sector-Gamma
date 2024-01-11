@@ -133,7 +133,7 @@
   "TimedTerminalSequence_EventsOnSequenceStart": [],
   "TimedTerminalSequence_EventsOnSequenceDone": [],
   "TimedTerminalSequence_EventsOnSequenceFail": [],
-  "name": "SG_A1_Main SpecialCommand",
+  "name": "SG_A1_Main_SpecialCommand",
   "internalEnabled": true,
   "persistentID": 3111
 }

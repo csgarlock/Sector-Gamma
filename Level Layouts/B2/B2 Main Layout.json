@@ -701,7 +701,7 @@
           "Difficulty": 1,
           "Distribution": 2,
           "DistributionValue": 0.6
-        },
+        }
       ],
       "EnemyRespawning": false,
       "EnemyRespawnRequireOtherZone": true,

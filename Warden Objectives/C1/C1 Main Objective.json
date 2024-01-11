@@ -134,7 +134,7 @@
       "Enabled": false,
       "TerminalCommand": 0,
       "TerminalCommandRule": 0
-    },
+    }
   ],
   "EventsOnGotoWinTrigger": 0,
   "FogTransitionDataOnGotoWin": 0,

@@ -661,8 +661,8 @@
           "Type": "Countdown",
           "Countdown": {
             "Duration": 90.0,
-            "TimerText": "Remaining <color=orange>Zone 74</color> Lockdown Time:", //Also can use TextDataBlock ID
-            "TimerColor": "red",
+            "TimerText": "Remaining <color=orange>Zone 74</color> Lockdown Time:",
+            "TimerColor": "red"
           },
           "Delay": 20.0
         },

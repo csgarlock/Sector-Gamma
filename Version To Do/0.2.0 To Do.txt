@@ -1,0 +1,15 @@
+A2:
+remove corrupted scans from last room of first verification zone to make bio scans more apparent
+Adjust reactor difficulty with more variety
+Increase last wave verify by 1:30ish
+Add more hint text for wave verification
+
+B1:
+Possible overhaul
+
+C1:
+Investigate beginning timer issue with desync
+Fix Objective text
+
+
+

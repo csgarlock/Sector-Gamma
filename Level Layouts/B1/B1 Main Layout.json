@@ -877,7 +877,7 @@
           "Difficulty": 0,
           "Distribution": 1,
           "DistributionValue": 1.0
-        },
+        }
       ],
       "EnemyRespawning": false,
       "EnemyRespawnRequireOtherZone": true,
@@ -1048,7 +1048,7 @@
           "Difficulty": 0,
           "Distribution": 1,
           "DistributionValue": 1.0
-        },
+        }
       ],
       "EnemyRespawning": false,
       "EnemyRespawnRequireOtherZone": true,
@@ -1443,7 +1443,7 @@
           "Enabled": false,
           "TerminalCommand": 0,
           "TerminalCommandRule": 0
-        },
+        }
       ],
       "EventsOnUnlockDoor": [],
       "EventsOnOpenDoor": [],
